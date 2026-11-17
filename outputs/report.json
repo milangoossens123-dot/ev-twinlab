@@ -1,0 +1,86 @@
+{
+ "concept": {
+  "price": 45000,
+  "range": 300,
+  "charge": 30
+ },
+ "n_personas": 1000,
+ "synthesizer": "gaussian_copula",
+ "benchmark_consider_share": 0.595,
+ "benchmark_by_age": {
+  "18-29": 0.748,
+  "30-49": 0.639,
+  "50-64": 0.541,
+  "65+": 0.443
+ },
+ "benchmark_by_lean": {
+  "Dem": 0.703,
+  "None": 0.611,
+  "Rep": 0.404
+ },
+ "benchmark_fit_at_reference_ev": {
+  "lean=Dem": 0.48,
+  "lean=Rep": 0.18,
+  "lean=None": 0.33,
+  "age_band=18-29": 0.483,
+  "age_band=30-49": 0.412,
+  "age_band=50-64": 0.287,
+  "age_band=65+": 0.222,
+  "overall": 0.36
+ },
+ "quality": {
+  "SDV synthetic vs hold-out": {
+   "overall": 0.8624485629285558,
+   "Column Shapes": 0.9416458943300179,
+   "Column Pair Trends": 0.7832512315270936
+  },
+  "Independent draws vs hold-out (old demo)": {
+   "overall": 0.8205278885542913,
+   "Column Shapes": 0.9464744963204054,
+   "Column Pair Trends": 0.6945812807881773
+  },
+  "Real train sample vs hold-out (ceiling)": {
+   "overall": 0.9230495902794007,
+   "Column Shapes": 0.9520105106080625,
+   "Column Pair Trends": 0.8940886699507389
+  }
+ },
+ "crosstabs": {
+  "Real (all 2,058)": {
+   "Democrat share, age 18-29": 0.41,
+   "Democrat share, age 65+": 0.455,
+   "Income $100k+, college degree": 0.387,
+   "Income $100k+, no degree": 0.145,
+   "Green values, Democrats": 3.809,
+   "Green values, Republicans": 3.182,
+   "Liberal or very liberal, age 18-29": 0.482,
+   "Liberal or very liberal, age 65+": 0.451
+  },
+  "SDV synthetic": {
+   "Democrat share, age 18-29": 0.454,
+   "Democrat share, age 65+": 0.385,
+   "Income $100k+, college degree": 0.365,
+   "Income $100k+, no degree": 0.178,
+   "Green values, Democrats": 3.687,
+   "Green values, Republicans": 3.241,
+   "Liberal or very liberal, age 18-29": 0.479,
+   "Liberal or very liberal, age 65+": 0.396
+  },
+  "Independent draws": {
+   "Democrat share, age 18-29": 0.403,
+   "Democrat share, age 65+": 0.401,
+   "Income $100k+, college degree": 0.273,
+   "Income $100k+, no degree": 0.268,
+   "Green values, Democrats": 3.513,
+   "Green values, Republicans": 3.512,
+   "Liberal or very liberal, age 18-29": 0.454,
+   "Liberal or very liberal, age 65+": 0.419
+  }
+ },
+ "age_mix": {
+  "30-49": 0.335,
+  "50-64": 0.24,
+  "65+": 0.22,
+  "18-29": 0.205
+ }
+}

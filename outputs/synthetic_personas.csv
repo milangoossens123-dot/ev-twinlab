@@ -1,0 +1,1001 @@
+persona_id,region,sex,age_band,education,race,party,income_band,ideology,household_size,employment,green_values,openness,risk_aversion,financial_literacy,spending_style,party_lean,ev_attitude_1to5,max_price_usd,p_consider_benchmark,benchmark_answer
+P00001,Northeast,Female,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Moderate,2,Full-time employment,4.120272841727742,2.4,0.07841774029282057,6,16,Dem,2,45000.0,0.4977,A
+P00002,West,Male,65+,Postgraduate,Hispanic,Independent,"$50,000-$75,000",Moderate,2,Part-time employment,4.987155776522456,3.9,0.5635689944635531,4,12,None,3,48000.0,0.6327,A
+P00003,Midwest,Female,30-49,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Liberal,3,Full-time employment,4.964868791899395,3.9,-0.014932164896960151,2,19,Dem,3,48900.0,0.7017,B
+P00004,West,Male,50-64,"Some college, no degree",White,Independent,"Less than $30,000",Moderate,1,Full-time employment,3.6970654677596944,2.6,0.2666916350018484,6,12,None,3,50100.0,0.814,A
+P00005,Midwest,Female,50-64,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Conservative,2,Part-time employment,3.49351287626487,3.2,,6,5,Dem,4,53300.0,0.8222,A
+P00006,Midwest,Female,65+,College graduate/some postgrad,Hispanic,Democrat,"$75,000-$100,000",Moderate,More than 4,Unemployed,3.922485257779353,3.9,0.5305676718158989,5,7,Dem,2,43600.0,0.4452,B
+P00007,South,Male,18-29,Associate's degree,Asian,Democrat,"$100,000 or more",Very liberal,More than 4,Unemployed,3.8779290450042456,3.9,0.08597556994769373,5,13,Dem,5,59300.0,0.8641,A
+P00008,South,Male,30-49,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,2,Full-time employment,2.8009790161985193,3.7,0.11877840078727034,6,6,Dem,4,50800.0,0.7453,A
+P00009,West,Male,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,More than 4,Student,2.0081383135183124,3.7,-0.11015536644038555,6,18,Dem,3,43500.0,0.4513,B
+P00010,South,Male,50-64,Postgraduate,Asian,Independent,"$75,000-$100,000",Liberal,2,Part-time employment,2.7542926046509524,3.8,-0.6666666666666666,7,20,Dem,2,41300.0,0.3561,A
+P00011,Midwest,Male,30-49,"Some college, no degree",Other,Democrat,"$30,000-$50,000",Moderate,4,Full-time employment,3.996040718627341,3.6,-0.17015320350716864,1,7,Dem,2,45300.0,0.519,B
+P00012,Midwest,Male,50-64,College graduate/some postgrad,Other,Republican,"$30,000-$50,000",Conservative,4,Retired,2.8901761535732504,3.7,0.1698614104860759,5,13,Rep,3,46700.0,0.5931,B
+P00013,Midwest,Female,65+,Postgraduate,White,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,5.0,4.9,-0.0086270524149231,7,17,Dem,3,49300.0,0.6878,A
+P00014,South,Female,30-49,"Some college, no degree",White,Independent,"$75,000-$100,000",Moderate,2,Retired,3.7737485891724125,3.7,0.08880192016550104,4,21,None,5,62100.0,0.9396,A
+P00015,Midwest,Male,50-64,"Some college, no degree",Asian,Independent,"$75,000-$100,000",Conservative,3,Unemployed,1.4808690066564623,3.4,0.11401292475341578,6,8,Rep,1,37700.0,0.2352,B
+P00016,Midwest,Female,18-29,"Some college, no degree",Hispanic,Independent,"$75,000-$100,000",Liberal,2,Full-time employment,4.904509240115562,3.3,-0.1179067056018182,5,13,Dem,5,60200.0,0.9199,B
+P00017,South,Male,65+,Postgraduate,White,Democrat,"$100,000 or more",Liberal,1,Full-time employment,5.0,3.2,0.10720185346975847,6,13,Dem,3,44500.0,0.4852,A
+P00018,West,Male,18-29,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Very conservative,3,Self-employed,1.9671602425058896,4.0,-0.10355595443550833,7,13,Rep,3,49400.0,0.7245,B
+P00019,West,Male,18-29,Postgraduate,Hispanic,Democrat,"$50,000-$75,000",Moderate,1,Unemployed,1.1479743631902652,3.1,-0.00912912786573359,4,7,Dem,2,45600.0,0.5284,A
+P00020,Midwest,Male,18-29,High school graduate,Hispanic,Republican,"$100,000 or more",Conservative,2,Full-time employment,2.0190447220747094,3.6,-0.01964699390198983,6,13,Rep,3,49100.0,0.6304,A
+P00021,South,Female,18-29,"Some college, no degree",White,Independent,"$30,000-$50,000",Moderate,2,Unemployed,3.639307694473311,4.8,,6,21,None,3,50400.0,0.7679,B
+P00022,Northeast,Male,30-49,"Some college, no degree",Asian,Democrat,"$50,000-$75,000",Conservative,1,Self-employed,4.813377007476974,3.7,-0.11070262640486028,6,13,Dem,5,56000.0,0.8824,A
+P00023,South,Female,30-49,Postgraduate,Black,Democrat,"$100,000 or more",Very liberal,2,Full-time employment,4.467201566403888,3.2,0.16359667992292745,6,19,Dem,3,45900.0,0.529,B
+P00024,Midwest,Female,30-49,"Some college, no degree",White,Independent,"Less than $30,000",Liberal,1,Home-maker,4.307647451571752,4.2,-0.2755013304290124,6,10,Dem,5,59500.0,0.9852,A
+P00025,Northeast,Female,65+,Postgraduate,White,Republican,"$100,000 or more",Moderate,3,Full-time employment,4.92991703350252,3.8,0.41392021240565835,5,15,Rep,2,37700.0,0.2784,A
+P00026,West,Female,65+,College graduate/some postgrad,Hispanic,Democrat,"$50,000-$75,000",Very liberal,2,Retired,3.29664263161156,4.8,0.05540566581874451,5,11,Dem,2,43300.0,0.4204,A
+P00027,Midwest,Male,18-29,"Some college, no degree",Black,Democrat,"Less than $30,000",Moderate,4,Part-time employment,4.5569265460808595,4.3,0.12482191599135284,4,10,Dem,5,57300.0,0.9723,A
+P00028,South,Female,18-29,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,1,Part-time employment,4.131064881893433,3.0,0.5459324313201835,7,12,Dem,4,52100.0,0.7144,B
+P00029,West,Male,50-64,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,3,Full-time employment,4.780470124952558,4.0,0.08619851174636933,4,8,Dem,5,53900.0,0.9291,A
+P00030,Pacific,Female,18-29,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Conservative,More than 4,Self-employed,2.3444715907522546,4.0,0.34381518270148603,6,11,Dem,3,45100.0,0.5046,B
+P00031,South,Female,65+,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,More than 4,Part-time employment,3.0453639058819912,4.0,-0.113470553480255,6,14,None,2,40900.0,0.3695,B
+P00032,South,Male,50-64,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,1,Part-time employment,4.003098408093026,4.1,-0.236489777649114,6,17,Dem,2,47500.0,0.6769,B
+P00033,South,Female,50-64,Postgraduate,White,Republican,"$100,000 or more",Very conservative,3,Full-time employment,1.960350945717314,3.9,0.6345334867789874,7,8,Rep,1,19700.0,0.0362,B
+P00034,West,Female,65+,College graduate/some postgrad,Black,Democrat,"$50,000-$75,000",Conservative,2,Student,3.7721201111899347,4.3,0.0854360841989174,6,9,Dem,2,43600.0,0.4371,A
+P00035,South,Female,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,More than 4,Full-time employment,4.330386259548467,4.4,0.1604380616757089,5,9,Dem,3,45700.0,0.5239,A
+P00036,South,Male,50-64,Postgraduate,White,Republican,"$100,000 or more",Conservative,1,Unemployed,3.629925327615169,3.1,-0.010389662579388448,7,12,Rep,2,40800.0,0.3673,B
+P00037,West,Male,65+,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,2,Full-time employment,5.0,5.0,0.49097334682116844,6,18,Dem,3,50300.0,0.8252,A
+P00038,West,Female,30-49,"Some college, no degree",White,Independent,"$50,000-$75,000",Moderate,3,Full-time employment,3.779147718991162,3.1,0.11258942054794757,4,21,None,4,52000.0,0.7844,A
+P00039,Midwest,Male,65+,High school graduate,White,Democrat,"Less than $30,000",Liberal,1,Student,4.139098252570479,3.8,0.33767617732485333,3,7,Dem,3,49100.0,0.7654,A
+P00040,Pacific,Male,30-49,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Liberal,1,Part-time employment,4.535431433460328,4.5,0.11108379535187321,5,17,Rep,3,46700.0,0.593,B
+P00041,Pacific,Female,30-49,College graduate/some postgrad,Asian,Democrat,"$30,000-$50,000",Liberal,1,Self-employed,4.2009482870900134,4.6,-0.024686344615163832,5,10,Dem,4,53300.0,0.8613,A
+P00042,West,Female,65+,College graduate/some postgrad,White,Independent,"Less than $30,000",Liberal,2,Full-time employment,4.079337231075904,3.7,0.10414038328355227,6,19,Dem,4,51600.0,0.8724,A
+P00043,West,Female,50-64,College graduate/some postgrad,Black,Republican,"$50,000-$75,000",Conservative,4,Part-time employment,4.456518978124359,3.4,-0.1629524620106098,2,20,Rep,2,43000.0,0.4101,A
+P00044,South,Male,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Very conservative,3,Retired,3.557551874566343,3.7,-0.08316384893089003,7,10,Rep,1,32400.0,0.1636,B
+P00045,South,Female,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Conservative,2,Retired,3.9502629176835415,3.5,0.6195883184091029,5,20,Rep,2,37200.0,0.2678,A
+P00046,Northeast,Female,65+,"Some college, no degree",Other,Independent,"$30,000-$50,000",Very liberal,4,Unemployed,4.078874835207227,3.8,0.4111596435563422,6,11,Dem,3,47000.0,0.6071,A
+P00047,Northeast,Female,65+,"Some college, no degree",Other,Democrat,"$30,000-$50,000",Liberal,1,Full-time employment,3.5520982012652405,2.1,0.6003025741713354,3,8,Dem,2,43900.0,0.4385,B
+P00048,West,Male,18-29,"Some college, no degree",White,Republican,"$50,000-$75,000",Conservative,3,Full-time employment,1.605093187028973,2.1,0.41721075822268866,5,20,Rep,3,50100.0,0.719,A
+P00049,South,Male,30-49,Postgraduate,White,Democrat,"$50,000-$75,000",Liberal,More than 4,Part-time employment,3.724591369504811,4.7,-0.06882444722894011,4,11,Dem,3,47100.0,0.5954,A
+P00050,South,Male,50-64,"Some college, no degree",White,Democrat,"$30,000-$50,000",Very liberal,3,Retired,4.277873029090698,4.6,-0.21517719927619794,5,13,Dem,3,46700.0,0.5933,A
+P00051,South,Female,30-49,Postgraduate,Asian,Republican,"$100,000 or more",Conservative,4,Retired,4.042528187105735,4.1,0.11232887484312853,5,14,Rep,2,41700.0,0.3943,B
+P00052,Midwest,Female,30-49,"Some college, no degree",Black,Republican,"$100,000 or more",Conservative,More than 4,Retired,1.8641614034223277,2.5,0.10470180659234346,6,11,Rep,2,39300.0,0.323,B
+P00053,West,Male,30-49,"Some college, no degree",Hispanic,Independent,"$100,000 or more",Liberal,3,Self-employed,4.483421197709792,4.0,0.08343281862628353,4,20,Dem,4,53700.0,0.7555,A
+P00054,West,Female,30-49,"Some college, no degree",White,Democrat,"$30,000-$50,000",Liberal,2,Self-employed,4.1981301362708665,4.4,,3,10,Dem,3,49700.0,0.738,A
+P00055,West,Female,65+,Postgraduate,White,Republican,"$100,000 or more",Moderate,2,Full-time employment,3.1428598796689897,3.9,,4,10,Rep,1,26400.0,0.0828,B
+P00056,West,Male,50-64,High school graduate,Other,Democrat,"$50,000-$75,000",Very liberal,2,Full-time employment,4.173290134813112,4.4,0.06741113097374493,1,16,Dem,3,48700.0,0.6619,B
+P00057,West,Male,30-49,"Some college, no degree",Asian,Republican,"$30,000-$50,000",Very conservative,3,Full-time employment,1.5830547575647027,2.6,-0.10800268864526837,5,9,Rep,2,44900.0,0.4951,A
+P00058,Northeast,Male,30-49,Postgraduate,Black,Independent,"$75,000-$100,000",Moderate,4,Part-time employment,3.349384199671067,4.9,-0.23164043860269143,5,9,None,2,43400.0,0.4342,A
+P00059,Midwest,Female,65+,"Some college, no degree",Black,Democrat,"$30,000-$50,000",Very liberal,2,Retired,4.225458729515109,2.1,,4,10,Dem,3,47800.0,0.6483,B
+P00060,West,Male,30-49,"Some college, no degree",Hispanic,Republican,"$100,000 or more",Liberal,3,Unemployed,3.733023289074478,4.7,0.31199523925465295,6,11,Rep,2,38600.0,0.3041,B
+P00061,South,Male,50-64,College graduate/some postgrad,Other,Democrat,"$75,000-$100,000",Very liberal,2,Home-maker,5.0,2.9,,5,9,Dem,4,54100.0,0.8125,B
+P00062,South,Male,50-64,High school graduate,White,Democrat,"$50,000-$75,000",Moderate,3,Self-employed,1.6485539942669325,4.6,0.08648338375031396,2,9,Dem,2,45100.0,0.5059,A
+P00063,South,Male,18-29,Associate's degree,White,Independent,"$75,000-$100,000",Moderate,2,Full-time employment,4.060951855236151,4.0,0.19909213674058426,6,21,None,3,46000.0,0.5395,A
+P00064,South,Male,18-29,"Some college, no degree",White,Independent,"Less than $30,000",Liberal,2,Full-time employment,4.106383194659145,3.9,0.09564601556560892,5,13,Dem,5,60800.0,0.99,A
+P00065,Midwest,Male,30-49,"Some college, no degree",White,Independent,"$30,000-$50,000",Conservative,2,Self-employed,2.654847621124757,2.5,0.12620008377813613,5,13,Rep,2,44500.0,0.4707,A
+P00066,South,Male,18-29,Associate's degree,Asian,Independent,"$50,000-$75,000",Liberal,4,Student,3.6970835700506335,4.5,0.11423111876461758,5,18,Dem,4,52400.0,0.7973,A
+P00067,South,Female,30-49,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Liberal,1,Full-time employment,3.4341832488906796,3.4,0.10882723633569741,6,18,Dem,3,47600.0,0.6155,B
+P00068,South,Female,30-49,Postgraduate,White,Democrat,"$100,000 or more",Very liberal,3,Retired,3.8440939540144248,5.0,0.16529294863368238,5,22,Dem,4,51300.0,0.694,A
+P00069,South,Female,30-49,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,2,Full-time employment,5.0,3.9,0.28102369922457265,6,10,Dem,5,55100.0,0.9023,A
+P00070,South,Female,50-64,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Moderate,2,Full-time employment,3.079074095607792,3.7,0.25284581038165077,3,18,None,3,47300.0,0.6025,B
+P00071,South,Female,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,More than 4,Full-time employment,4.660364634158174,4.6,-0.13550199000626478,6,16,Dem,4,51400.0,0.6976,A
+P00072,South,Male,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,4,Retired,4.773972527560743,3.4,-0.002309447726521482,5,10,None,4,55800.0,0.8023,A
+P00073,Midwest,Female,50-64,Associate's degree,White,Independent,"$100,000 or more",Conservative,More than 4,Unemployed,1.5097406105919116,2.8,-0.08972916219874398,5,10,Rep,1,19400.0,0.0348,B
+P00074,South,Male,30-49,High school graduate,Hispanic,Democrat,"$75,000-$100,000",Moderate,More than 4,Full-time employment,2.8206360258129433,2.5,0.05931659495953193,7,12,Dem,3,45800.0,0.5317,B
+P00075,Pacific,Male,65+,College graduate/some postgrad,Black,Democrat,"$75,000-$100,000",Liberal,1,Part-time employment,4.870818610356874,4.7,0.621802919466366,6,12,Dem,2,43800.0,0.4514,B
+P00076,South,Male,30-49,High school graduate,White,Democrat,"Less than $30,000",Conservative,4,Full-time employment,1.1170720513152235,4.0,-0.3248349839784893,5,16,Dem,3,48000.0,0.7068,A
+P00077,South,Male,30-49,"Some college, no degree",White,Republican,"$50,000-$75,000",Conservative,1,Part-time employment,4.301515505623475,3.5,0.3984259329479921,6,22,Rep,3,48600.0,0.6618,B
+P00078,South,Male,65+,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Moderate,2,Student,4.674415375619966,3.0,-0.08082861809856277,6,6,Rep,1,37800.0,0.1714,B
+P00079,Midwest,Female,50-64,"Some college, no degree",White,Republican,"$30,000-$50,000",Conservative,2,Unemployed,1.2992102407085175,4.6,-0.3591077487938428,6,12,Rep,1,37400.0,0.1583,A
+P00080,South,Male,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,2,Student,5.0,4.8,0.3771529681544166,6,18,None,4,53500.0,0.7516,A
+P00081,Midwest,Male,30-49,"Some college, no degree",White,Independent,"$50,000-$75,000",Moderate,More than 4,Full-time employment,1.2773357352503338,3.1,0.1203307419876215,6,11,None,3,47100.0,0.594,A
+P00082,Midwest,Female,30-49,College graduate/some postgrad,Asian,Independent,"$75,000-$100,000",Moderate,4,Unemployed,1.0,1.5,0.1571476093196716,5,12,None,1,35500.0,0.1773,B
+P00083,South,Female,30-49,Associate's degree,White,Independent,"$30,000-$50,000",Moderate,3,Unemployed,2.932945942481218,4.2,0.22582618121685344,5,10,None,3,50300.0,0.7605,A
+P00084,Northeast,Female,65+,College graduate/some postgrad,Other,Independent,"$50,000-$75,000",Liberal,1,Unemployed,4.934777267694942,4.3,-0.0022726786765335304,6,19,Dem,4,50800.0,0.744,A
+P00085,West,Male,65+,Postgraduate,Black,Republican,"$100,000 or more",Moderate,2,Unemployed,4.5165889331037565,3.3,0.562112198526739,3,12,Rep,1,34000.0,0.1931,B
+P00086,South,Female,50-64,"Some college, no degree",White,Democrat,"Less than $30,000",Moderate,1,Full-time employment,5.0,3.4,,5,17,Dem,5,57500.0,0.9744,A
+P00087,South,Female,30-49,"Some college, no degree",White,Democrat,"$75,000-$100,000",Moderate,2,Full-time employment,2.4332678548226254,3.8,,5,13,Dem,2,42800.0,0.4116,B
+P00088,Northeast,Female,30-49,Postgraduate,Black,Republican,"$100,000 or more",Conservative,3,Full-time employment,3.6267046779813867,4.2,0.013587533593275912,6,15,Rep,2,40300.0,0.3517,B
+P00089,Midwest,Male,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,1,Retired,4.573554832974833,3.8,0.24089190458438534,6,18,Rep,3,48400.0,0.6086,A
+P00090,Midwest,Male,65+,Postgraduate,Other,Independent,"Less than $30,000",Conservative,2,Full-time employment,3.6597206876658195,3.6,0.06153423157918821,6,15,Rep,2,44200.0,0.4398,B
+P00091,Midwest,Female,30-49,"Some college, no degree",Hispanic,Republican,"$75,000-$100,000",Conservative,2,Retired,2.015959449375241,4.5,-0.1074187098089417,5,16,Rep,2,38100.0,0.247,B
+P00092,Northeast,Male,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,2,Full-time employment,3.2241484512466836,3.1,-0.12137305939802442,3,11,Dem,5,55000.0,0.9473,A
+P00093,Northeast,Male,65+,Postgraduate,White,Democrat,"$100,000 or more",Conservative,1,Part-time employment,3.0758478236370554,3.1,0.055210382114451416,7,9,Dem,4,50200.0,0.6622,A
+P00094,West,Male,30-49,"Some college, no degree",Black,Democrat,"Less than $30,000",Moderate,1,Unemployed,3.795810947248424,4.0,0.19984899459537983,6,9,Dem,5,54700.0,0.9427,A
+P00095,South,Female,50-64,Postgraduate,White,Democrat,"$100,000 or more",Liberal,1,Full-time employment,3.619490315232889,4.5,-0.19297435837695037,6,9,Dem,4,53600.0,0.7538,B
+P00096,Midwest,Male,30-49,"Some college, no degree",Other,Democrat,"$30,000-$50,000",Very liberal,3,Retired,3.734415993121885,5.0,-0.2655119099038975,5,9,Dem,4,52000.0,0.8219,A
+P00097,Northeast,Female,50-64,College graduate/some postgrad,Asian,Democrat,"$75,000-$100,000",Very liberal,4,Part-time employment,4.577151190176183,2.9,-0.0018989259793198926,2,16,Dem,3,45400.0,0.5165,A
+P00098,West,Female,18-29,College graduate/some postgrad,White,Independent,"$100,000 or more",Conservative,More than 4,Full-time employment,3.8855199861928544,4.2,0.09633309895634753,5,14,Rep,5,60000.0,0.8754,A
+P00099,South,Female,30-49,"Some college, no degree",White,Democrat,"$50,000-$75,000",Moderate,3,Unemployed,3.805940826584523,4.1,-0.38655383836218843,7,7,Dem,3,48300.0,0.6464,A
+P00100,Northeast,Male,50-64,College graduate/some postgrad,Black,Democrat,"$50,000-$75,000",Moderate,2,Retired,5.0,4.5,-0.04727881314498757,5,8,Dem,5,62100.0,0.9587,A
+P00101,South,Male,65+,High school graduate,White,Independent,"Less than $30,000",Conservative,2,Part-time employment,4.725206027293125,3.4,0.35890211237185043,1,22,Rep,2,45000.0,0.497,B
+P00102,South,Female,65+,"Some college, no degree",White,Independent,"$30,000-$50,000",Moderate,2,Unemployed,1.254576870446192,3.8,0.09150398056395687,5,11,None,1,40100.0,0.2556,B
+P00103,South,Female,18-29,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Conservative,2,Part-time employment,3.76962382698364,2.3,-0.023137525759386227,6,8,Rep,3,47000.0,0.5911,A
+P00104,South,Male,65+,Associate's degree,White,Something else,"Less than $30,000",Conservative,1,Full-time employment,2.1487471605283814,2.8,,5,5,Rep,1,43600.0,0.3975,A
+P00105,West,Male,30-49,"Some college, no degree",White,Republican,"$30,000-$50,000",Very conservative,3,Full-time employment,2.8931261921638476,4.2,,6,18,Rep,2,42500.0,0.364,B
+P00106,Northeast,Male,50-64,College graduate/some postgrad,Asian,Republican,"$100,000 or more",Moderate,3,Self-employed,2.60089378928631,2.9,0.30162677008087624,5,12,Rep,3,44800.0,0.495,B
+P00107,West,Female,50-64,Associate's degree,Hispanic,Democrat,"$50,000-$75,000",Very liberal,4,Unemployed,3.4254856788977244,4.0,-0.007625366706288935,7,21,Dem,3,50500.0,0.7332,A
+P00108,South,Male,65+,College graduate/some postgrad,Black,Republican,"$75,000-$100,000",Conservative,1,Part-time employment,4.0602939066916885,4.6,0.11473574411880685,7,13,Rep,2,39000.0,0.277,B
+P00109,Northeast,Male,65+,College graduate/some postgrad,Hispanic,Republican,"$50,000-$75,000",Very conservative,2,Full-time employment,3.1084070354656226,3.9,-0.20064587535698783,5,13,Rep,1,34800.0,0.1334,B
+P00110,Northeast,Female,30-49,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Moderate,3,Full-time employment,3.3735230411952832,4.6,0.23747332635142834,1,4,None,3,50200.0,0.759,A
+P00111,West,Male,18-29,College graduate/some postgrad,White,Republican,"$100,000 or more",Conservative,More than 4,Full-time employment,4.5688645841090985,4.4,0.1391826735088509,5,18,Rep,3,49100.0,0.6305,B
+P00112,Midwest,Male,50-64,"Some college, no degree",White,Democrat,"$50,000-$75,000",Liberal,3,Full-time employment,4.421581305317121,4.3,0.011697659760928129,6,7,Dem,5,59100.0,0.9305,A
+P00113,Northeast,Female,30-49,High school graduate,White,Independent,"Less than $30,000",Liberal,4,Part-time employment,1.706926930628443,3.4,0.16847738662449976,1,7,Dem,4,51200.0,0.8567,A
+P00114,Midwest,Male,30-49,"Some college, no degree",White,Republican,"Less than $30,000",Moderate,More than 4,Part-time employment,2.664514820877285,2.5,0.49709371048371614,3,16,Rep,1,41400.0,0.2602,B
+P00115,West,Female,30-49,Postgraduate,Asian,Democrat,"Less than $30,000",Very liberal,3,Full-time employment,4.669726957688767,3.5,-0.3078191365356567,5,10,Dem,5,57800.0,0.9765,A
+P00116,Midwest,Male,30-49,Associate's degree,Hispanic,Democrat,"Less than $30,000",Very liberal,2,Full-time employment,5.0,4.6,-0.0489755961265845,6,7,Dem,2,47600.0,0.6828,A
+P00117,Midwest,Female,50-64,"Some college, no degree",White,Independent,"$30,000-$50,000",Liberal,3,Full-time employment,2.4971032411621774,3.1,0.034400473932882925,2,22,Dem,4,52300.0,0.8315,A
+P00118,Midwest,Female,30-49,"Some college, no degree",White,Republican,"$75,000-$100,000",Liberal,3,Full-time employment,3.06326012960422,3.4,0.5982020579843949,4,21,Rep,1,32800.0,0.1224,A
+P00119,South,Male,30-49,Associate's degree,Asian,Independent,"$50,000-$75,000",Moderate,2,Full-time employment,2.8352467629502858,3.1,-0.0249070703145183,4,11,None,3,47300.0,0.6031,B
+P00120,Midwest,Male,30-49,"Some college, no degree",Hispanic,Democrat,"$50,000-$75,000",Moderate,3,Full-time employment,1.3234013805518374,3.8,0.1911545395943341,6,12,Dem,3,49300.0,0.6886,A
+P00121,South,Male,65+,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,3,Self-employed,3.2286843949631616,4.3,-0.005979364295827561,4,16,Rep,1,31700.0,0.1514,A
+P00122,West,Female,65+,College graduate/some postgrad,Hispanic,Democrat,"$30,000-$50,000",Moderate,2,Self-employed,1.0,3.0,,7,11,Dem,1,36900.0,0.1435,B
+P00123,West,Male,18-29,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,More than 4,Home-maker,2.34704863776224,3.5,0.2778031251107525,5,17,Dem,5,56400.0,0.8906,A
+P00124,South,Male,65+,Postgraduate,Black,Democrat,"$30,000-$50,000",Liberal,2,Full-time employment,5.0,4.7,0.4115192020529374,5,8,Dem,2,43400.0,0.4118,B
+P00125,South,Male,18-29,College graduate/some postgrad,Asian,Independent,"$100,000 or more",Conservative,3,Full-time employment,3.5811689613373456,3.4,0.03573586810108126,6,8,Rep,2,36400.0,0.2462,B
+P00126,West,Female,65+,Postgraduate,White,Republican,"Less than $30,000",Conservative,2,Self-employed,3.4977593021074407,2.8,0.04157640509326358,6,12,Rep,2,47000.0,0.6435,B
+P00127,West,Male,30-49,Postgraduate,White,Democrat,"$100,000 or more",Moderate,4,Part-time employment,3.4211218159986183,4.3,-0.13718467598546907,6,20,Dem,3,46000.0,0.5314,A
+P00128,Midwest,Male,30-49,"Some college, no degree",Asian,Republican,"$30,000-$50,000",Very conservative,2,Part-time employment,4.001920060750625,3.6,-0.3322438036103715,6,10,Rep,3,47700.0,0.6441,B
+P00129,Northeast,Male,65+,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,3,Retired,5.0,4.1,-0.22150239669172822,3,9,Dem,4,53000.0,0.814,B
+P00130,Midwest,Male,50-64,"Some college, no degree",Black,Republican,"Less than $30,000",Conservative,1,Self-employed,5.0,3.5,0.5799841827470128,4,5,Rep,2,47300.0,0.6621,A
+P00131,West,Male,30-49,"Some college, no degree",Other,Republican,"Less than $30,000",Moderate,2,Full-time employment,3.1152694282584283,2.7,0.21456923510774845,5,12,Rep,2,47200.0,0.6562,A
+P00132,West,Female,50-64,College graduate/some postgrad,Black,Democrat,"$30,000-$50,000",Moderate,More than 4,Full-time employment,3.5346225698182128,3.6,-0.013579396222629122,5,11,Dem,3,49400.0,0.7256,A
+P00133,West,Female,50-64,Postgraduate,Asian,Democrat,"$75,000-$100,000",Very liberal,2,Full-time employment,5.0,4.7,,7,14,Dem,4,53600.0,0.7986,A
+P00134,West,Female,50-64,"Some college, no degree",White,Independent,"$50,000-$75,000",Conservative,2,Self-employed,1.0,3.9,0.013878754842507075,5,10,Rep,1,39700.0,0.2741,B
+P00135,West,Female,50-64,"Some college, no degree",Hispanic,Republican,"$50,000-$75,000",Liberal,2,Full-time employment,3.6596909929459547,3.5,0.541450119289358,5,8,Rep,3,45700.0,0.5342,B
+P00136,South,Female,50-64,Associate's degree,Black,Republican,"$100,000 or more",Moderate,3,Unemployed,4.209095263986508,3.3,-0.2528148382632337,6,20,Rep,2,41600.0,0.3913,B
+P00137,South,Male,30-49,College graduate/some postgrad,Black,Republican,"Less than $30,000",Moderate,2,Unemployed,3.8566903679125866,4.0,0.3053858287440169,5,15,Rep,3,50300.0,0.8213,A
+P00138,South,Male,18-29,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,More than 4,Full-time employment,5.0,4.7,-0.03164882185087059,6,24,None,4,53900.0,0.7601,B
+P00139,South,Male,30-49,Postgraduate,Other,Democrat,"$50,000-$75,000",Liberal,3,Retired,2.9043431587706205,3.4,-0.09166727539420201,7,19,Dem,3,46700.0,0.5775,A
+P00140,Northeast,Female,65+,Associate's degree,Black,Republican,"$100,000 or more",Conservative,4,Full-time employment,3.4200417408634514,4.6,0.19381107599160313,4,13,Rep,1,26300.0,0.0814,B
+P00141,Midwest,Male,18-29,Less than high school,White,Democrat,"Less than $30,000",Liberal,More than 4,Full-time employment,4.400500901550779,2.8,-0.043659905353416545,5,14,Dem,5,56900.0,0.9695,A
+P00142,West,Female,50-64,Postgraduate,White,Independent,"$100,000 or more",Liberal,1,Unemployed,4.589766119199752,3.6,0.12441211143085773,6,11,Dem,5,61200.0,0.8905,A
+P00143,Midwest,Female,30-49,"Some college, no degree",Other,Independent,"$50,000-$75,000",Moderate,4,Unemployed,1.0,4.4,0.09868521853754224,6,13,None,2,42700.0,0.3964,A
+P00144,Northeast,Male,30-49,College graduate/some postgrad,Black,Independent,"Less than $30,000",Liberal,2,Full-time employment,3.9272208837147993,4.2,-0.010287933625910892,5,16,Dem,2,46900.0,0.6348,B
+P00145,Pacific,Female,30-49,Postgraduate,White,Independent,"$75,000-$100,000",Liberal,4,Part-time employment,4.303213685871522,4.3,0.14174347171343155,5,10,Dem,4,51600.0,0.7415,A
+P00146,South,Male,30-49,College graduate/some postgrad,Hispanic,Independent,"$75,000-$100,000",Liberal,3,Part-time employment,4.850962408431447,3.5,0.19732873926489888,5,23,Dem,5,58100.0,0.8915,A
+P00147,Midwest,Male,30-49,High school graduate,Black,Republican,"$30,000-$50,000",Moderate,More than 4,Part-time employment,2.576372714516389,2.9,0.12779283989252052,4,14,Rep,2,44700.0,0.4824,A
+P00148,Northeast,Male,30-49,"Some college, no degree",Black,Democrat,"Less than $30,000",Conservative,2,Part-time employment,3.9137766108690095,3.0,0.20577800124637172,0,17,Dem,4,52600.0,0.9006,B
+P00149,West,Male,18-29,Less than high school,White,Independent,"Less than $30,000",Moderate,4,Home-maker,2.0781534518874416,3.1,-0.1386082906569482,2,10,None,4,51900.0,0.8811,A
+P00150,South,Male,18-29,High school graduate,Hispanic,Democrat,"$30,000-$50,000",Moderate,2,Full-time employment,4.189093313445494,3.4,0.07953462044086657,6,21,Dem,5,58600.0,0.9526,A
+P00151,West,Male,30-49,College graduate/some postgrad,Black,Republican,"$100,000 or more",Liberal,2,Full-time employment,1.8714942705834339,3.3,0.24654511976540439,4,14,Rep,1,27000.0,0.0887,A
+P00152,Midwest,Male,18-29,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,3,Unemployed,3.1962304709026683,4.5,0.12348255111037798,5,16,Dem,5,55200.0,0.8673,A
+P00153,South,Female,30-49,Associate's degree,White,Something else,"$100,000 or more",Liberal,3,Full-time employment,1.0,4.1,,6,13,Dem,2,37500.0,0.275,B
+P00154,South,Female,50-64,"Some college, no degree",White,Democrat,"$30,000-$50,000",Liberal,3,Part-time employment,4.42762989799028,4.1,0.3623405535855072,5,14,Dem,4,51800.0,0.8181,A
+P00155,West,Female,65+,Postgraduate,Hispanic,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,3.120074178905076,4.8,,4,16,Dem,3,49900.0,0.7099,A
+P00156,Midwest,Female,65+,College graduate/some postgrad,Asian,Independent,"$50,000-$75,000",Very liberal,1,Full-time employment,2.2406001748321867,3.0,0.14843659270821968,5,11,Dem,3,50100.0,0.7172,A
+P00157,South,Female,30-49,Postgraduate,Asian,Republican,"$30,000-$50,000",Moderate,3,Unemployed,3.456977731372144,3.7,0.5677074447715086,5,12,Rep,3,48100.0,0.6653,B
+P00158,Midwest,Male,30-49,Postgraduate,Black,Republican,"$30,000-$50,000",Moderate,1,Retired,3.0364128127408625,3.5,-0.08174963296150196,6,21,Rep,2,42800.0,0.381,B
+P00159,South,Female,65+,Associate's degree,White,Democrat,"$75,000-$100,000",Liberal,2,Part-time employment,4.266271435585902,4.1,,6,16,Dem,3,45200.0,0.5077,B
+P00160,Northeast,Female,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,More than 4,Full-time employment,3.0126064678134665,3.4,0.3114137115720971,3,11,None,3,49400.0,0.6388,B
+P00161,South,Male,50-64,Associate's degree,Black,Democrat,"$100,000 or more",Very liberal,2,Unemployed,3.898165738227083,4.0,0.040205601504658885,4,13,Dem,2,42400.0,0.417,A
+P00162,Northeast,Female,65+,"Some college, no degree",Black,Republican,"$75,000-$100,000",Conservative,3,Full-time employment,2.1485585567801886,3.5,0.09068251666435331,4,12,Rep,1,32000.0,0.1094,B
+P00163,Northeast,Female,50-64,High school graduate,White,Republican,"Less than $30,000",Conservative,4,Self-employed,2.493945849211427,3.0,-0.08083949485704058,7,11,Rep,2,45000.0,0.5011,A
+P00164,Northeast,Female,65+,College graduate/some postgrad,Black,Republican,"Less than $30,000",Liberal,1,Full-time employment,3.009782508618193,4.4,-0.09522019777378124,7,7,Rep,2,44900.0,0.4943,A
+P00165,West,Female,65+,Associate's degree,White,Republican,"$100,000 or more",Very conservative,2,Full-time employment,3.6405333159267688,3.6,-0.18529219310973766,5,19,Rep,1,31500.0,0.1479,B
+P00166,Northeast,Female,30-49,High school graduate,Hispanic,Democrat,"$30,000-$50,000",Very liberal,1,Full-time employment,3.8885445140531054,3.7,0.0035289780247838754,6,7,Dem,4,53800.0,0.8749,A
+P00167,West,Female,30-49,Associate's degree,White,Independent,"Less than $30,000",Moderate,More than 4,Full-time employment,2.7022478245616646,3.3,0.23697037866540535,6,9,None,4,52400.0,0.8955,A
+P00168,South,Female,65+,Postgraduate,Asian,Democrat,"$75,000-$100,000",Liberal,1,Full-time employment,4.621637917250302,3.6,-0.09833080945244721,5,20,Dem,3,49500.0,0.6751,A
+P00169,South,Female,30-49,"Some college, no degree",White,Republican,"Less than $30,000",Conservative,2,Unemployed,2.724957815807238,3.7,0.624450986933267,1,9,Rep,1,41100.0,0.2422,B
+P00170,Northeast,Female,30-49,Postgraduate,Black,Republican,"$100,000 or more",Moderate,2,Full-time employment,4.291961544539844,3.6,0.6876621298148003,5,17,Rep,3,45800.0,0.5275,B
+P00171,West,Female,65+,High school graduate,Other,Independent,"Less than $30,000",Moderate,1,Part-time employment,3.9951038406047523,2.9,0.6004591399529717,5,12,None,2,47600.0,0.6829,A
+P00172,Northeast,Male,65+,High school graduate,White,Something else,"Less than $30,000",Very conservative,4,Retired,4.711323415940651,4.9,-0.02715625377235408,2,17,Rep,2,44100.0,0.4367,B
+P00173,West,Female,18-29,Associate's degree,Black,Democrat,"$75,000-$100,000",Liberal,2,Full-time employment,4.518175629791025,4.1,-0.09888799423350471,5,20,Dem,5,57800.0,0.8873,B
+P00174,West,Female,65+,"Some college, no degree",Black,Independent,"$75,000-$100,000",Moderate,2,Full-time employment,2.949568143198284,3.3,0.4570728424490573,3,10,None,1,32600.0,0.1201,B
+P00175,West,Female,30-49,"Some college, no degree",White,Democrat,"$30,000-$50,000",Liberal,3,Unemployed,4.631673803250588,4.1,,6,7,Dem,5,58700.0,0.9532,A
+P00176,West,Female,50-64,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Moderate,3,Full-time employment,1.3468323158228628,2.3,0.1624084761186414,7,11,None,2,40400.0,0.3247,A
+P00177,West,Male,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,2,Part-time employment,2.794084430588736,3.7,0.12572203354165723,5,17,Dem,3,45600.0,0.5184,B
+P00178,South,Female,50-64,Postgraduate,Hispanic,Democrat,"$75,000-$100,000",Moderate,2,Full-time employment,2.7766357622347475,3.5,-0.2013330033333669,6,12,Dem,3,46800.0,0.5738,A
+P00179,South,Female,65+,College graduate/some postgrad,White,Republican,"$100,000 or more",Liberal,1,Retired,4.241375916547309,4.6,0.03043053674479923,6,12,Rep,2,36400.0,0.2477,A
+P00180,West,Female,18-29,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,3,Full-time employment,2.994033655031449,3.1,0.2646949829440641,5,10,Dem,3,49400.0,0.7268,B
+P00181,Midwest,Female,50-64,High school graduate,White,Democrat,"$30,000-$50,000",Liberal,1,Full-time employment,3.9062426850551173,5.0,-0.2217572336943643,4,11,Dem,1,40100.0,0.2546,B
+P00182,South,Female,65+,Postgraduate,Black,Independent,"$50,000-$75,000",Liberal,2,Home-maker,4.224875362779855,3.7,0.45604015104470774,7,10,Dem,1,35000.0,0.1379,B
+P00183,Midwest,Female,30-49,"Some college, no degree",White,Republican,"$75,000-$100,000",Liberal,3,Unemployed,5.0,4.5,-0.41743044006297664,5,9,Rep,5,58100.0,0.8922,A
+P00184,South,Female,30-49,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Moderate,2,Full-time employment,3.8263304063661847,1.7,0.08580431893900071,6,6,Dem,3,48300.0,0.6733,A
+P00185,Midwest,Female,65+,College graduate/some postgrad,Black,Democrat,"$30,000-$50,000",Moderate,1,Full-time employment,4.4400301752914615,3.1,0.10519021868487931,3,17,Dem,3,47500.0,0.6353,B
+P00186,Midwest,Male,65+,College graduate/some postgrad,Black,Republican,"$50,000-$75,000",Very conservative,2,Unemployed,4.273540899064315,3.4,0.28427327061249597,1,13,Rep,2,42900.0,0.4055,B
+P00187,South,Male,50-64,Less than high school,White,Democrat,"Less than $30,000",Conservative,1,Full-time employment,4.285956816004062,4.5,-0.006365653414153982,5,10,Dem,3,49900.0,0.8061,A
+P00188,South,Male,30-49,Postgraduate,White,Republican,"$75,000-$100,000",Moderate,3,Self-employed,4.145808938789007,4.0,-0.060289316389002603,7,6,Rep,4,51400.0,0.7364,B
+P00189,South,Male,50-64,College graduate/some postgrad,Other,Republican,"Less than $30,000",Moderate,2,Full-time employment,1.4444813205650442,2.4,-0.1158169268440961,3,16,Rep,1,38900.0,0.1472,B
+P00190,South,Female,18-29,"Some college, no degree",Asian,Democrat,"$30,000-$50,000",Liberal,4,Self-employed,1.0,3.4,0.008861206182162532,5,12,Dem,3,50200.0,0.7567,A
+P00191,West,Male,65+,Postgraduate,White,Democrat,"$75,000-$100,000",Very liberal,2,Self-employed,4.837380912869102,4.7,0.1715309349445994,7,15,Dem,2,38300.0,0.2543,B
+P00192,South,Male,65+,Associate's degree,Hispanic,Republican,"Less than $30,000",Conservative,1,Part-time employment,3.9535179606056663,3.4,0.5310933076671492,6,9,Rep,2,46000.0,0.5696,A
+P00193,Northeast,Female,30-49,College graduate/some postgrad,Black,Democrat,"$50,000-$75,000",Moderate,4,Full-time employment,3.854223283002613,3.8,0.032093510643351614,4,16,Dem,5,55600.0,0.8747,A
+P00194,West,Male,18-29,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Conservative,3,Full-time employment,2.9216809501921444,3.6,-0.07313126462333885,4,11,Dem,4,54200.0,0.844,A
+P00195,South,Female,50-64,College graduate/some postgrad,White,Republican,"Less than $30,000",Very conservative,2,Full-time employment,2.6649244618745476,3.6,0.06393426837755264,5,20,Rep,2,44500.0,0.4615,A
+P00196,West,Male,50-64,College graduate/some postgrad,Hispanic,Independent,"$50,000-$75,000",Liberal,1,Home-maker,2.279731739494152,3.5,-0.022972660952172267,6,8,Dem,3,46300.0,0.5578,B
+P00197,West,Female,50-64,Postgraduate,Hispanic,Independent,"$75,000-$100,000",Moderate,4,Part-time employment,3.207950399066988,4.0,-0.6404881682183249,6,20,None,3,48400.0,0.632,A
+P00198,West,Male,30-49,"Some college, no degree",White,Republican,"$100,000 or more",Conservative,2,Full-time employment,3.0254184280854752,4.6,-0.2031550883377286,6,8,Rep,3,45600.0,0.5208,B
+P00199,West,Male,50-64,Postgraduate,Black,Republican,"$100,000 or more",Conservative,2,Full-time employment,3.4227717857164257,5.0,0.07809537655079082,6,7,Rep,1,30800.0,0.1365,A
+P00200,South,Male,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,4,Full-time employment,4.592232852913201,4.1,-0.02426313774656687,5,5,Dem,5,58000.0,0.9775,A
+P00201,West,Male,50-64,Postgraduate,Black,Democrat,"$75,000-$100,000",Liberal,1,Full-time employment,4.528220431790544,4.7,0.012993445097921788,6,7,Dem,3,46300.0,0.5537,A
+P00202,South,Male,30-49,College graduate/some postgrad,Hispanic,Independent,"$100,000 or more",Conservative,2,Full-time employment,1.0,4.1,0.10646475973510257,7,14,Rep,1,33000.0,0.1743,B
+P00203,Midwest,Female,30-49,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Liberal,3,Student,5.0,4.6,0.5082634894865368,5,6,Dem,4,54100.0,0.8804,B
+P00204,South,Male,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very conservative,1,Part-time employment,2.0042511300475963,2.3,0.15791696442389985,5,17,Dem,2,40200.0,0.348,B
+P00205,Northeast,Female,65+,College graduate/some postgrad,White,Republican,"$100,000 or more",Liberal,1,Full-time employment,4.907579666531499,4.9,0.10763556740905307,6,11,Rep,2,36100.0,0.2398,A
+P00206,South,Male,50-64,"Some college, no degree",Hispanic,Independent,"$50,000-$75,000",Very conservative,2,Self-employed,2.4094627741757835,4.4,,6,18,Rep,2,40100.0,0.2883,B
+P00207,Pacific,Male,65+,Associate's degree,Other,Independent,"$30,000-$50,000",Moderate,2,Full-time employment,4.084988162665754,3.3,0.6108643832250918,6,10,None,2,43900.0,0.4403,B
+P00208,South,Female,30-49,"Some college, no degree",White,Something else,"Less than $30,000",Liberal,1,Full-time employment,3.6454928979989156,3.6,,6,12,Dem,3,49200.0,0.7737,A
+P00209,South,Male,30-49,Postgraduate,Black,Independent,"$100,000 or more",Moderate,4,Full-time employment,4.8933263944813,4.4,0.14067771178463123,5,15,None,5,59900.0,0.8729,A
+P00210,Midwest,Male,65+,College graduate/some postgrad,White,Republican,"$100,000 or more",Conservative,1,Full-time employment,4.569628259025935,4.9,0.29650686770850604,6,6,Rep,2,40400.0,0.355,B
+P00211,South,Female,18-29,High school graduate,White,Democrat,"$30,000-$50,000",Very liberal,More than 4,Full-time employment,4.178664497052513,3.5,-0.3351327749410461,4,11,Dem,5,57100.0,0.9349,A
+P00212,Midwest,Male,50-64,Postgraduate,Other,Independent,"$75,000-$100,000",Liberal,2,Self-employed,3.907904121833919,3.4,-0.019114753821509203,7,7,Dem,4,53900.0,0.8073,A
+P00213,South,Male,18-29,Less than high school,Black,Democrat,"Less than $30,000",Moderate,1,Unemployed,2.4221185388442628,4.6,0.08987635957765734,0,20,Dem,3,48500.0,0.7323,B
+P00214,South,Female,65+,Postgraduate,White,Independent,"$100,000 or more",Moderate,1,Part-time employment,3.5321789680712965,4.6,-0.2641407394701348,7,18,None,3,45000.0,0.5003,A
+P00215,Midwest,Male,65+,Associate's degree,White,Something else,"$100,000 or more",Conservative,1,Full-time employment,3.7934770007032363,3.3,0.2526997585087941,5,6,Rep,1,27400.0,0.0925,B
+P00216,Midwest,Male,65+,College graduate/some postgrad,Other,Independent,"$100,000 or more",Liberal,2,Retired,4.255403369923312,4.0,,5,18,Dem,3,48100.0,0.5996,B
+P00217,West,Male,18-29,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,4,Unemployed,4.578161362957875,4.8,0.06546250272612328,5,9,Rep,3,48100.0,0.5983,A
+P00218,West,Female,18-29,High school graduate,Other,Democrat,"Less than $30,000",Very liberal,2,Part-time employment,2.5745933563779624,2.6,,6,8,Dem,4,52400.0,0.8954,A
+P00219,South,Male,18-29,Postgraduate,Other,Republican,"$50,000-$75,000",Liberal,2,Full-time employment,3.205916983373604,4.1,0.3998262907778776,3,11,Rep,3,49300.0,0.6864,A
+P00220,Midwest,Female,50-64,Associate's degree,Hispanic,Republican,"$75,000-$100,000",Moderate,More than 4,Full-time employment,1.7347411548775236,3.3,0.6332814983844253,7,5,Rep,1,34400.0,0.1547,B
+P00221,Midwest,Female,65+,"Some college, no degree",White,Democrat,"$100,000 or more",Liberal,1,Full-time employment,4.8651411316007005,4.5,,2,14,Dem,2,42400.0,0.4167,A
+P00222,Northeast,Female,50-64,Less than high school,Other,Democrat,"$50,000-$75,000",Conservative,2,Full-time employment,2.2959831292684925,3.4,0.006327785004208013,5,20,Dem,3,49200.0,0.6833,A
+P00223,Pacific,Male,65+,College graduate/some postgrad,Asian,Democrat,"$100,000 or more",Liberal,3,Part-time employment,4.8904609105251104,3.5,0.038379966371393924,5,13,Dem,4,55400.0,0.7948,A
+P00224,South,Female,30-49,"Some college, no degree",White,Republican,"$75,000-$100,000",Moderate,2,Retired,2.235073938596959,3.2,0.26138794715705965,5,12,Rep,2,43000.0,0.4203,A
+P00225,West,Male,30-49,Associate's degree,White,Independent,"$100,000 or more",Liberal,2,Full-time employment,3.737707688859047,3.6,-0.35758842537832025,7,13,Dem,5,58900.0,0.8586,A
+P00226,West,Female,30-49,College graduate/some postgrad,Black,Democrat,"$75,000-$100,000",Liberal,2,Full-time employment,5.0,4.2,0.006078040452160189,2,7,Dem,3,47500.0,0.5973,B
+P00227,Northeast,Male,50-64,"Some college, no degree",White,Democrat,"$100,000 or more",Liberal,More than 4,Full-time employment,3.8860710345408354,2.3,0.1336770851033876,6,16,Dem,3,48900.0,0.6241,A
+P00228,West,Male,30-49,High school graduate,White,Democrat,"$100,000 or more",Very liberal,1,Full-time employment,3.6766250963368714,3.5,0.18103278935625491,6,16,Dem,4,51600.0,0.7011,B
+P00229,Pacific,Male,18-29,Associate's degree,Asian,Democrat,"$50,000-$75,000",Moderate,4,Home-maker,3.7822787902703663,4.4,-0.08921899438754435,6,14,Dem,3,46400.0,0.5636,A
+P00230,South,Female,30-49,High school graduate,Asian,Something else,"$100,000 or more",Moderate,2,Unemployed,4.446530160354748,3.7,-0.037129736213621166,7,9,None,4,52200.0,0.7189,A
+P00231,South,Female,30-49,Postgraduate,Black,Independent,"$100,000 or more",Moderate,2,Part-time employment,3.1767073537628185,4.5,0.36130352380649744,6,18,None,3,46800.0,0.5566,A
+P00232,West,Female,30-49,Associate's degree,Other,Democrat,"$75,000-$100,000",Liberal,4,Student,2.337865611061142,3.5,-0.046766607861287106,7,11,Dem,2,40600.0,0.3286,B
+P00233,Northeast,Male,50-64,"Some college, no degree",White,Independent,"Less than $30,000",Conservative,2,Self-employed,2.027045172545874,3.4,0.4148957245888634,7,11,Rep,1,40200.0,0.2007,B
+P00234,Midwest,Female,65+,"Some college, no degree",Black,Independent,"$50,000-$75,000",Moderate,3,Unemployed,5.0,3.8,0.22075215421518699,6,11,None,3,47300.0,0.6044,B
+P00235,South,Female,18-29,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,1,Self-employed,1.0,3.8,0.08272046797879637,5,18,Dem,3,50000.0,0.7165,A
+P00236,West,Male,18-29,"Some college, no degree",White,Democrat,"$100,000 or more",Moderate,More than 4,Student,3.033865677322795,4.1,-0.040287279467778624,4,9,Dem,5,57800.0,0.8395,A
+P00237,Pacific,Male,50-64,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,3,Unemployed,2.311305364387521,3.2,-0.2090505598614009,4,18,Dem,2,35600.0,0.2292,B
+P00238,Northeast,Female,18-29,High school graduate,White,Democrat,"Less than $30,000",Moderate,More than 4,Self-employed,4.541325376325848,4.8,0.13492436980789765,5,9,Dem,4,52000.0,0.8848,A
+P00239,West,Female,50-64,Associate's degree,Black,Independent,"$100,000 or more",Moderate,4,Part-time employment,3.496928565462982,4.7,-0.01866112469380341,5,7,None,2,40200.0,0.3498,B
+P00240,South,Male,18-29,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,3,Part-time employment,1.0660112891411255,3.9,-0.11218621561899891,5,19,Dem,3,45600.0,0.5192,A
+P00241,Midwest,Male,30-49,High school graduate,Black,Democrat,"Less than $30,000",Very liberal,1,Part-time employment,3.6937481361959197,3.9,0.09519985880622114,4,6,Dem,3,50400.0,0.8264,A
+P00242,Pacific,Female,30-49,Less than high school,White,Independent,"$75,000-$100,000",Moderate,2,Self-employed,4.800152044854661,4.2,0.5755928377117984,1,21,None,4,51700.0,0.7465,A
+P00243,West,Male,18-29,Postgraduate,Hispanic,Democrat,"$75,000-$100,000",Moderate,3,Part-time employment,4.136454384765713,3.3,-0.23875093748180543,5,18,Dem,5,60000.0,0.9174,A
+P00244,South,Male,30-49,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Very liberal,More than 4,Part-time employment,3.7523048377385573,2.0,0.09565303299202299,7,12,Dem,5,54700.0,0.8937,A
+P00245,Northeast,Female,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,2,Retired,4.1222505350271375,3.8,-0.5782709890189169,6,17,Dem,3,46100.0,0.5359,A
+P00246,Midwest,Male,30-49,High school graduate,Black,Democrat,"$100,000 or more",Liberal,2,Full-time employment,4.255989500419603,4.6,0.07202870959095585,5,16,Dem,3,47400.0,0.5786,B
+P00247,South,Male,30-49,"Some college, no degree",Asian,Democrat,"Less than $30,000",Moderate,4,Self-employed,4.893130963930843,3.2,,6,5,Dem,4,52600.0,0.902,A
+P00248,Pacific,Male,18-29,"Some college, no degree",White,Independent,"$50,000-$75,000",Very liberal,2,Self-employed,2.31378724480935,4.1,-0.3393528939370589,6,10,Dem,4,53400.0,0.8242,A
+P00249,Midwest,Female,30-49,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Liberal,2,Retired,1.3758312823410903,2.1,-0.07950513813004777,3,24,Dem,3,50000.0,0.7511,A
+P00250,Northeast,Male,50-64,Less than high school,White,Democrat,"$50,000-$75,000",Liberal,1,Full-time employment,4.502849797469333,2.5,0.36487409333186543,5,8,Dem,5,55700.0,0.8771,A
+P00251,South,Female,30-49,Associate's degree,Black,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,1.1102266962958132,3.3,0.08100806309524362,4,10,Dem,2,40600.0,0.3078,B
+P00252,West,Male,50-64,Postgraduate,White,Democrat,"$100,000 or more",Liberal,3,Home-maker,4.713905560882404,4.0,-0.1257331074800735,6,12,Dem,3,48800.0,0.6193,A
+P00253,West,Male,18-29,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,More than 4,Self-employed,1.6825621006968563,4.3,0.10850083496793975,4,20,Dem,2,44000.0,0.4538,B
+P00254,West,Female,65+,College graduate/some postgrad,Black,Democrat,"$30,000-$50,000",Moderate,1,Full-time employment,3.958405315083934,3.0,0.46362849297236797,7,10,Dem,1,36800.0,0.1418,B
+P00255,Midwest,Female,18-29,Less than high school,White,Democrat,"Less than $30,000",Very liberal,2,Part-time employment,5.0,3.7,0.014038642610141679,2,17,Dem,4,52800.0,0.9049,A
+P00256,Northeast,Female,65+,"Some college, no degree",Black,Democrat,"Less than $30,000",Liberal,1,Full-time employment,3.5241813629235135,4.5,0.014366797900296676,2,11,Dem,1,42900.0,0.3518,A
+P00257,South,Female,50-64,"Some college, no degree",Black,Republican,"Less than $30,000",Moderate,2,Home-maker,4.77062224429301,3.7,0.052567435224169366,2,23,Rep,4,51100.0,0.8531,A
+P00258,Midwest,Male,30-49,Less than high school,Black,Democrat,"$75,000-$100,000",Very liberal,2,Unemployed,3.7387497988072864,4.3,0.2548683402063766,6,17,Dem,4,54700.0,0.8266,A
+P00259,West,Male,65+,"Some college, no degree",White,Republican,"$75,000-$100,000",Liberal,2,Full-time employment,5.0,4.5,-0.039552910361554776,4,12,Rep,1,37900.0,0.2408,B
+P00260,Northeast,Female,18-29,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Liberal,4,Retired,2.146229020234834,3.6,0.18276918579493423,2,18,Dem,4,50700.0,0.7133,A
+P00261,Midwest,Male,65+,Postgraduate,White,Democrat,"$75,000-$100,000",Conservative,1,Part-time employment,3.681973758711631,3.9,-0.341025819796585,6,11,Dem,3,47200.0,0.588,A
+P00262,South,Male,50-64,"Some college, no degree",White,Independent,"$100,000 or more",Liberal,2,Retired,4.298866273076374,3.5,0.06040250179111187,6,12,Dem,5,60800.0,0.8864,A
+P00263,South,Male,30-49,"Some college, no degree",White,Democrat,"$50,000-$75,000",Moderate,3,Full-time employment,2.277304128272903,3.6,,6,11,Dem,4,51700.0,0.7751,A
+P00264,South,Female,18-29,High school graduate,White,Republican,"$30,000-$50,000",Conservative,2,Student,1.1446145553164278,3.7,-0.03926180643571496,5,20,Rep,3,48000.0,0.6613,A
+P00265,South,Male,65+,Postgraduate,White,Republican,"$50,000-$75,000",Moderate,2,Full-time employment,1.1844422891845896,3.3,0.13157265999828194,3,12,Rep,1,34300.0,0.1219,B
+P00266,Midwest,Female,50-64,Associate's degree,White,Republican,"Less than $30,000",Conservative,1,Self-employed,1.3444251009654928,3.4,0.10312213566412466,5,10,Rep,2,45000.0,0.4994,B
+P00267,West,Female,50-64,Associate's degree,White,Democrat,"$30,000-$50,000",Moderate,2,Full-time employment,1.4805052596460215,2.7,0.7697924365948791,6,13,Dem,3,49600.0,0.735,A
+P00268,West,Male,30-49,High school graduate,White,Republican,"Less than $30,000",Conservative,3,Unemployed,3.4865754823328046,4.5,-0.2180537349560492,2,14,Rep,3,49700.0,0.7954,A
+P00269,West,Female,30-49,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Conservative,3,Full-time employment,2.7372969978783073,2.3,0.23533846253421514,6,5,Rep,2,42600.0,0.3923,B
+P00270,South,Male,30-49,Associate's degree,White,Republican,"$75,000-$100,000",Conservative,2,Unemployed,3.826754838115949,4.6,-0.07595426737938175,7,12,Rep,3,50000.0,0.6893,A
+P00271,South,Male,50-64,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Conservative,2,Full-time employment,2.131459683318982,3.5,,6,11,Rep,1,38500.0,0.1922,B
+P00272,South,Male,50-64,"Some college, no degree",Other,Democrat,"$30,000-$50,000",Very liberal,1,Full-time employment,3.5238232593129903,3.6,0.02309261116275411,6,13,Dem,4,54200.0,0.8827,A
+P00273,West,Female,18-29,"Some college, no degree",White,Democrat,"$100,000 or more",Very liberal,1,Retired,4.005797734527655,3.9,0.0016526361008240885,2,19,Dem,4,55400.0,0.7948,A
+P00274,Northeast,Male,18-29,High school graduate,White,Republican,"Less than $30,000",Liberal,2,Unemployed,1.953006101726886,2.0,-0.027386676840474664,5,18,Rep,2,44200.0,0.4438,B
+P00275,South,Male,50-64,"Some college, no degree",White,Republican,"$75,000-$100,000",Moderate,2,Unemployed,4.5675515245701535,3.3,-0.02920559963916384,6,16,Rep,4,52400.0,0.768,B
+P00276,West,Male,65+,Postgraduate,Other,Democrat,"$30,000-$50,000",Liberal,1,Part-time employment,4.986803073729667,4.6,0.27960660903292206,5,8,Dem,3,48400.0,0.6765,B
+P00277,Midwest,Female,65+,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Very liberal,3,Full-time employment,5.0,3.4,0.178828055010742,5,12,Dem,3,50200.0,0.724,B
+P00278,South,Female,30-49,Postgraduate,White,Independent,"$50,000-$75,000",Conservative,3,Retired,2.016446062269351,3.6,,3,10,Rep,1,35900.0,0.1586,B
+P00279,Northeast,Male,30-49,Associate's degree,White,Democrat,"Less than $30,000",Very liberal,1,Full-time employment,3.864160946073551,3.2,0.34225811707366277,4,12,Dem,3,50300.0,0.825,B
+P00280,South,Female,18-29,High school graduate,Asian,Democrat,"$30,000-$50,000",Liberal,2,Self-employed,4.700380752693196,4.7,0.06812565407042621,1,9,Dem,5,55200.0,0.9043,A
+P00281,South,Male,65+,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,2,Full-time employment,3.586529314366129,4.3,0.13783380637518422,6,7,Dem,2,41400.0,0.3419,B
+P00282,West,Male,30-49,College graduate/some postgrad,Hispanic,Republican,"$50,000-$75,000",Moderate,3,Full-time employment,3.9361064758598814,3.8,-0.23520187215443067,7,12,Rep,4,51000.0,0.7515,A
+P00283,South,Female,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Conservative,2,Full-time employment,3.3210191971381917,3.5,0.6448928684184292,5,11,Dem,3,46500.0,0.5486,B
+P00284,South,Male,65+,Postgraduate,White,Independent,"$50,000-$75,000",Liberal,2,Full-time employment,4.601174746519305,4.8,0.07907952222593614,6,15,Dem,2,43000.0,0.4092,B
+P00285,South,Male,50-64,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,1,Full-time employment,3.8443605335847435,3.5,0.4865490605795222,6,7,Dem,4,53800.0,0.8729,A
+P00286,South,Male,18-29,"Some college, no degree",Other,Democrat,"$100,000 or more",Moderate,2,Full-time employment,4.697728186201182,4.7,0.08017879370567074,5,13,Dem,5,64100.0,0.9229,A
+P00287,West,Female,65+,College graduate/some postgrad,Black,Independent,"$75,000-$100,000",Moderate,More than 4,Part-time employment,4.301473443153619,3.4,0.0815432167807896,4,16,None,1,32600.0,0.1195,B
+P00288,West,Female,65+,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Very conservative,3,Part-time employment,1.0,3.1,-0.38668692120488235,7,13,Rep,1,29200.0,0.0519,B
+P00289,South,Female,18-29,Postgraduate,Other,Republican,"$100,000 or more",Conservative,1,Part-time employment,3.7387568115680376,3.7,-0.1231730566217404,6,11,Rep,4,52200.0,0.717,A
+P00290,South,Female,30-49,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Conservative,4,Full-time employment,2.2979502006547126,3.7,0.09151156642965246,6,11,Rep,1,40200.0,0.2585,B
+P00291,Northeast,Male,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,3,Part-time employment,4.802244609981986,3.4,0.3225236025556409,4,14,None,3,46600.0,0.553,A
+P00292,South,Female,30-49,High school graduate,White,Democrat,"$30,000-$50,000",Very liberal,2,Retired,4.762949924050907,4.3,0.06536618298295227,3,11,Dem,4,53600.0,0.8694,B
+P00293,South,Male,50-64,"Some college, no degree",Black,Democrat,"$100,000 or more",Very liberal,3,Retired,4.833193024687165,4.1,0.05825683907767364,7,9,Dem,2,38200.0,0.2926,B
+P00294,West,Male,65+,Postgraduate,White,Republican,"$30,000-$50,000",Very conservative,1,Part-time employment,4.641029920468035,3.3,0.22314514296458063,6,4,Rep,1,39900.0,0.2456,B
+P00295,South,Female,50-64,"Some college, no degree",Black,Independent,"$50,000-$75,000",Conservative,2,Full-time employment,2.677453132757113,3.5,-0.031015020726881823,5,12,Rep,2,42400.0,0.384,B
+P00296,South,Male,18-29,"Some college, no degree",Hispanic,Independent,"$75,000-$100,000",Conservative,3,Full-time employment,3.1257435354671683,4.2,,5,12,Rep,4,52500.0,0.7685,A
+P00297,Midwest,Female,65+,Less than high school,White,Independent,"Less than $30,000",Moderate,3,Full-time employment,2.274252755678332,3.1,0.6627891382059474,5,10,None,1,43800.0,0.4171,B
+P00298,Pacific,Male,65+,Postgraduate,Hispanic,Democrat,"$100,000 or more",Conservative,3,Full-time employment,3.4764561157628764,3.1,0.361951230208371,6,11,Dem,2,42200.0,0.411,A
+P00299,Midwest,Male,30-49,Associate's degree,Hispanic,Independent,"$100,000 or more",Conservative,4,Full-time employment,2.5680988437780443,3.2,-0.033165333575664334,7,17,Rep,2,41500.0,0.3878,A
+P00300,South,Female,18-29,Postgraduate,White,Independent,"$100,000 or more",Liberal,3,Unemployed,3.4279233586222055,3.0,-0.4191505816920107,4,18,Dem,4,56000.0,0.8069,A
+P00301,Pacific,Female,18-29,"Some college, no degree",White,Independent,"Less than $30,000",Moderate,2,Full-time employment,3.5188709551377064,3.1,0.22085468631522134,6,10,None,4,53100.0,0.9125,B
+P00302,Midwest,Male,18-29,Less than high school,White,Independent,"Less than $30,000",Conservative,3,Student,1.0,3.7,0.33668958145323286,2,20,Rep,1,42100.0,0.3011,B
+P00303,West,Female,30-49,College graduate/some postgrad,White,Republican,"Less than $30,000",Moderate,1,Full-time employment,2.9938623879963786,2.0,0.13164736182309209,4,15,Rep,2,46400.0,0.5985,A
+P00304,Northeast,Female,30-49,Postgraduate,White,Independent,"$100,000 or more",Liberal,More than 4,Full-time employment,4.256649780848321,3.7,-0.020610960285820438,6,18,Dem,5,57700.0,0.8389,A
+P00305,Pacific,Female,30-49,High school graduate,Black,Democrat,"$30,000-$50,000",Liberal,2,Full-time employment,2.734787900283384,4.0,0.5173533513901671,5,18,Dem,4,52200.0,0.8281,A
+P00306,South,Female,30-49,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Liberal,2,Part-time employment,4.2647947143638065,4.1,,3,13,Dem,3,47000.0,0.5905,A
+P00307,West,Male,65+,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Moderate,2,Part-time employment,2.1306651529974863,4.4,0.08925859544313981,6,9,Dem,2,44600.0,0.4826,A
+P00308,West,Female,65+,Postgraduate,White,Democrat,"$100,000 or more",Moderate,2,Full-time employment,3.3395955352590128,4.3,0.10012318660497845,4,19,Dem,2,43100.0,0.4392,B
+P00309,Midwest,Female,30-49,Associate's degree,White,Independent,"$50,000-$75,000",Very liberal,1,Full-time employment,3.924715273074594,3.9,-0.013301984079492126,4,10,Dem,4,53500.0,0.8276,A
+P00310,West,Male,65+,"Some college, no degree",Asian,Republican,"$100,000 or more",Very conservative,3,Part-time employment,4.8329397360536195,4.9,0.735232286509072,6,8,Rep,1,27100.0,0.0891,B
+P00311,Midwest,Female,65+,Postgraduate,Hispanic,Democrat,"$100,000 or more",Moderate,1,Home-maker,4.463949897375442,4.7,0.19017732529910875,6,13,Dem,3,46900.0,0.5621,B
+P00312,South,Male,65+,"Some college, no degree",White,Independent,"$100,000 or more",Moderate,2,Full-time employment,1.4661453874018908,3.7,0.46798444782602316,7,17,None,1,21900.0,0.0475,A
+P00313,Northeast,Female,30-49,Postgraduate,Other,Republican,"$100,000 or more",Very conservative,2,Full-time employment,2.390504444234158,1.0,-0.21884217547567048,3,17,Rep,1,21800.0,0.0473,A
+P00314,West,Female,18-29,"Some college, no degree",White,Republican,"$50,000-$75,000",Very conservative,2,Retired,1.0910749899255994,3.4,0.09468014863439494,6,11,Rep,2,41100.0,0.3262,B
+P00315,West,Female,65+,College graduate/some postgrad,Other,Republican,"$100,000 or more",Liberal,4,Unemployed,2.1269487257609163,4.5,-0.023847860429100986,5,15,Rep,1,27700.0,0.0956,B
+P00316,South,Female,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Very liberal,1,Part-time employment,4.093647503663869,4.9,0.3014184634480315,7,8,Dem,4,52900.0,0.9074,A
+P00317,Midwest,Male,30-49,Associate's degree,White,Democrat,"$50,000-$75,000",Very liberal,3,Self-employed,1.0922704292058298,2.8,0.029609611945733416,6,14,Dem,3,46000.0,0.5474,B
+P00318,Northeast,Male,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,3,Student,4.4942217707322,5.0,-0.07750718815668647,6,15,Dem,4,55600.0,0.7971,A
+P00319,South,Female,18-29,College graduate/some postgrad,Black,Independent,"$100,000 or more",Moderate,4,Self-employed,4.171185187247483,3.1,0.6431559823884211,6,19,None,5,61000.0,0.8889,A
+P00320,South,Male,18-29,"Some college, no degree",White,Independent,"$100,000 or more",Very liberal,3,Full-time employment,3.462344291245525,3.5,-0.08818294062683507,5,23,Dem,5,60200.0,0.8778,A
+P00321,Midwest,Female,18-29,"Some college, no degree",White,Republican,"$75,000-$100,000",Conservative,More than 4,Retired,1.9155156442555352,4.7,-0.6666666666666666,4,16,Rep,3,49700.0,0.6813,A
+P00322,South,Female,30-49,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,3,Self-employed,4.380921429664679,3.6,0.1658218315026683,4,13,Dem,5,62900.0,0.9809,A
+P00323,West,Male,65+,"Some college, no degree",White,Democrat,"$30,000-$50,000",Liberal,1,Full-time employment,4.070080381548642,5.0,-0.03479301910360241,4,11,Dem,3,50700.0,0.7783,A
+P00324,West,Male,18-29,College graduate/some postgrad,Hispanic,Democrat,"$100,000 or more",Liberal,4,Retired,2.9533049827887963,2.7,0.13908928413149632,7,13,Dem,5,58300.0,0.8481,A
+P00325,South,Male,30-49,"Some college, no degree",White,Democrat,"$100,000 or more",Very liberal,More than 4,Full-time employment,3.858382857365294,4.8,-0.009160165974526112,3,20,Dem,5,65000.0,0.93,A
+P00326,South,Male,18-29,College graduate/some postgrad,Hispanic,Democrat,"$30,000-$50,000",Liberal,3,Part-time employment,5.0,4.7,0.10245301330702983,6,9,Dem,4,54100.0,0.8803,A
+P00327,South,Male,18-29,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Very liberal,3,Full-time employment,4.982702263222159,4.9,0.07662317588981006,5,11,Dem,5,56000.0,0.9188,A
+P00328,South,Male,30-49,"Some college, no degree",White,Independent,"$100,000 or more",Liberal,3,Retired,3.90118222581605,4.3,0.6376669778439368,5,10,Dem,4,55000.0,0.785,A
+P00329,Midwest,Female,30-49,Postgraduate,White,Democrat,"$30,000-$50,000",Very liberal,1,Part-time employment,3.694386355600964,4.1,-0.08191189001117571,5,10,Dem,2,46600.0,0.5851,A
+P00330,South,Male,65+,"Some college, no degree",White,Independent,"$75,000-$100,000",Moderate,2,Full-time employment,3.5872721221298005,3.4,0.02497593225378119,5,18,None,3,46900.0,0.5777,B
+P00331,West,Female,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,2,Part-time employment,5.0,4.4,0.3935395291446167,6,4,Dem,5,58600.0,0.854,A
+P00332,Northeast,Male,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,4,Full-time employment,2.530666765160162,3.8,0.026592408826480656,5,19,None,1,32200.0,0.1592,B
+P00333,Midwest,Female,18-29,"Some college, no degree",White,Independent,"$75,000-$100,000",Conservative,4,Full-time employment,3.016158659120932,4.2,0.0586711340920721,6,13,Rep,2,41000.0,0.3456,A
+P00334,South,Female,65+,Postgraduate,White,Democrat,"$75,000-$100,000",Moderate,1,Part-time employment,2.8816561737832385,4.7,0.001352061242845778,5,20,Dem,3,47400.0,0.5946,A
+P00335,Northeast,Male,18-29,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,4,Retired,3.2391211198335927,3.1,0.07220583261222868,6,21,None,5,59100.0,0.862,B
+P00336,South,Male,30-49,"Some college, no degree",White,Republican,"$75,000-$100,000",Very conservative,More than 4,Full-time employment,3.3361878651271226,3.4,,6,14,Rep,1,34900.0,0.165,B
+P00337,South,Female,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,3,Full-time employment,3.117699266880574,3.4,-0.15290334642785863,3,23,Dem,5,54200.0,0.9345,A
+P00338,South,Female,50-64,Postgraduate,White,Republican,"Less than $30,000",Conservative,1,Retired,1.243009323502824,3.0,0.0945342185182247,6,17,Rep,1,40700.0,0.2246,B
+P00339,South,Male,30-49,Associate's degree,Hispanic,Republican,"$100,000 or more",Very conservative,More than 4,Retired,2.6706832324799015,4.5,,6,12,Rep,1,27100.0,0.0894,B
+P00340,South,Male,50-64,Associate's degree,White,Independent,"$30,000-$50,000",Conservative,2,Unemployed,1.7047729692276903,3.9,0.07394208048865482,6,10,Rep,1,37500.0,0.1599,B
+P00341,South,Male,65+,Postgraduate,White,Democrat,"$75,000-$100,000",Liberal,2,Part-time employment,3.4381274472795496,3.9,0.00977390962868144,6,12,Dem,2,41700.0,0.3685,B
+P00342,West,Male,30-49,"Some college, no degree",Asian,Democrat,"Less than $30,000",Liberal,2,Self-employed,2.8085316401052536,3.5,0.2944940376641361,3,9,Dem,3,50800.0,0.8428,A
+P00343,Northeast,Male,18-29,"Some college, no degree",White,Democrat,"$100,000 or more",Moderate,More than 4,Part-time employment,3.9256794763128346,3.6,0.487350595576205,6,12,Dem,5,57100.0,0.8275,B
+P00344,West,Male,18-29,College graduate/some postgrad,Hispanic,Democrat,"$100,000 or more",Moderate,3,Part-time employment,4.62580150624646,3.3,0.08736677138274011,7,6,Dem,5,57800.0,0.8405,A
+P00345,Northeast,Male,18-29,"Some college, no degree",Asian,Independent,"$75,000-$100,000",Conservative,More than 4,Self-employed,2.532824428270013,3.6,0.20430092557905116,5,10,Rep,2,42800.0,0.4106,B
+P00346,Northeast,Female,30-49,"Some college, no degree",White,Independent,"$30,000-$50,000",Moderate,2,Retired,3.489765689149897,3.3,0.167225808226209,4,19,None,3,48900.0,0.7027,B
+P00347,Midwest,Female,18-29,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,2,Part-time employment,3.160987068246215,3.9,0.46859269517226737,2,8,Dem,5,54100.0,0.933,A
+P00348,Midwest,Female,18-29,Postgraduate,White,Republican,"$100,000 or more",Very conservative,More than 4,Full-time employment,2.459706473920101,4.3,0.14987741960826637,6,22,Rep,3,47100.0,0.5676,B
+P00349,South,Female,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,More than 4,Self-employed,4.605726792320569,3.8,,6,21,None,5,58100.0,0.8458,A
+P00350,Northeast,Male,30-49,"Some college, no degree",Black,Democrat,"$100,000 or more",Conservative,3,Retired,4.039841528437705,3.5,0.4041284567201604,3,19,Dem,3,48200.0,0.6017,A
+P00351,South,Male,30-49,College graduate/some postgrad,Black,Independent,"$100,000 or more",Liberal,4,Full-time employment,2.909154580634805,2.7,0.21554661272034514,5,11,Dem,3,44500.0,0.4832,A
+P00352,West,Male,50-64,Postgraduate,Hispanic,Democrat,"$100,000 or more",Liberal,2,Part-time employment,4.123210967836189,3.2,-0.19834055431892447,4,10,Dem,3,45200.0,0.5076,B
+P00353,South,Male,30-49,Postgraduate,White,Independent,"$100,000 or more",Conservative,4,Full-time employment,2.670497579102749,2.7,0.04739435629382111,6,10,Rep,3,47100.0,0.5686,B
+P00354,South,Female,65+,College graduate/some postgrad,Hispanic,Independent,"$30,000-$50,000",Very liberal,1,Full-time employment,4.5262483685324995,4.9,-0.1824204246825774,7,13,Dem,3,50500.0,0.7714,A
+P00355,Pacific,Female,65+,Postgraduate,White,Independent,"$50,000-$75,000",Moderate,2,Retired,4.818782210281713,3.3,0.09208594339972588,5,10,None,2,43100.0,0.4141,B
+P00356,West,Male,65+,Postgraduate,Asian,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,3.7216278998788166,3.5,0.39803948821524604,5,8,Dem,2,41000.0,0.3253,B
+P00357,Midwest,Female,30-49,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,1,Unemployed,4.086537719165285,4.8,0.06963815027805334,1,16,Dem,3,49300.0,0.7194,B
+P00358,Midwest,Male,65+,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Conservative,1,Full-time employment,2.458378076225198,2.7,-0.00839077670600006,5,20,Rep,1,35700.0,0.1527,A
+P00359,Midwest,Female,65+,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,2,Retired,3.513923239458577,4.5,,6,9,Dem,2,44700.0,0.4794,B
+P00360,West,Female,30-49,Postgraduate,Black,Democrat,"$50,000-$75,000",Moderate,1,Full-time employment,4.613228845535168,4.7,0.3539843182284814,5,20,Dem,4,54600.0,0.8534,B
+P00361,Midwest,Female,30-49,High school graduate,White,Republican,"Less than $30,000",Conservative,3,Self-employed,1.0309074189355742,2.3,0.058143103932962965,2,15,Rep,2,46600.0,0.6164,A
+P00362,South,Female,18-29,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,2,Part-time employment,3.5887777581486207,4.2,0.1728654341567436,6,15,Dem,4,53900.0,0.7608,A
+P00363,South,Female,18-29,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Liberal,4,Student,3.748417869028154,3.5,,4,14,Dem,5,57400.0,0.9385,A
+P00364,Midwest,Female,30-49,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Liberal,3,Full-time employment,3.6951102031722254,3.6,0.11637506271697766,7,7,Dem,2,44600.0,0.4858,A
+P00365,South,Male,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,2,Self-employed,4.489002438731991,4.2,0.6712182932303787,7,5,Dem,5,54300.0,0.9369,A
+P00366,Pacific,Male,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,1,Self-employed,4.689457690330159,3.4,0.33101598789309883,6,4,Dem,5,54500.0,0.9396,A
+P00367,Northeast,Female,65+,Postgraduate,White,Independent,"$50,000-$75,000",Liberal,1,Full-time employment,3.6259959364457948,3.0,0.11857134890883884,4,17,Dem,2,41800.0,0.3569,B
+P00368,Northeast,Female,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Very conservative,More than 4,Part-time employment,5.0,4.4,-0.014739250852536148,5,15,Rep,4,55700.0,0.8008,A
+P00369,Midwest,Female,30-49,"Some college, no degree",Hispanic,Independent,"Less than $30,000",Very liberal,1,Full-time employment,4.11177054429376,4.0,0.2435431102757112,6,9,Dem,4,52700.0,0.9021,A
+P00370,West,Male,30-49,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Conservative,3,Unemployed,4.121984602594469,3.4,0.32104803811038773,6,10,Rep,2,43200.0,0.417,A
+P00371,West,Female,65+,Postgraduate,White,Democrat,"$30,000-$50,000",Liberal,4,Retired,4.783935167994836,4.1,0.54513170664332,4,5,Dem,3,48300.0,0.6738,A
+P00372,Northeast,Male,18-29,High school graduate,White,Democrat,"$30,000-$50,000",Liberal,3,Self-employed,2.2493721798680673,3.2,-0.24936871504939648,4,12,Dem,4,54400.0,0.8873,A
+P00373,Northeast,Female,18-29,"Some college, no degree",White,Democrat,"$75,000-$100,000",Very liberal,4,Student,4.610963000165431,3.5,0.5345441017276854,3,19,Dem,4,51100.0,0.7262,A
+P00374,South,Male,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Very liberal,3,Full-time employment,4.536019701004353,3.3,0.07384673926547285,5,9,Dem,3,49400.0,0.7225,A
+P00375,Northeast,Female,18-29,"Some college, no degree",White,Democrat,"$50,000-$75,000",Very liberal,1,Full-time employment,3.9570560426557706,4.6,-0.16998766367337975,4,10,Dem,4,51200.0,0.757,A
+P00376,South,Male,30-49,"Some college, no degree",Hispanic,Republican,"$50,000-$75,000",Conservative,2,Full-time employment,3.299148852945171,4.1,-0.4571726544596391,6,12,Rep,2,45000.0,0.4978,A
+P00377,West,Male,50-64,Postgraduate,Hispanic,Independent,"$100,000 or more",Liberal,3,Self-employed,3.0622716971502997,4.1,0.387795464332983,5,10,Dem,2,42100.0,0.4059,B
+P00378,South,Male,50-64,High school graduate,White,Republican,"$30,000-$50,000",Moderate,2,Full-time employment,3.141024821791689,4.4,0.20586752945149128,4,12,Rep,2,41900.0,0.3348,B
+P00379,South,Male,30-49,"Some college, no degree",White,Independent,"$50,000-$75,000",Very conservative,3,Full-time employment,1.4021499536079522,4.3,0.14707729805820235,5,12,Rep,2,42200.0,0.3732,A
+P00380,West,Male,18-29,College graduate/some postgrad,Asian,Democrat,"$100,000 or more",Moderate,4,Unemployed,4.320628574260249,2.7,-0.0874550937284953,6,14,Dem,5,58600.0,0.8529,A
+P00381,West,Male,30-49,High school graduate,White,Democrat,"$30,000-$50,000",Very liberal,1,Student,4.399845072735216,4.7,-0.2070289767397397,7,18,Dem,5,55700.0,0.9124,A
+P00382,Northeast,Female,30-49,Postgraduate,Hispanic,Republican,"$50,000-$75,000",Conservative,More than 4,Full-time employment,3.7599802652259364,4.0,-0.0046576523928683776,6,6,Rep,3,48200.0,0.6448,B
+P00383,Pacific,Female,18-29,College graduate/some postgrad,White,Republican,"Less than $30,000",Very conservative,3,Unemployed,3.9131981241987885,3.7,0.07704901558601811,4,10,Rep,3,50500.0,0.8329,A
+P00384,West,Male,65+,"Some college, no degree",White,Republican,"$75,000-$100,000",Very conservative,2,Self-employed,3.0595776827666494,4.5,,3,10,Rep,1,36200.0,0.1959,B
+P00385,West,Female,50-64,Postgraduate,White,Democrat,"$100,000 or more",Conservative,2,Retired,3.8327727055520264,4.3,-0.05095224576064464,5,7,Dem,3,48500.0,0.6122,A
+P00386,Northeast,Male,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,2,Retired,4.842264494153103,4.5,0.23383837263762206,6,14,Dem,4,51900.0,0.7107,A
+P00387,South,Male,50-64,"Some college, no degree",White,Independent,"$30,000-$50,000",Moderate,1,Full-time employment,3.6691270125608733,4.6,0.13899669661439665,6,20,None,4,51500.0,0.8075,A
+P00388,Midwest,Male,30-49,Less than high school,White,Republican,"$100,000 or more",Moderate,2,Full-time employment,3.8569212195822127,4.3,0.10159432091414551,6,19,Rep,4,54200.0,0.768,B
+P00389,Northeast,Female,18-29,College graduate/some postgrad,Hispanic,Democrat,"$30,000-$50,000",Very liberal,3,Unemployed,5.0,4.3,0.6500912242080819,4,6,Dem,5,63500.0,0.9832,A
+P00390,Midwest,Male,50-64,Associate's degree,White,Republican,"$75,000-$100,000",Moderate,1,Unemployed,3.782458782891761,4.6,0.045773386393079166,6,13,Rep,1,35700.0,0.1827,B
+P00391,Northeast,Male,50-64,High school graduate,White,Democrat,"Less than $30,000",Conservative,1,Unemployed,5.0,5.0,-0.03589466298531535,6,15,Dem,4,52900.0,0.909,A
+P00392,South,Male,30-49,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Very liberal,1,Part-time employment,4.169378135725386,3.8,-0.1731673031146814,6,9,Dem,5,55500.0,0.8744,A
+P00393,South,Male,30-49,"Some college, no degree",Black,Independent,"$100,000 or more",Conservative,More than 4,Part-time employment,4.132819867492021,3.5,-0.04105928529962099,3,12,Rep,4,51400.0,0.6969,A
+P00394,South,Female,50-64,College graduate/some postgrad,Hispanic,Independent,"$100,000 or more",Liberal,4,Full-time employment,1.581386525489469,1.6,-0.0639156289984948,6,6,Dem,3,46300.0,0.5404,A
+P00395,West,Male,18-29,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Liberal,3,Full-time employment,4.140633557001131,4.5,0.1124451834593514,6,7,Dem,3,49300.0,0.6675,A
+P00396,South,Male,18-29,High school graduate,White,Democrat,"$75,000-$100,000",Very liberal,More than 4,Self-employed,3.962838827709027,3.7,0.28966284910032153,6,6,Dem,5,57300.0,0.8781,A
+P00397,South,Female,18-29,"Some college, no degree",Hispanic,Independent,"$100,000 or more",Liberal,More than 4,Full-time employment,3.645391877539748,3.8,0.09190544638692542,1,19,Dem,3,45200.0,0.5054,B
+P00398,Northeast,Male,30-49,College graduate/some postgrad,Hispanic,Republican,"$50,000-$75,000",Liberal,3,Full-time employment,2.8094388772798826,4.6,-0.006878411463602397,6,10,Rep,2,40600.0,0.3075,B
+P00399,Northeast,Female,65+,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Moderate,1,Part-time employment,2.914778753066047,3.3,0.11978388400397869,4,13,None,1,35200.0,0.1723,B
+P00400,South,Female,30-49,College graduate/some postgrad,White,Something else,"$100,000 or more",Moderate,More than 4,Retired,4.773406897136988,3.6,-0.012996985965804201,6,10,None,3,49000.0,0.6279,A
+P00401,Northeast,Female,50-64,High school graduate,White,Republican,"$50,000-$75,000",Conservative,4,Full-time employment,3.655811661982627,4.2,-0.1309578904358983,2,15,Rep,3,48500.0,0.6576,A
+P00402,West,Male,18-29,"Some college, no degree",Hispanic,Independent,"$30,000-$50,000",Moderate,2,Unemployed,4.489229370158375,4.2,0.15833492844649769,4,9,None,4,51800.0,0.8177,A
+P00403,West,Male,50-64,Postgraduate,Hispanic,Democrat,"$100,000 or more",Very liberal,2,Full-time employment,4.501223890345256,4.4,,7,10,Dem,3,47700.0,0.5872,A
+P00404,South,Male,30-49,Postgraduate,White,Democrat,"$75,000-$100,000",Liberal,More than 4,Part-time employment,4.771897271815219,2.3,0.0015675490234599114,6,10,Dem,5,56100.0,0.857,A
+P00405,South,Female,50-64,College graduate/some postgrad,Asian,Republican,"$75,000-$100,000",Very conservative,More than 4,Part-time employment,3.9594502940070693,3.8,0.04195703410200291,6,11,Rep,3,46500.0,0.5597,A
+P00406,South,Male,50-64,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,3,Full-time employment,5.0,3.2,,5,6,Dem,2,42200.0,0.4102,A
+P00407,Northeast,Male,18-29,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Moderate,More than 4,Full-time employment,2.5418558563788896,2.5,,5,14,Dem,5,57500.0,0.9397,B
+P00408,Midwest,Male,30-49,"Some college, no degree",White,Democrat,"$100,000 or more",Liberal,2,Self-employed,4.3692244077448015,4.4,0.4996930277169268,4,7,Dem,4,50200.0,0.6624,A
+P00409,South,Female,50-64,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Liberal,2,Full-time employment,3.64033037390438,3.4,0.4934455585748996,5,13,Dem,2,43400.0,0.4351,B
+P00410,West,Male,65+,Postgraduate,Asian,Democrat,"$50,000-$75,000",Liberal,3,Full-time employment,5.0,4.8,0.15617801305148285,7,9,Dem,3,50100.0,0.7169,A
+P00411,Pacific,Female,65+,Postgraduate,White,Democrat,"$50,000-$75,000",Liberal,2,Retired,4.220137616929863,3.7,0.06344732960319192,6,18,Dem,3,50300.0,0.7271,A
+P00412,South,Female,30-49,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,2,Self-employed,4.343506146980014,3.1,-0.06272844429145995,5,17,Dem,5,60500.0,0.9891,A
+P00413,South,Male,50-64,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,3,Part-time employment,2.855976605478934,3.9,0.11960130582977577,7,17,Dem,3,50900.0,0.8487,B
+P00414,South,Female,65+,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,2,Part-time employment,5.0,4.8,0.1004221743459552,6,10,Dem,3,48600.0,0.7422,A
+P00415,West,Female,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Conservative,More than 4,Full-time employment,3.438030634396076,4.3,0.06770761728268342,5,12,Dem,3,50100.0,0.6589,A
+P00416,South,Male,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,2,Full-time employment,4.809789617397265,4.8,0.09865379125753586,6,12,Dem,4,50700.0,0.6757,A
+P00417,South,Female,18-29,College graduate/some postgrad,Other,Democrat,"$100,000 or more",Liberal,4,Full-time employment,4.3392535091519315,3.4,0.4260830841603079,4,10,Dem,5,62400.0,0.9049,A
+P00418,South,Female,18-29,College graduate/some postgrad,Black,Independent,"$30,000-$50,000",Conservative,3,Self-employed,4.14662307746741,4.4,0.49933833467755034,4,10,Rep,4,52200.0,0.8302,A
+P00419,Northeast,Male,30-49,Postgraduate,White,Independent,"$100,000 or more",Moderate,4,Full-time employment,4.162631700997183,3.7,0.029711941091889123,5,13,None,3,48400.0,0.6081,A
+P00420,Northeast,Male,18-29,College graduate/some postgrad,Asian,Independent,"$100,000 or more",Liberal,4,Retired,3.1503922908521216,2.4,0.07751817965940455,7,14,Dem,5,60800.0,0.8856,A
+P00421,West,Male,50-64,High school graduate,White,Something else,"$100,000 or more",Moderate,3,Self-employed,3.4222196907755977,4.1,0.17684644106963443,7,18,None,1,32600.0,0.1667,A
+P00422,Midwest,Male,65+,"Some college, no degree",White,Independent,"$50,000-$75,000",Moderate,1,Full-time employment,3.568623744251658,3.8,0.10218097846447567,3,10,None,2,41000.0,0.3229,B
+P00423,South,Female,30-49,Associate's degree,White,Independent,"$30,000-$50,000",Liberal,3,Full-time employment,3.53847148368489,4.3,,5,12,Dem,3,48300.0,0.6747,A
+P00424,West,Male,50-64,Postgraduate,White,Democrat,"$100,000 or more",Very liberal,2,Unemployed,4.2235380779711775,3.0,-0.0031990507169852057,7,22,Dem,3,46000.0,0.534,B
+P00425,South,Male,30-49,Postgraduate,Hispanic,Democrat,"$100,000 or more",Moderate,4,Full-time employment,2.694904612329623,4.5,0.3310698647895634,6,7,Dem,2,38400.0,0.2978,A
+P00426,South,Female,50-64,Associate's degree,White,Independent,"$75,000-$100,000",Liberal,2,Full-time employment,3.677457264746329,2.0,0.24414543411077333,6,8,Dem,4,53100.0,0.7874,A
+P00427,West,Female,65+,"Some college, no degree",White,Independent,"Less than $30,000",Moderate,2,Full-time employment,4.364746238896581,3.5,0.23715450159945015,5,9,None,2,44900.0,0.4942,A
+P00428,South,Female,18-29,"Some college, no degree",White,Republican,"$30,000-$50,000",Conservative,3,Self-employed,4.313762186986706,3.4,0.6072750549950477,4,9,Rep,3,49100.0,0.7101,B
+P00429,Midwest,Female,30-49,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,3,Full-time employment,4.187897044230745,4.2,-0.014432224857718808,5,12,Dem,5,56000.0,0.9609,A
+P00430,South,Male,50-64,Postgraduate,White,Independent,"$75,000-$100,000",Conservative,More than 4,Full-time employment,1.8613814734804055,3.7,0.12760221144923622,7,15,Rep,2,42700.0,0.4075,A
+P00431,Pacific,Female,65+,Postgraduate,White,Republican,"$100,000 or more",Moderate,2,Self-employed,4.761824210467037,2.9,0.3750075959157002,6,14,Rep,3,44800.0,0.494,B
+P00432,West,Female,18-29,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Liberal,2,Retired,2.48649149949213,3.5,0.025449949630060115,5,10,Dem,2,40200.0,0.3162,A
+P00433,South,Female,18-29,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Very liberal,4,Unemployed,3.3207922010677056,4.6,,6,22,Dem,4,52400.0,0.7657,B
+P00434,South,Female,65+,Postgraduate,White,Democrat,"$100,000 or more",Moderate,2,Part-time employment,5.0,5.0,0.03605553202033479,6,10,Dem,3,46400.0,0.5437,A
+P00435,West,Male,30-49,Postgraduate,Other,Democrat,"$100,000 or more",Very liberal,4,Retired,5.0,2.4,0.09215677677024067,6,19,Dem,4,53000.0,0.7387,A
+P00436,West,Male,30-49,"Some college, no degree",Asian,Independent,"Less than $30,000",Conservative,3,Home-maker,2.813517838403488,2.9,0.13409835844484067,7,18,Rep,1,43800.0,0.4104,B
+P00437,Pacific,Male,30-49,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Moderate,3,Home-maker,4.477352237190456,3.3,0.29303150447476023,1,24,None,3,49200.0,0.6846,A
+P00438,South,Male,18-29,Associate's degree,White,Democrat,"$50,000-$75,000",Very liberal,1,Student,4.978361370201463,3.7,0.19644572550442305,4,10,Dem,5,60600.0,0.9463,A
+P00439,South,Female,65+,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Moderate,1,Part-time employment,3.5809690441975697,4.1,-0.472855682670523,6,15,None,2,42800.0,0.3807,A
+P00440,Midwest,Male,50-64,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Liberal,More than 4,Retired,4.4225718931478335,3.8,,5,11,Dem,2,44000.0,0.4582,B
+P00441,South,Female,50-64,Postgraduate,White,Independent,"$100,000 or more",Very liberal,2,Full-time employment,4.16963852644632,4.4,-0.0582266002698472,2,10,Dem,2,39700.0,0.3349,A
+P00442,Midwest,Male,18-29,College graduate/some postgrad,Other,Democrat,"$75,000-$100,000",Very conservative,More than 4,Unemployed,3.3411574583904424,4.6,0.07235686525204746,3,10,Dem,4,54700.0,0.8252,A
+P00443,South,Female,65+,Postgraduate,White,Democrat,"$30,000-$50,000",Liberal,1,Full-time employment,3.261158725835211,4.9,0.08439640427221377,5,16,Dem,1,39600.0,0.2347,A
+P00444,West,Male,30-49,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Moderate,2,Full-time employment,3.730582888978314,4.2,0.20250749461227466,3,18,None,4,52500.0,0.839,A
+P00445,South,Female,18-29,"Some college, no degree",White,Democrat,"$75,000-$100,000",Moderate,2,Full-time employment,3.6161363484068882,4.7,-0.006695062344841657,5,9,Dem,4,52300.0,0.7643,A
+P00446,Midwest,Female,50-64,Associate's degree,White,Democrat,"$100,000 or more",Liberal,2,Full-time employment,4.215991255776497,3.5,0.010207952741338774,4,15,Dem,3,46500.0,0.5493,A
+P00447,South,Female,50-64,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Moderate,1,Part-time employment,2.6289080969693015,3.4,0.16644377185326428,1,6,None,2,44400.0,0.4732,B
+P00448,South,Female,30-49,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Conservative,More than 4,Full-time employment,3.8916001342477595,4.6,-0.07341824999183523,6,8,Rep,2,43900.0,0.4516,A
+P00449,West,Male,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,2,Full-time employment,5.0,3.4,0.1778184254239956,6,10,Rep,4,51600.0,0.7005,B
+P00450,South,Female,50-64,Postgraduate,White,Something else,"$75,000-$100,000",Conservative,1,Part-time employment,3.0807619431125763,3.4,,3,12,Rep,1,32000.0,0.1103,B
+P00451,Midwest,Male,50-64,"Some college, no degree",White,Independent,"$50,000-$75,000",Moderate,1,Retired,2.6991052685161847,3.6,0.074746171967071,4,10,None,1,35700.0,0.1532,B
+P00452,West,Female,65+,Postgraduate,White,Democrat,"Less than $30,000",Liberal,1,Unemployed,5.0,4.6,0.1818290121175546,4,10,Dem,5,55700.0,0.957,B
+P00453,Northeast,Male,30-49,Postgraduate,White,Republican,"$50,000-$75,000",Liberal,2,Full-time employment,3.0102680702793534,3.5,0.12869460310027162,5,17,Rep,2,43900.0,0.4498,B
+P00454,South,Female,65+,High school graduate,Asian,Democrat,"$50,000-$75,000",Moderate,1,Full-time employment,3.7558241427161727,3.5,0.3148127267112101,5,16,Dem,1,34900.0,0.1347,B
+P00455,West,Female,30-49,College graduate/some postgrad,Asian,Independent,"$50,000-$75,000",Liberal,More than 4,Home-maker,4.818849121214023,4.5,0.16616187247541098,5,12,Dem,5,62500.0,0.9619,A
+P00456,Northeast,Male,30-49,College graduate/some postgrad,Hispanic,Republican,"$100,000 or more",Moderate,1,Unemployed,2.4940758340300007,2.5,0.09472804861850385,7,10,Rep,1,28900.0,0.1103,B
+P00457,South,Male,65+,Associate's degree,Black,Independent,"$50,000-$75,000",Moderate,1,Full-time employment,3.4199842350510625,3.5,0.4653529515007299,6,11,None,4,51600.0,0.7722,A
+P00458,South,Female,30-49,College graduate/some postgrad,Asian,Independent,"Less than $30,000",Liberal,2,Self-employed,4.39359532400677,4.5,0.030150971148889608,5,19,Dem,5,58200.0,0.9786,A
+P00459,South,Male,30-49,"Some college, no degree",White,Republican,"$30,000-$50,000",Conservative,More than 4,Unemployed,4.0445892728422,4.3,0.09467204045692133,6,9,Rep,3,50100.0,0.7543,B
+P00460,South,Female,50-64,College graduate/some postgrad,Asian,Democrat,"$100,000 or more",Very liberal,2,Part-time employment,4.947251689895912,2.5,0.1565300751669667,7,9,Dem,4,52500.0,0.726,A
+P00461,South,Male,65+,Less than high school,White,Republican,"$100,000 or more",Very conservative,2,Full-time employment,4.226705177584564,4.5,0.007798360529310919,7,10,Rep,1,30100.0,0.1273,B
+P00462,South,Male,18-29,"Some college, no degree",Asian,Something else,"$30,000-$50,000",Moderate,More than 4,Self-employed,3.382339099074203,4.6,-0.1682198730174193,6,10,None,5,54800.0,0.8961,B
+P00463,South,Male,30-49,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Conservative,4,Self-employed,3.4994695214233253,3.0,0.17925944655655446,5,12,Rep,2,42800.0,0.3984,B
+P00464,South,Female,30-49,Less than high school,Other,Republican,"$50,000-$75,000",Moderate,4,Full-time employment,2.7787021440109294,2.5,0.24332038809870837,6,13,Rep,3,47300.0,0.6049,B
+P00465,South,Male,65+,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Moderate,3,Part-time employment,2.487266288810047,4.3,-0.06628766988837628,6,10,None,1,39000.0,0.2481,B
+P00466,South,Male,18-29,"Some college, no degree",Asian,Democrat,"$100,000 or more",Liberal,2,Full-time employment,2.39881030422112,3.1,0.13887172125031677,3,21,Dem,2,41200.0,0.3798,A
+P00467,Midwest,Male,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,2,Full-time employment,4.572798190433785,3.7,0.6071814086121852,6,4,None,2,43100.0,0.4386,A
+P00468,Pacific,Male,30-49,"Some college, no degree",White,Democrat,"Less than $30,000",Moderate,4,Part-time employment,3.555882265563881,4.8,0.23654776787477746,5,13,Dem,4,51900.0,0.8811,A
+P00469,Midwest,Male,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Moderate,More than 4,Full-time employment,5.0,5.0,0.520800754083996,6,11,Dem,4,52800.0,0.9065,A
+P00470,South,Female,50-64,"Some college, no degree",White,Democrat,"$30,000-$50,000",Very liberal,1,Full-time employment,3.449389595451808,2.0,0.7594926088546801,2,19,Dem,3,49300.0,0.7208,B
+P00471,South,Male,65+,"Some college, no degree",White,Democrat,"$100,000 or more",Moderate,1,Full-time employment,5.0,4.4,0.13874056256148307,6,4,Dem,2,42900.0,0.4321,B
+P00472,South,Female,50-64,Associate's degree,White,Independent,"$75,000-$100,000",Liberal,3,Student,3.6405927003427094,3.3,-0.2261318134439971,3,15,Dem,5,56400.0,0.8625,A
+P00473,South,Female,18-29,Postgraduate,White,Republican,"$50,000-$75,000",Moderate,More than 4,Full-time employment,3.903270600450211,3.6,-0.23980101516846536,6,20,Rep,3,45800.0,0.538,A
+P00474,South,Female,30-49,"Some college, no degree",Black,Democrat,"Less than $30,000",Moderate,1,Part-time employment,3.7948460517160325,4.1,-0.4631758714410316,4,17,Dem,4,53600.0,0.9237,A
+P00475,Northeast,Female,50-64,College graduate/some postgrad,Black,Republican,"$75,000-$100,000",Conservative,2,Part-time employment,2.8074421869533075,4.8,0.3952256806004687,3,23,Rep,1,29300.0,0.0741,B
+P00476,Midwest,Male,50-64,High school graduate,White,Independent,"$100,000 or more",Moderate,4,Full-time employment,4.689441979705659,3.4,0.5700189257980993,6,13,None,4,53100.0,0.7399,A
+P00477,South,Female,30-49,"Some college, no degree",White,Something else,"$50,000-$75,000",Liberal,More than 4,Full-time employment,4.2139046526135,4.8,0.5951834091231619,7,14,Dem,5,60300.0,0.9438,A
+P00478,Pacific,Female,30-49,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Liberal,4,Full-time employment,4.1999475699469215,2.7,,6,11,Dem,5,56200.0,0.8866,A
+P00479,South,Female,18-29,Less than high school,White,Democrat,"$50,000-$75,000",Very liberal,More than 4,Student,3.2011179360316593,2.6,-0.03980133125655138,3,10,Dem,4,52300.0,0.7933,A
+P00480,South,Male,18-29,Postgraduate,Black,Republican,"$100,000 or more",Conservative,4,Part-time employment,4.039440733745358,4.7,0.12396955786322074,5,7,Rep,2,41400.0,0.3867,B
+P00481,South,Female,30-49,"Some college, no degree",White,Republican,"$50,000-$75,000",Conservative,More than 4,Full-time employment,3.7601471451746837,3.3,,6,10,Rep,3,47900.0,0.6306,A
+P00482,South,Male,50-64,High school graduate,White,Republican,"$30,000-$50,000",Conservative,3,Retired,3.4244737131910172,2.9,0.22433495732834288,4,8,Rep,2,45000.0,0.4973,B
+P00483,Midwest,Female,30-49,"Some college, no degree",Other,Republican,"$50,000-$75,000",Conservative,4,Full-time employment,3.3136367434416965,2.7,-0.05355009088941247,3,11,Rep,1,38400.0,0.2281,A
+P00484,South,Male,18-29,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,4,Full-time employment,4.03921385005825,4.0,-0.1073390729849459,5,18,Dem,5,57400.0,0.8333,A
+P00485,West,Male,30-49,College graduate/some postgrad,Hispanic,Independent,"$100,000 or more",Very liberal,3,Full-time employment,3.945285160617367,4.0,0.6684985805610355,5,15,Dem,5,56800.0,0.8212,A
+P00486,South,Female,50-64,Postgraduate,White,Republican,"$50,000-$75,000",Conservative,1,Full-time employment,3.1467625196139433,4.4,,6,10,Rep,1,37000.0,0.1857,A
+P00487,South,Female,30-49,College graduate/some postgrad,Hispanic,Democrat,"$100,000 or more",Very liberal,3,Full-time employment,3.9636210025768555,2.4,0.005051103050966423,4,14,Dem,5,57200.0,0.8301,A
+P00488,West,Female,30-49,"Some college, no degree",Asian,Independent,"Less than $30,000",Liberal,2,Student,4.782739858150622,4.9,0.032638710374325475,5,6,Dem,4,53100.0,0.9132,A
+P00489,West,Male,50-64,"Some college, no degree",White,Independent,"Less than $30,000",Liberal,1,Full-time employment,3.463665428953754,4.5,0.18491402796651596,1,18,Dem,4,53600.0,0.9233,A
+P00490,South,Female,30-49,Less than high school,White,Republican,"$50,000-$75,000",Very conservative,More than 4,Full-time employment,1.0583872540304449,3.2,0.3683462342789601,4,17,Rep,1,32500.0,0.0907,B
+P00491,Midwest,Female,50-64,College graduate/some postgrad,White,Republican,"$75,000-$100,000",Very conservative,3,Part-time employment,3.9093866083347466,4.0,0.1573667507250456,5,7,Rep,2,43700.0,0.4483,B
+P00492,West,Male,65+,Postgraduate,Hispanic,Independent,"$75,000-$100,000",Liberal,1,Retired,3.3573571262261472,4.7,0.07311578203556617,4,17,Dem,3,44800.0,0.4929,B
+P00493,Midwest,Male,65+,High school graduate,Asian,Democrat,"Less than $30,000",Liberal,1,Part-time employment,3.2030405254282774,3.2,,6,8,Dem,1,42100.0,0.3,B
+P00494,West,Male,50-64,Postgraduate,Asian,Democrat,"$50,000-$75,000",Very liberal,2,Part-time employment,4.736105019799713,4.8,0.04901595886218044,6,16,Dem,3,47700.0,0.6213,A
+P00495,South,Male,30-49,Associate's degree,White,Independent,"Less than $30,000",Very conservative,1,Full-time employment,2.49679887672832,4.0,0.04699662475964241,4,10,Rep,1,43100.0,0.3646,B
+P00496,Pacific,Female,50-64,"Some college, no degree",Other,Independent,"$75,000-$100,000",Moderate,3,Full-time employment,2.8198033321898204,4.0,0.1595574375792853,7,4,None,3,47600.0,0.603,B
+P00497,Pacific,Female,18-29,Associate's degree,Other,Republican,"$100,000 or more",Liberal,4,Self-employed,3.9273367669629886,4.7,0.054352542490105744,6,9,Rep,3,44600.0,0.486,A
+P00498,South,Female,30-49,Less than high school,White,Republican,"Less than $30,000",Liberal,3,Full-time employment,3.798672921646072,3.7,,3,19,Rep,2,47600.0,0.6831,A
+P00499,South,Male,50-64,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,2,Retired,4.4425441861268835,3.8,-0.13178090102620618,4,7,Dem,4,51600.0,0.8108,B
+P00500,South,Male,30-49,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Very liberal,1,Full-time employment,4.221877784523503,4.0,0.05055605428056491,4,11,Dem,5,66800.0,0.9708,A
+P00501,South,Female,50-64,"Some college, no degree",White,Democrat,"$50,000-$75,000",Moderate,2,Retired,4.111976109164109,3.8,0.003436919118000036,5,8,Dem,3,49000.0,0.6773,A
+P00502,South,Male,18-29,"Some college, no degree",White,Something else,"$100,000 or more",Moderate,2,Part-time employment,3.597956790032687,3.3,0.029103110749391467,7,17,None,5,64000.0,0.9213,A
+P00503,Midwest,Male,50-64,High school graduate,White,Democrat,"$50,000-$75,000",Moderate,3,Full-time employment,2.1932140308689085,3.9,0.051551877317463204,6,11,Dem,2,44100.0,0.4588,B
+P00504,West,Female,30-49,"Some college, no degree",Other,Democrat,"$30,000-$50,000",Liberal,3,Full-time employment,3.9478090819891967,2.9,-0.15127604575361536,5,14,Dem,3,46900.0,0.6037,A
+P00505,Northeast,Female,18-29,High school graduate,White,Independent,"$75,000-$100,000",Very conservative,3,Full-time employment,1.776847200989498,2.2,0.04488367543834343,3,21,Rep,1,37000.0,0.2174,B
+P00506,West,Male,50-64,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,2,Home-maker,2.0448593847203385,4.5,0.2547882740257085,4,15,Dem,1,39100.0,0.2519,B
+P00507,Pacific,Female,30-49,"Some college, no degree",White,Democrat,"$100,000 or more",Liberal,More than 4,Full-time employment,2.8632199271451695,3.9,0.10779858647239546,6,14,Dem,3,47000.0,0.5629,A
+P00508,South,Female,30-49,High school graduate,White,Independent,"$30,000-$50,000",Conservative,2,Self-employed,5.0,4.9,-0.25753426168572985,4,13,Rep,2,43700.0,0.4308,B
+P00509,Northeast,Male,50-64,College graduate/some postgrad,Black,Democrat,"$50,000-$75,000",Moderate,2,Full-time employment,4.3007556762380705,4.4,0.30179621733891077,6,8,Dem,3,46600.0,0.5716,A
+P00510,West,Male,30-49,"Some college, no degree",Asian,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,4.9588136309765165,4.9,,6,6,Dem,5,63900.0,0.9701,A
+P00511,South,Male,18-29,High school graduate,White,Democrat,"$30,000-$50,000",Moderate,2,Unemployed,4.191507047258918,3.6,0.06566070817641223,5,12,Dem,5,56200.0,0.9213,A
+P00512,Northeast,Male,30-49,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Moderate,2,Self-employed,3.0558918055106807,4.0,0.09475312443747992,5,12,Dem,4,52000.0,0.7541,A
+P00513,West,Male,18-29,Associate's degree,White,Republican,"$100,000 or more",Very conservative,4,Student,3.443163983017579,2.5,,6,9,Rep,4,56200.0,0.8097,A
+P00514,West,Male,30-49,College graduate/some postgrad,Black,Democrat,"$50,000-$75,000",Moderate,1,Full-time employment,2.1152466313263125,2.7,0.2728832416060694,5,17,Dem,2,40700.0,0.3133,B
+P00515,Midwest,Male,50-64,"Some college, no degree",White,Independent,"Less than $30,000",Conservative,2,Unemployed,1.5841769155291434,3.1,0.0081299542253804,7,15,Rep,1,43400.0,0.3851,B
+P00516,South,Male,65+,Associate's degree,White,Republican,"$75,000-$100,000",Conservative,More than 4,Part-time employment,3.061842584683471,4.1,0.05750848696756939,5,4,Rep,1,32800.0,0.123,B
+P00517,Midwest,Female,50-64,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Liberal,2,Retired,5.0,3.7,0.07596148687621582,2,15,Dem,4,52200.0,0.8292,A
+P00518,West,Female,50-64,"Some college, no degree",Other,Democrat,"$100,000 or more",Moderate,1,Full-time employment,3.5100521794555437,3.8,-0.06244431047626729,5,11,Dem,2,42900.0,0.4309,B
+P00519,South,Male,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,3,Unemployed,3.4215111867672707,3.9,-0.14519295385887607,3,13,Dem,4,53400.0,0.9205,A
+P00520,South,Female,65+,Postgraduate,White,Independent,"$50,000-$75,000",Moderate,4,Part-time employment,3.8194937169241823,4.1,,5,20,None,3,49200.0,0.6836,B
+P00521,West,Female,30-49,High school graduate,Asian,Independent,"$100,000 or more",Liberal,2,Full-time employment,4.172109301115729,4.0,0.2662846782454572,2,5,Dem,5,61700.0,0.8967,B
+P00522,West,Female,18-29,Postgraduate,Hispanic,Republican,"Less than $30,000",Liberal,1,Unemployed,2.0548309745213884,3.5,0.24269071672622222,6,11,Rep,2,47000.0,0.6385,A
+P00523,Northeast,Male,18-29,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,More than 4,Part-time employment,4.639658828070235,4.0,0.06807690619883923,7,11,Dem,5,64700.0,0.9274,A
+P00524,South,Male,50-64,"Some college, no degree",White,Republican,"$30,000-$50,000",Conservative,2,Full-time employment,2.0764066163134163,2.7,0.4651633721721361,3,6,Rep,1,35400.0,0.1087,A
+P00525,South,Female,18-29,College graduate/some postgrad,Black,Democrat,"$50,000-$75,000",Very liberal,1,Home-maker,4.619091435476712,5.0,-0.08035766061448373,6,11,Dem,2,44400.0,0.473,B
+P00526,Northeast,Female,30-49,"Some college, no degree",White,Democrat,"$50,000-$75,000",Very liberal,2,Full-time employment,4.91667998964032,4.3,-0.006405964565400064,5,13,Dem,5,60000.0,0.9405,A
+P00527,Midwest,Male,30-49,"Some college, no degree",Black,Republican,"$100,000 or more",Moderate,3,Home-maker,3.6667259323641774,4.6,0.3782464852906939,6,15,Rep,4,54800.0,0.7803,A
+P00528,South,Male,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,3,Full-time employment,3.9113103916789584,4.2,-0.11370149359562583,6,15,Dem,3,47400.0,0.5771,A
+P00529,South,Male,30-49,"Some college, no degree",White,Independent,"$100,000 or more",Moderate,1,Full-time employment,2.819226671706662,3.6,0.17960857009655942,4,24,None,2,41600.0,0.3918,B
+P00530,West,Female,18-29,"Some college, no degree",White,Republican,"$30,000-$50,000",Conservative,More than 4,Retired,3.344879385972385,4.6,0.0797051899018287,5,14,Rep,3,47600.0,0.6407,B
+P00531,Midwest,Female,50-64,"Some college, no degree",Black,Democrat,"Less than $30,000",Liberal,2,Full-time employment,3.6191090003668576,3.4,0.23415789284614508,5,10,Dem,4,53200.0,0.9146,A
+P00532,West,Female,50-64,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,2,Full-time employment,3.2893170704342776,3.8,0.2389659306652697,4,11,Dem,2,42700.0,0.3977,B
+P00533,South,Male,30-49,"Some college, no degree",White,Republican,"$100,000 or more",Conservative,4,Unemployed,3.3134541896441463,4.5,-0.14002611504223178,6,18,Rep,2,41300.0,0.3823,A
+P00534,Midwest,Male,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Very conservative,4,Full-time employment,2.0291649750910414,3.4,-0.213232688157696,6,6,Rep,2,39800.0,0.3362,B
+P00535,Midwest,Female,18-29,"Some college, no degree",Hispanic,Democrat,"$50,000-$75,000",Moderate,2,Unemployed,1.0,2.9,-0.045832870436559835,4,14,Dem,2,43000.0,0.4078,A
+P00536,West,Male,50-64,College graduate/some postgrad,Asian,Democrat,"$50,000-$75,000",Liberal,2,Retired,4.897410114785781,4.5,-0.08096924047713597,5,9,Dem,5,61300.0,0.9523,A
+P00537,Pacific,Male,30-49,"Some college, no degree",White,Democrat,"Less than $30,000",Moderate,1,Full-time employment,3.4264135659402077,4.1,,4,9,Dem,4,53800.0,0.9274,A
+P00538,West,Male,30-49,Associate's degree,White,Independent,"$50,000-$75,000",Moderate,4,Retired,2.079672327994258,4.1,0.31443313209459894,5,22,None,4,52500.0,0.7996,A
+P00539,Northeast,Male,18-29,"Some college, no degree",White,Democrat,"$30,000-$50,000",Liberal,1,Self-employed,2.269853638150475,3.5,,4,11,Dem,3,47100.0,0.6112,A
+P00540,South,Female,30-49,"Some college, no degree",Asian,Democrat,"Less than $30,000",Very liberal,1,Self-employed,1.8972576725723744,2.9,0.020355528985100284,1,17,Dem,3,49500.0,0.788,A
+P00541,West,Female,65+,High school graduate,Black,Republican,"$100,000 or more",Very conservative,3,Full-time employment,4.956669997420807,4.4,,6,12,Rep,3,47900.0,0.5917,A
+P00542,Midwest,Female,65+,Postgraduate,White,Independent,"$100,000 or more",Conservative,4,Part-time employment,4.405303103473468,2.9,0.3705969535214336,6,12,Rep,2,39100.0,0.3166,B
+P00543,Northeast,Female,50-64,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,2,Full-time employment,3.330326927116774,4.8,,5,14,Dem,4,54200.0,0.7671,A
+P00544,Northeast,Female,65+,Associate's degree,White,Democrat,"Less than $30,000",Liberal,2,Part-time employment,3.767820438147295,3.1,,6,7,Dem,1,43100.0,0.3652,A
+P00545,West,Male,30-49,"Some college, no degree",White,Independent,"$50,000-$75,000",Conservative,3,Home-maker,2.7473945269540807,3.2,0.08890626548072547,6,6,Rep,2,42100.0,0.3709,A
+P00546,Midwest,Male,65+,"Some college, no degree",Black,Independent,"$30,000-$50,000",Moderate,1,Full-time employment,2.8453986565856924,4.5,0.2661291963129477,7,11,None,1,35600.0,0.1125,A
+P00547,West,Male,18-29,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Liberal,4,Unemployed,4.86377338929113,3.8,,5,11,Dem,5,56200.0,0.8584,A
+P00548,South,Female,50-64,"Some college, no degree",Hispanic,Republican,"Less than $30,000",Moderate,2,Full-time employment,1.221038085261008,3.9,0.0464915159234856,6,11,Rep,1,42000.0,0.2949,A
+P00549,South,Female,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,1,Retired,3.208399579445966,4.4,-0.1889857345538187,6,17,Dem,3,50800.0,0.8448,A
+P00550,South,Female,65+,College graduate/some postgrad,Hispanic,Independent,"$75,000-$100,000",Conservative,1,Self-employed,4.232665790324045,4.3,0.09938429187428317,7,8,Rep,1,32400.0,0.117,B
+P00551,South,Male,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,4,Full-time employment,4.025396425415239,4.0,0.2141015610298192,5,13,Dem,3,46800.0,0.5566,B
+P00552,South,Male,18-29,College graduate/some postgrad,Asian,Democrat,"$30,000-$50,000",Very liberal,4,Retired,5.0,3.6,,4,8,Dem,5,59500.0,0.9604,A
+P00553,Midwest,Female,18-29,Postgraduate,Hispanic,Independent,"$100,000 or more",Moderate,2,Part-time employment,5.0,4.8,0.1745951863706061,5,17,None,5,56700.0,0.8193,A
+P00554,South,Female,30-49,"Some college, no degree",White,Republican,"$50,000-$75,000",Very conservative,2,Full-time employment,1.4575839560582549,2.4,,6,9,Rep,2,42600.0,0.3904,B
+P00555,West,Female,65+,Postgraduate,White,Democrat,"$30,000-$50,000",Moderate,2,Part-time employment,3.0742797833785587,1.3,0.0639438700411734,5,14,Dem,3,49700.0,0.7378,B
+P00556,South,Male,50-64,Postgraduate,Asian,Something else,"$100,000 or more",Liberal,2,Full-time employment,2.997720374673616,4.0,-0.20967353562113478,6,17,Dem,4,52800.0,0.7327,A
+P00557,South,Female,65+,High school graduate,Black,Democrat,"$50,000-$75,000",Very liberal,2,Part-time employment,4.816595057667358,3.9,,7,12,Dem,3,47500.0,0.6151,A
+P00558,South,Male,50-64,Less than high school,White,Democrat,"Less than $30,000",Very liberal,1,Full-time employment,2.7165587586483686,4.7,0.09168589325273281,6,19,Dem,3,49700.0,0.795,B
+P00559,South,Female,65+,Associate's degree,White,Democrat,"$100,000 or more",Liberal,3,Part-time employment,4.177703494768551,3.6,0.05975635060884426,5,9,Dem,2,41500.0,0.3898,B
+P00560,South,Female,30-49,"Some college, no degree",White,Something else,"$100,000 or more",Liberal,More than 4,Part-time employment,3.8153266566061936,4.2,,3,12,Dem,4,52300.0,0.7201,A
+P00561,South,Female,65+,High school graduate,Black,Independent,"$30,000-$50,000",Liberal,3,Full-time employment,4.981326000075003,4.3,,5,10,Dem,4,53700.0,0.872,A
+P00562,West,Female,30-49,Postgraduate,White,Republican,"$100,000 or more",Moderate,3,Retired,2.352339196316544,4.4,0.14637216904955105,6,15,Rep,2,36500.0,0.2491,B
+P00563,West,Male,50-64,High school graduate,White,Democrat,"Less than $30,000",Conservative,2,Unemployed,3.880247094351907,4.2,0.25196279410170985,6,16,Dem,3,49000.0,0.7599,A
+P00564,Midwest,Male,30-49,"Some college, no degree",White,Independent,"$50,000-$75,000",Very conservative,2,Full-time employment,2.9360442075529707,3.6,0.22579905871351397,3,19,Rep,2,40400.0,0.3005,A
+P00565,South,Male,30-49,College graduate/some postgrad,White,Independent,"Less than $30,000",Moderate,2,Retired,2.4427794907673035,3.8,0.01692825347877078,5,10,None,3,49600.0,0.7934,A
+P00566,Northeast,Male,65+,Postgraduate,White,Republican,"$100,000 or more",Moderate,4,Unemployed,5.0,4.9,0.16914909051427113,6,13,Rep,3,48500.0,0.6108,B
+P00567,South,Female,65+,College graduate/some postgrad,White,Republican,"$75,000-$100,000",Very conservative,More than 4,Part-time employment,3.711401187099538,3.0,-0.05543965914508772,4,18,Rep,2,41700.0,0.3706,A
+P00568,West,Female,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Conservative,2,Self-employed,3.8173206666298056,4.1,0.5357814947906597,6,9,Rep,2,41300.0,0.3835,A
+P00569,West,Male,18-29,High school graduate,White,Independent,"$30,000-$50,000",Moderate,1,Self-employed,3.656250411463105,3.9,-0.07993333088183502,4,18,None,5,54800.0,0.8972,A
+P00570,South,Female,50-64,High school graduate,White,Independent,"$30,000-$50,000",Liberal,1,Self-employed,3.921302269339903,4.0,-0.027417942804902146,4,10,Dem,4,53300.0,0.8616,A
+P00571,South,Male,30-49,"Some college, no degree",White,Democrat,"$30,000-$50,000",Very liberal,1,Unemployed,5.0,3.6,0.0395873504610858,5,18,Dem,5,60300.0,0.9668,A
+P00572,Midwest,Male,30-49,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Moderate,3,Full-time employment,2.2188257054536953,1.6,0.09991272461018587,6,8,Dem,2,46300.0,0.5707,A
+P00573,Northeast,Female,18-29,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Liberal,2,Self-employed,3.021499920015495,2.9,0.15130764200581556,6,14,Dem,5,56200.0,0.8581,A
+P00574,West,Male,50-64,Postgraduate,Black,Independent,"$100,000 or more",Moderate,4,Part-time employment,4.468712098916505,3.4,-0.24749739755282615,7,9,None,3,44600.0,0.4861,A
+P00575,Northeast,Female,30-49,Postgraduate,Other,Democrat,"Less than $30,000",Liberal,4,Self-employed,4.550348818100643,3.5,0.5039186303163827,5,17,Dem,4,51900.0,0.8817,A
+P00576,Midwest,Male,18-29,College graduate/some postgrad,White,Independent,"Less than $30,000",Liberal,More than 4,Unemployed,3.5148221983030985,2.8,-0.15645839708478046,7,9,Dem,5,56700.0,0.9677,A
+P00577,Northeast,Male,30-49,"Some college, no degree",White,Democrat,"$75,000-$100,000",Moderate,4,Full-time employment,1.666711182632002,3.3,0.17785280220027003,6,15,Dem,3,48700.0,0.645,A
+P00578,South,Male,50-64,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,1,Unemployed,3.5239616399631792,4.1,0.3006459401701546,7,9,Dem,3,49200.0,0.7175,A
+P00579,West,Female,50-64,"Some college, no degree",White,Independent,"$100,000 or more",Conservative,4,Full-time employment,3.795413676259955,3.1,-0.21266857216650203,7,7,Rep,3,46400.0,0.5459,B
+P00580,South,Male,18-29,"Some college, no degree",Black,Democrat,"Less than $30,000",Liberal,2,Full-time employment,3.1943816074031997,5.0,0.44777723644682815,6,17,Dem,4,53200.0,0.9145,A
+P00581,South,Female,18-29,"Some college, no degree",White,Democrat,"$100,000 or more",Very liberal,4,Full-time employment,3.0680703285546382,3.0,,5,23,Dem,3,48100.0,0.5984,A
+P00582,Midwest,Male,30-49,"Some college, no degree",White,Independent,"$30,000-$50,000",Conservative,4,Self-employed,3.5281105528771723,3.0,-0.19600894509536476,7,21,Rep,3,49000.0,0.7089,B
+P00583,South,Female,65+,College graduate/some postgrad,Black,Independent,"$75,000-$100,000",Moderate,2,Unemployed,4.813965344084331,3.9,0.28899059677875394,6,15,None,2,41100.0,0.3474,A
+P00584,South,Male,50-64,College graduate/some postgrad,White,Republican,"$75,000-$100,000",Conservative,1,Full-time employment,4.308956217981375,4.2,0.14117315501247482,6,9,Rep,1,37900.0,0.2426,B
+P00585,South,Male,65+,College graduate/some postgrad,White,Republican,"$75,000-$100,000",Liberal,1,Full-time employment,5.0,3.7,0.43727576759020376,4,9,Rep,2,39000.0,0.2753,B
+P00586,South,Female,30-49,Associate's degree,White,Republican,"$100,000 or more",Conservative,2,Part-time employment,1.0,4.0,-0.26959074239593656,2,20,Rep,1,31000.0,0.1404,B
+P00587,South,Female,50-64,"Some college, no degree",Black,Republican,"$75,000-$100,000",Conservative,1,Full-time employment,2.833085835289362,4.3,-0.1837110470022467,5,18,Rep,2,42200.0,0.3886,B
+P00588,South,Female,30-49,Associate's degree,White,Independent,"$30,000-$50,000",Moderate,1,Full-time employment,4.229735066618184,4.3,0.010084981699061477,6,5,None,3,49800.0,0.7431,A
+P00589,Midwest,Male,18-29,High school graduate,White,Republican,"$30,000-$50,000",Very conservative,2,Full-time employment,3.2125385790762557,4.4,0.0763781069878952,5,9,Rep,1,40500.0,0.2715,B
+P00590,Midwest,Male,50-64,College graduate/some postgrad,White,Republican,"$100,000 or more",Very conservative,3,Full-time employment,2.528380268979945,3.8,0.14432412220517332,5,10,Rep,1,29700.0,0.1209,B
+P00591,South,Male,50-64,"Some college, no degree",White,Democrat,"$50,000-$75,000",Moderate,3,Self-employed,4.046072811509895,4.0,0.08630211372814489,5,8,Dem,4,51200.0,0.7579,A
+P00592,South,Female,30-49,Associate's degree,White,Democrat,"$75,000-$100,000",Liberal,4,Self-employed,3.7343040328698045,2.8,0.2604260885079391,5,8,Dem,4,51700.0,0.7472,A
+P00593,Midwest,Male,65+,High school graduate,Black,Republican,"$30,000-$50,000",Moderate,3,Part-time employment,4.631003258937762,3.7,-0.37757922897042334,6,13,Rep,2,42600.0,0.3726,B
+P00594,South,Female,65+,"Some college, no degree",White,Independent,"Less than $30,000",Conservative,1,Part-time employment,1.070322637556455,2.8,-0.02718122275489949,5,21,Rep,1,35700.0,0.0636,B
+P00595,Midwest,Female,65+,High school graduate,Hispanic,Independent,"$75,000-$100,000",Liberal,2,Retired,2.7580951110067837,2.0,-0.1080744554481604,7,10,Dem,2,40400.0,0.3221,B
+P00596,South,Female,18-29,High school graduate,White,Republican,"$30,000-$50,000",Conservative,2,Part-time employment,1.1855342936745856,3.6,0.20459916078412926,5,13,Rep,2,44700.0,0.4826,B
+P00597,Midwest,Female,30-49,"Some college, no degree",White,Democrat,"$100,000 or more",Moderate,1,Self-employed,2.9915715446846747,3.0,,3,17,Dem,4,53400.0,0.7471,A
+P00598,West,Female,50-64,High school graduate,White,Independent,"$50,000-$75,000",Liberal,3,Home-maker,4.137012113666411,3.8,0.12188401620999187,7,18,Dem,3,46500.0,0.5666,A
+P00599,Northeast,Male,30-49,Less than high school,White,Republican,"$30,000-$50,000",Liberal,1,Unemployed,2.726053985379744,2.9,0.11484489549886073,6,15,Rep,1,41300.0,0.3071,B
+P00600,Northeast,Male,30-49,College graduate/some postgrad,Asian,Independent,"$100,000 or more",Conservative,2,Self-employed,3.822259689267932,3.8,-0.14949203862676969,7,8,Rep,2,36800.0,0.2556,B
+P00601,Midwest,Male,50-64,"Some college, no degree",White,Republican,"$50,000-$75,000",Moderate,3,Full-time employment,3.8926802859278085,4.5,0.13187533433589907,6,20,Rep,3,46400.0,0.5627,B
+P00602,West,Male,50-64,"Some college, no degree",Hispanic,Something else,"$50,000-$75,000",Liberal,4,Full-time employment,3.8815427758136796,3.6,0.24885386111875368,4,11,Dem,3,46100.0,0.5522,A
+P00603,South,Female,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,1,Full-time employment,3.56551908386722,3.8,0.09253272705522207,3,8,Dem,4,50200.0,0.6619,A
+P00604,South,Male,65+,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,2,Unemployed,4.252541315306476,4.4,0.15118486254832814,4,14,Dem,2,43900.0,0.4503,A
+P00605,South,Male,50-64,"Some college, no degree",White,Republican,"$30,000-$50,000",Very conservative,4,Part-time employment,3.430888042551534,4.9,-0.1845463172099392,6,18,Rep,1,39500.0,0.2294,B
+P00606,Pacific,Male,65+,"Some college, no degree",Hispanic,Independent,"$50,000-$75,000",Moderate,3,Retired,4.577431931261929,2.8,,6,6,None,2,45200.0,0.5108,A
+P00607,Northeast,Female,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,2,Retired,4.278961929593272,3.0,,6,19,Dem,5,60100.0,0.8765,A
+P00608,South,Female,50-64,Associate's degree,White,Republican,"Less than $30,000",Very conservative,1,Full-time employment,3.6533151524497347,2.7,0.3750113381000017,2,12,Rep,1,43700.0,0.4093,A
+P00609,Midwest,Male,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,More than 4,Full-time employment,3.6909916018880655,3.3,0.16969936677003863,5,8,None,4,51300.0,0.6937,A
+P00610,Northeast,Female,50-64,College graduate/some postgrad,Other,Independent,"$100,000 or more",Conservative,4,Retired,3.5004685549781387,3.8,-0.12188676654301861,7,16,Rep,2,36600.0,0.2507,A
+P00611,South,Female,18-29,Associate's degree,White,Independent,"$75,000-$100,000",Liberal,2,Student,3.876104785536681,3.3,0.12570789519179765,6,13,Dem,5,59200.0,0.908,A
+P00612,Northeast,Female,30-49,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,2,Full-time employment,2.472160913454858,3.6,0.01009806095032864,6,7,Dem,5,59600.0,0.9367,A
+P00613,South,Female,18-29,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,2,Retired,1.0,3.5,0.0974309241896394,2,17,Dem,5,55200.0,0.9511,A
+P00614,Midwest,Female,65+,High school graduate,White,Independent,"$75,000-$100,000",Moderate,2,Full-time employment,1.9836052130662192,3.7,0.2669371529332648,6,20,None,2,38400.0,0.2581,B
+P00615,South,Male,65+,Postgraduate,Black,Democrat,"$30,000-$50,000",Moderate,1,Part-time employment,2.7635000029824464,3.3,0.2534903826929457,7,13,Dem,2,45100.0,0.5068,B
+P00616,West,Female,30-49,Associate's degree,Other,Democrat,"$75,000-$100,000",Liberal,More than 4,Full-time employment,3.6872445173606465,3.4,-0.10397751648642489,6,17,Dem,4,51500.0,0.7383,A
+P00617,South,Female,65+,Postgraduate,White,Independent,"$100,000 or more",Moderate,1,Self-employed,3.9014160224625694,4.8,,6,22,None,3,45200.0,0.5055,A
+P00618,Midwest,Male,30-49,High school graduate,White,Republican,"$30,000-$50,000",Moderate,2,Full-time employment,2.5633619770051537,3.4,0.26924546999911075,5,18,Rep,1,36800.0,0.1407,B
+P00619,South,Female,50-64,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Very conservative,3,Part-time employment,1.9491659108507426,3.7,0.24535135082186724,5,20,Dem,2,41200.0,0.3301,A
+P00620,Pacific,Female,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,3,Home-maker,4.186369609644919,4.3,0.10678905334494167,2,8,Dem,4,53400.0,0.748,A
+P00621,South,Female,50-64,"Some college, no degree",Black,Independent,"$100,000 or more",Liberal,2,Unemployed,1.5625837682461623,4.1,0.4104895053860941,4,6,Dem,2,34900.0,0.2128,B
+P00622,Northeast,Female,50-64,Associate's degree,White,Independent,"$30,000-$50,000",Conservative,1,Part-time employment,3.6802520181595075,3.4,-0.05453647159990709,5,17,Rep,1,39700.0,0.2395,A
+P00623,West,Female,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Very liberal,3,Unemployed,2.342154673786894,4.1,0.08421581302156585,4,18,Dem,3,48600.0,0.6885,B
+P00624,Northeast,Male,30-49,Postgraduate,White,Democrat,"$100,000 or more",Moderate,2,Full-time employment,4.271690059806499,3.9,-0.10924567757403325,7,8,Dem,3,45500.0,0.5178,B
+P00625,Midwest,Female,50-64,"Some college, no degree",White,Independent,"Less than $30,000",Liberal,2,Full-time employment,4.8700117069354345,3.4,-0.0657678807544032,7,9,Dem,3,50700.0,0.84,A
+P00626,Northeast,Male,50-64,"Some college, no degree",White,Democrat,"$50,000-$75,000",Very liberal,1,Full-time employment,2.2066536362089146,4.1,-0.05542223310706854,6,7,Dem,2,42400.0,0.3816,B
+P00627,South,Female,30-49,"Some college, no degree",Hispanic,Independent,"$50,000-$75,000",Liberal,2,Student,2.3441700316367546,4.4,-0.15902955657108725,6,8,Dem,3,46500.0,0.5679,B
+P00628,Northeast,Female,30-49,Postgraduate,White,Republican,"Less than $30,000",Moderate,2,Full-time employment,1.6583467607553957,3.8,0.003569316510970727,3,15,Rep,1,41100.0,0.244,A
+P00629,West,Female,50-64,Associate's degree,White,Independent,"$30,000-$50,000",Moderate,1,Part-time employment,5.0,4.5,0.11669162027359718,6,14,None,4,52900.0,0.8503,A
+P00630,West,Female,18-29,Postgraduate,Black,Independent,"$50,000-$75,000",Moderate,2,Home-maker,3.5890182945294478,4.4,,2,11,None,4,51300.0,0.7612,A
+P00631,South,Male,65+,"Some college, no degree",White,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,4.825816746415647,3.6,0.1384408817148285,6,8,Dem,5,56600.0,0.8943,A
+P00632,Midwest,Male,30-49,Associate's degree,White,Republican,"$100,000 or more",Moderate,More than 4,Full-time employment,3.6783014185355567,4.6,0.39357351559990883,5,21,Rep,1,33800.0,0.1891,A
+P00633,Midwest,Female,50-64,College graduate/some postgrad,White,Republican,"$100,000 or more",Liberal,4,Full-time employment,4.520098088854648,4.2,0.12986964366601875,4,11,Rep,2,41500.0,0.3896,B
+P00634,South,Female,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Conservative,1,Full-time employment,3.217824849526299,3.5,0.2791339705985905,6,13,Rep,1,27900.0,0.0985,B
+P00635,West,Female,65+,"Some college, no degree",White,Independent,"$50,000-$75,000",Moderate,2,Part-time employment,3.2847814774384125,4.1,0.0502690262607421,6,15,None,2,43300.0,0.4238,A
+P00636,West,Male,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,More than 4,Self-employed,3.2368201292442587,3.7,0.11511853921708838,5,11,Dem,5,57800.0,0.8403,A
+P00637,West,Female,50-64,Associate's degree,White,Democrat,"$50,000-$75,000",Liberal,2,Part-time employment,2.2528915055945844,3.0,0.19019828679009787,5,6,Dem,2,40100.0,0.2872,B
+P00638,South,Male,65+,College graduate/some postgrad,White,Republican,"$75,000-$100,000",Conservative,3,Student,3.0013789411829785,2.7,0.23346692721997703,7,14,Rep,2,39800.0,0.3036,A
+P00639,South,Female,65+,Postgraduate,White,Independent,"$50,000-$75,000",Moderate,3,Self-employed,4.172962769893319,4.9,-0.1919878237459638,5,7,None,2,41200.0,0.3306,B
+P00640,Pacific,Female,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Conservative,4,Full-time employment,4.273637400543139,4.8,0.15273981199286524,7,21,Rep,2,37400.0,0.2715,B
+P00641,South,Female,65+,"Some college, no degree",Black,Republican,"$100,000 or more",Very conservative,More than 4,Full-time employment,4.090113519990827,3.4,0.09635411406507005,2,15,Rep,2,37000.0,0.2629,B
+P00642,West,Female,30-49,High school graduate,White,Democrat,"Less than $30,000",Liberal,3,Unemployed,4.720078576573315,4.5,0.3125427123979598,4,10,Dem,5,55800.0,0.9579,A
+P00643,South,Male,30-49,"Some college, no degree",White,Republican,"$100,000 or more",Conservative,2,Full-time employment,2.46085009786207,4.3,0.008244228292665799,7,11,Rep,2,38400.0,0.2975,B
+P00644,West,Male,30-49,High school graduate,White,Democrat,"$30,000-$50,000",Very liberal,More than 4,Full-time employment,4.452017621487122,3.9,-0.05359498665354028,4,10,Dem,5,54900.0,0.8981,A
+P00645,Northeast,Male,30-49,"Some college, no degree",Hispanic,Democrat,"Less than $30,000",Moderate,2,Self-employed,1.3224335020033944,3.2,,5,6,Dem,2,47800.0,0.6948,A
+P00646,South,Female,30-49,"Some college, no degree",Black,Democrat,"Less than $30,000",Liberal,1,Unemployed,3.941329915548683,4.3,0.3640015751227875,5,8,Dem,4,51000.0,0.8501,A
+P00647,South,Male,18-29,Associate's degree,White,Democrat,"$30,000-$50,000",Moderate,1,Retired,3.8459853246252744,5.0,,5,11,Dem,3,46700.0,0.5914,A
+P00648,South,Male,50-64,College graduate/some postgrad,Black,Independent,"$30,000-$50,000",Moderate,2,Full-time employment,4.702720996364598,4.3,-0.6400581132495218,5,19,None,3,48100.0,0.665,A
+P00649,South,Male,65+,"Some college, no degree",White,Democrat,"$50,000-$75,000",Moderate,1,Full-time employment,3.7834848626341913,4.2,0.30553755594924414,5,21,Dem,2,43200.0,0.4169,B
+P00650,South,Male,18-29,"Some college, no degree",White,Republican,"Less than $30,000",Moderate,More than 4,Full-time employment,1.4989166407256134,3.3,0.6238575861048462,2,11,Rep,2,46800.0,0.6293,B
+P00651,South,Male,50-64,"Some college, no degree",White,Democrat,"$75,000-$100,000",Moderate,1,Retired,2.6073287916522934,4.1,0.02708015675041099,5,14,Dem,2,41000.0,0.3459,B
+P00652,West,Male,30-49,"Some college, no degree",White,Independent,"$30,000-$50,000",Conservative,4,Unemployed,1.0,2.1,-0.11166764125419684,6,12,Rep,3,47400.0,0.6283,B
+P00653,South,Male,50-64,Associate's degree,Asian,Democrat,"$100,000 or more",Very liberal,3,Part-time employment,4.457219143104522,3.3,0.38416549679784917,6,9,Dem,4,54500.0,0.7733,A
+P00654,Pacific,Female,65+,College graduate/some postgrad,Other,Independent,"$100,000 or more",Moderate,More than 4,Retired,3.1147600820448935,3.7,0.031600570730927674,3,19,None,2,35200.0,0.2186,B
+P00655,West,Female,18-29,"Some college, no degree",Asian,Democrat,"$50,000-$75,000",Liberal,3,Full-time employment,4.376294247281998,3.9,0.028236112111063097,7,16,Dem,5,59300.0,0.9333,A
+P00656,West,Male,65+,College graduate/some postgrad,Hispanic,Democrat,"$75,000-$100,000",Liberal,1,Unemployed,4.026290730453552,3.6,0.058189415452925705,6,20,Dem,3,45000.0,0.4989,A
+P00657,Midwest,Male,65+,"Some college, no degree",White,Independent,"$30,000-$50,000",Very liberal,1,Retired,2.801850910070303,4.3,0.19173069592420264,5,13,Dem,3,49600.0,0.7336,A
+P00658,Midwest,Male,50-64,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,1,Student,3.9905685809822664,3.4,-0.12008322261829718,5,17,Dem,3,49200.0,0.7741,A
+P00659,South,Female,50-64,"Some college, no degree",White,Democrat,"$50,000-$75,000",Very liberal,1,Retired,5.0,4.7,,5,17,Dem,5,58700.0,0.925,A
+P00660,West,Male,18-29,Postgraduate,Hispanic,Democrat,"$100,000 or more",Very liberal,3,Self-employed,3.995651576699088,3.6,0.48010392802506824,7,9,Dem,4,50500.0,0.6709,A
+P00661,West,Male,18-29,Less than high school,White,Republican,"Less than $30,000",Liberal,1,Unemployed,3.859022071243105,3.7,-0.12137879789292759,7,10,Rep,3,49600.0,0.7929,A
+P00662,South,Female,50-64,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Liberal,4,Unemployed,2.423136830493513,4.5,,5,9,Dem,2,44300.0,0.4714,B
+P00663,South,Male,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Conservative,2,Part-time employment,3.816314167816446,3.6,0.402260470784761,6,15,Dem,3,49700.0,0.7967,A
+P00664,Midwest,Female,65+,Postgraduate,White,Republican,"$75,000-$100,000",Very conservative,2,Part-time employment,3.2740898116579236,4.0,0.30517430392066747,6,5,Rep,1,34200.0,0.1491,B
+P00665,West,Male,18-29,"Some college, no degree",Black,Republican,"$75,000-$100,000",Conservative,More than 4,Retired,1.1694150798477947,4.7,0.0584104135544342,3,13,Rep,2,39300.0,0.2849,B
+P00666,South,Female,18-29,"Some college, no degree",White,Republican,"$75,000-$100,000",Liberal,4,Unemployed,2.919007931418591,3.9,-0.28877790326210595,6,9,Rep,2,38700.0,0.2655,B
+P00667,Northeast,Male,18-29,Associate's degree,White,Independent,"$75,000-$100,000",Liberal,3,Self-employed,2.5444369656327397,4.1,0.028233633640310587,6,11,Dem,3,47300.0,0.5928,A
+P00668,South,Female,50-64,Associate's degree,White,Republican,"$50,000-$75,000",Moderate,2,Student,4.05921012241734,3.1,0.09045605805851371,6,10,Rep,2,44900.0,0.4954,A
+P00669,West,Male,65+,Postgraduate,Other,Independent,"$75,000-$100,000",Moderate,2,Full-time employment,4.028680699546655,4.9,0.06169044589360268,7,5,None,2,39500.0,0.2916,B
+P00670,South,Female,50-64,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,4,Full-time employment,3.637530021855624,3.8,0.27905699430389275,2,10,Dem,5,55700.0,0.8765,A
+P00671,South,Male,50-64,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Liberal,3,Unemployed,3.2226726405874153,3.2,0.11705643967341675,6,22,Dem,4,54500.0,0.8523,A
+P00672,Midwest,Male,30-49,College graduate/some postgrad,Black,Republican,"$100,000 or more",Very conservative,More than 4,Full-time employment,1.8357551127994682,3.4,,6,13,Rep,1,32300.0,0.1616,B
+P00673,Pacific,Male,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,2,Retired,4.553043729870596,4.5,-0.18552755461155646,7,5,None,4,54200.0,0.7675,A
+P00674,South,Female,30-49,Less than high school,White,Democrat,"Less than $30,000",Very liberal,1,Full-time employment,4.715329433056817,3.5,0.3057201212796865,4,10,Dem,5,55200.0,0.9505,A
+P00675,West,Female,65+,College graduate/some postgrad,White,Republican,"Less than $30,000",Conservative,1,Part-time employment,3.249521798010913,4.1,0.10630848889049674,4,9,Rep,2,44800.0,0.4854,A
+P00676,South,Female,30-49,Postgraduate,White,Independent,"$75,000-$100,000",Moderate,3,Self-employed,3.4254290647604813,3.6,0.4725400579587601,4,18,None,3,45800.0,0.5328,A
+P00677,West,Female,50-64,College graduate/some postgrad,Hispanic,Independent,"$100,000 or more",Liberal,3,Part-time employment,3.980440197900878,2.6,-0.07944569640270038,7,17,Dem,4,53500.0,0.7494,A
+P00678,Midwest,Male,18-29,College graduate/some postgrad,White,Democrat,"Less than $30,000",Very liberal,2,Self-employed,4.922932297354347,3.7,0.08386735629268402,5,23,Dem,5,54200.0,0.9351,A
+P00679,Midwest,Male,30-49,"Some college, no degree",White,Independent,"$100,000 or more",Liberal,2,Full-time employment,3.4609350152345426,3.3,-0.19477290665822794,5,10,Dem,4,50900.0,0.682,A
+P00680,South,Female,18-29,College graduate/some postgrad,Hispanic,Republican,"$50,000-$75,000",Very conservative,2,Full-time employment,2.724291171772126,3.3,-0.1379860871836668,5,7,Rep,3,50400.0,0.7288,B
+P00681,South,Male,65+,Associate's degree,White,Republican,"$50,000-$75,000",Very conservative,2,Self-employed,3.441043912482756,4.0,0.693485555366053,5,8,Rep,1,37900.0,0.2119,B
+P00682,West,Female,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Liberal,2,Full-time employment,2.9487257924188874,3.7,,3,10,Dem,2,41800.0,0.3288,B
+P00683,West,Female,50-64,College graduate/some postgrad,Black,Republican,"$50,000-$75,000",Moderate,2,Retired,1.729261056983404,4.7,0.4186450726997047,5,19,Rep,1,34000.0,0.1172,B
+P00684,South,Male,30-49,"Some college, no degree",White,Democrat,"$100,000 or more",Very liberal,3,Unemployed,2.8949833223546855,4.5,-0.042622235261890996,6,13,Dem,4,51300.0,0.6938,A
+P00685,Pacific,Male,50-64,College graduate/some postgrad,Other,Democrat,"$30,000-$50,000",Moderate,1,Full-time employment,4.353035616721887,4.1,-0.038911239325961085,3,14,Dem,3,48100.0,0.6622,A
+P00686,South,Female,65+,Postgraduate,White,Independent,"$100,000 or more",Very liberal,1,Unemployed,3.6307804980315015,4.2,0.10063937023273341,5,4,Dem,2,37400.0,0.272,B
+P00687,South,Male,50-64,College graduate/some postgrad,Asian,Republican,"$30,000-$50,000",Very conservative,2,Unemployed,3.7076531176579195,3.1,,2,9,Rep,2,44000.0,0.444,B
+P00688,South,Male,50-64,High school graduate,White,Democrat,"$30,000-$50,000",Very liberal,2,Home-maker,4.462079117881907,4.2,0.5335269733990871,6,9,Dem,3,47600.0,0.6412,B
+P00689,West,Female,65+,College graduate/some postgrad,Black,Republican,"$100,000 or more",Liberal,1,Full-time employment,4.800911586626776,4.6,-0.09226491904221311,6,16,Rep,4,50700.0,0.6774,A
+P00690,South,Female,65+,College graduate/some postgrad,White,Republican,"Less than $30,000",Liberal,2,Part-time employment,4.910251416712116,4.0,0.4816933387688139,4,7,Rep,1,43800.0,0.4128,A
+P00691,Midwest,Male,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,More than 4,Part-time employment,3.4274354630734196,3.7,0.22090590955687528,6,8,Dem,4,55600.0,0.7982,A
+P00692,Midwest,Female,50-64,"Some college, no degree",White,Independent,"$100,000 or more",Conservative,2,Full-time employment,3.8918658674400395,3.0,-0.4237819126120058,6,18,Rep,1,29400.0,0.1165,B
+P00693,South,Male,30-49,College graduate/some postgrad,Asian,Democrat,"Less than $30,000",Moderate,3,Full-time employment,4.3188374838539145,4.4,0.08927013564137148,3,7,Dem,4,52100.0,0.8873,A
+P00694,Northeast,Male,18-29,Associate's degree,White,Republican,"$100,000 or more",Conservative,More than 4,Full-time employment,1.1330374471991969,4.3,0.04130759035383287,5,15,Rep,2,41100.0,0.3775,B
+P00695,South,Female,30-49,College graduate/some postgrad,Hispanic,Republican,"$50,000-$75,000",Conservative,More than 4,Full-time employment,3.5767990628244997,2.8,0.31308788913912383,2,13,Rep,3,47100.0,0.5936,A
+P00696,South,Male,30-49,College graduate/some postgrad,Black,Independent,"$100,000 or more",Liberal,3,Full-time employment,3.8521485951572414,4.9,,7,19,Dem,5,56900.0,0.8245,B
+P00697,South,Male,30-49,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Moderate,2,Full-time employment,1.2897909068664106,3.1,-0.03730587624996784,6,11,Rep,1,38600.0,0.1977,B
+P00698,South,Female,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,More than 4,Full-time employment,2.5766026024544426,2.7,0.005258934361839253,4,11,Dem,3,49300.0,0.6358,B
+P00699,South,Male,65+,Postgraduate,White,Independent,"$100,000 or more",Moderate,2,Unemployed,4.966472026254755,5.0,0.23122103192684135,7,12,None,3,43600.0,0.4553,B
+P00700,Midwest,Male,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,4,Unemployed,3.7926250343473744,3.0,,5,13,Dem,3,49800.0,0.8029,A
+P00701,South,Female,30-49,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Moderate,3,Full-time employment,3.624929726905211,4.2,0.6418438236693021,5,14,None,4,53900.0,0.8769,A
+P00702,Midwest,Male,18-29,High school graduate,White,Independent,"$30,000-$50,000",Conservative,1,Full-time employment,3.490758309148159,4.8,0.16383857785634814,2,22,Rep,2,45300.0,0.5159,B
+P00703,South,Female,18-29,College graduate/some postgrad,Asian,Independent,"$50,000-$75,000",Conservative,1,Unemployed,4.617064589132719,4.2,0.04870218691636092,6,11,Rep,3,49000.0,0.6763,B
+P00704,South,Male,30-49,College graduate/some postgrad,Black,Independent,"$100,000 or more",Moderate,2,Part-time employment,4.368875702174506,4.3,0.023039068880695103,4,12,None,5,56600.0,0.8178,B
+P00705,Midwest,Female,65+,Postgraduate,White,Republican,"$75,000-$100,000",Moderate,2,Full-time employment,3.510437212327652,4.4,0.44614474208724486,6,10,Rep,2,39800.0,0.3011,A
+P00706,Midwest,Female,65+,"Some college, no degree",White,Independent,"Less than $30,000",Moderate,1,Retired,4.692836278211622,4.6,,5,19,None,5,55300.0,0.9521,A
+P00707,Northeast,Male,18-29,High school graduate,Hispanic,Independent,"$50,000-$75,000",Very conservative,3,Full-time employment,1.0,2.7,0.35538505195499476,5,19,Rep,2,40000.0,0.2851,B
+P00708,South,Female,18-29,Associate's degree,White,Democrat,"$100,000 or more",Moderate,2,Full-time employment,3.5549352434635684,3.6,0.36513802175929255,6,15,Dem,5,64300.0,0.9243,A
+P00709,Midwest,Male,30-49,High school graduate,White,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,3.3777312155980055,4.8,-0.2352129713372906,5,20,Dem,4,50800.0,0.7458,B
+P00710,West,Male,30-49,Associate's degree,Other,Independent,"$100,000 or more",Moderate,3,Full-time employment,3.995546219366017,3.6,0.1263252331970333,6,9,None,3,50100.0,0.6588,A
+P00711,West,Female,50-64,College graduate/some postgrad,Hispanic,Something else,"$100,000 or more",Moderate,More than 4,Retired,4.134437820993618,4.6,-0.04074216586354287,3,14,None,4,52500.0,0.7246,A
+P00712,Pacific,Female,65+,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Moderate,4,Full-time employment,3.1683883809745614,3.3,-0.07330617733770872,6,8,Dem,3,46900.0,0.5763,A
+P00713,Midwest,Female,65+,Associate's degree,Other,Democrat,"$100,000 or more",Liberal,2,Retired,3.3708791505695492,4.3,-0.006385607923994821,6,7,Dem,2,39300.0,0.3245,A
+P00714,Midwest,Male,50-64,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,3,Unemployed,3.289025853322009,2.2,-0.14775061356360666,6,15,Dem,3,49000.0,0.7615,A
+P00715,South,Male,18-29,Associate's degree,Black,Republican,"$50,000-$75,000",Very conservative,3,Student,1.4574996427408513,2.7,0.01673560252689706,5,17,Rep,2,42400.0,0.3807,A
+P00716,West,Female,18-29,College graduate/some postgrad,White,Independent,"Less than $30,000",Liberal,1,Full-time employment,2.9066752104754032,4.2,-0.26099321233255024,5,13,Dem,5,56900.0,0.9693,A
+P00717,Midwest,Female,30-49,Associate's degree,Hispanic,Democrat,"$50,000-$75,000",Very liberal,2,Unemployed,3.676263629160064,3.2,-0.21680141674994524,6,7,Dem,3,48800.0,0.6688,A
+P00718,West,Female,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,1,Retired,4.908868436123042,4.1,,5,12,Dem,3,49700.0,0.6484,A
+P00719,Midwest,Female,30-49,Associate's degree,White,Democrat,"Less than $30,000",Liberal,3,Full-time employment,4.857628748534465,4.0,0.09483196243045888,5,4,Dem,5,55600.0,0.9565,A
+P00720,West,Female,65+,"Some college, no degree",White,Independent,"$30,000-$50,000",Conservative,3,Full-time employment,4.115868477259355,4.3,-0.3147161333716204,3,6,Rep,2,42500.0,0.3637,A
+P00721,South,Male,30-49,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Moderate,1,Retired,2.704242239669671,4.5,0.12927151012103918,6,22,Dem,3,48000.0,0.6609,A
+P00722,Midwest,Male,65+,High school graduate,White,Republican,"Less than $30,000",Liberal,2,Unemployed,5.0,4.9,0.006695781483395139,6,8,Rep,3,48100.0,0.7113,A
+P00723,South,Female,65+,College graduate/some postgrad,Hispanic,Independent,"$100,000 or more",Very conservative,3,Part-time employment,2.512656968715463,3.9,0.0014976578023181966,5,4,Rep,1,23400.0,0.0571,B
+P00724,South,Female,30-49,Associate's degree,White,Democrat,"$75,000-$100,000",Conservative,2,Self-employed,1.4074692804854345,3.3,-0.03298538032432517,6,15,Dem,4,54900.0,0.8308,A
+P00725,South,Male,50-64,High school graduate,Hispanic,Republican,"$75,000-$100,000",Liberal,2,Full-time employment,1.7822628563183955,2.4,-0.15556422380955415,7,18,Rep,1,21500.0,0.0222,B
+P00726,South,Female,18-29,Less than high school,White,Independent,"$30,000-$50,000",Moderate,More than 4,Self-employed,3.160489348310624,3.1,0.07058247798736382,4,13,None,2,43800.0,0.4332,B
+P00727,West,Male,18-29,Postgraduate,Hispanic,Republican,"$100,000 or more",Conservative,More than 4,Full-time employment,2.35424918575354,4.2,-0.11275554773215231,6,10,Rep,2,41800.0,0.3969,A
+P00728,Midwest,Male,18-29,Less than high school,Black,Independent,"Less than $30,000",Moderate,2,Full-time employment,2.6041554093669013,4.7,0.1559901223371725,6,6,None,4,51900.0,0.8802,B
+P00729,West,Male,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,3,Full-time employment,4.330509009104387,4.4,0.10103825544715732,5,10,Rep,3,47600.0,0.5836,B
+P00730,Northeast,Male,18-29,Associate's degree,White,Independent,"$75,000-$100,000",Liberal,More than 4,Retired,5.0,4.3,,4,16,Dem,5,56200.0,0.8588,A
+P00731,Northeast,Female,65+,College graduate/some postgrad,Other,Independent,"$100,000 or more",Liberal,4,Full-time employment,2.812406121787192,2.9,0.2046526593131439,4,22,Dem,2,39400.0,0.327,A
+P00732,West,Female,18-29,College graduate/some postgrad,White,Independent,"$100,000 or more",Very liberal,More than 4,Full-time employment,2.029419616259534,3.6,0.2771716962348307,5,23,Dem,3,49800.0,0.6503,B
+P00733,Northeast,Female,30-49,College graduate/some postgrad,Other,Independent,"$50,000-$75,000",Moderate,2,Full-time employment,3.405435313006384,4.1,0.06488861914547364,6,6,None,2,45000.0,0.5005,B
+P00734,West,Female,50-64,"Some college, no degree",White,Republican,"$75,000-$100,000",Conservative,More than 4,Retired,3.921604616661073,4.4,0.018317262199424655,6,17,Rep,2,39200.0,0.2835,B
+P00735,Northeast,Female,30-49,Postgraduate,White,Republican,"$75,000-$100,000",Conservative,1,Unemployed,4.795512657633992,3.4,-0.005909004974489414,5,8,Rep,2,42800.0,0.4123,B
+P00736,Midwest,Female,50-64,High school graduate,Black,Independent,"Less than $30,000",Moderate,2,Full-time employment,2.7801117767720207,4.3,-0.10210831819436893,5,8,None,3,50000.0,0.8083,B
+P00737,South,Female,30-49,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Moderate,2,Self-employed,3.6268000847911592,4.4,-0.05932018770770314,5,19,None,4,51300.0,0.7604,A
+P00738,South,Male,18-29,High school graduate,White,Democrat,"$30,000-$50,000",Very liberal,3,Retired,4.046249720285796,3.6,0.05592807547863147,7,16,Dem,4,53400.0,0.8645,A
+P00739,Northeast,Male,30-49,Postgraduate,White,Democrat,"$30,000-$50,000",Moderate,4,Unemployed,3.50325411873878,3.6,-0.1498297307439995,6,12,Dem,3,50300.0,0.7633,B
+P00740,South,Male,50-64,Postgraduate,White,Democrat,"$100,000 or more",Liberal,1,Part-time employment,4.9670262860933825,4.6,-0.40399742318099613,7,13,Dem,3,49900.0,0.6524,A
+P00741,West,Female,50-64,"Some college, no degree",Hispanic,Independent,"$75,000-$100,000",Conservative,3,Part-time employment,4.730110590748153,3.0,,5,6,Rep,2,42000.0,0.383,B
+P00742,South,Female,50-64,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Moderate,More than 4,Part-time employment,4.73037382223425,4.3,0.07214502749481062,6,10,Rep,3,45800.0,0.5364,A
+P00743,South,Male,65+,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,3,Full-time employment,5.0,4.6,,5,12,Dem,3,48000.0,0.6351,A
+P00744,West,Male,65+,"Some college, no degree",Black,Republican,"$100,000 or more",Conservative,1,Full-time employment,4.379634094209832,4.0,-0.11088056451645138,6,20,Rep,1,33100.0,0.1759,B
+P00745,West,Female,65+,College graduate/some postgrad,Black,Republican,"$30,000-$50,000",Conservative,3,Full-time employment,1.9789269669997598,4.1,0.06052384926090945,3,22,Rep,1,38600.0,0.1952,B
+P00746,South,Female,50-64,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Liberal,1,Full-time employment,3.4088652059513245,3.5,-0.03796239988951796,5,20,Dem,3,46900.0,0.5746,A
+P00747,Midwest,Male,30-49,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Very liberal,2,Retired,1.9738443135026897,2.8,,7,8,Dem,3,47600.0,0.617,B
+P00748,West,Male,30-49,Associate's degree,Hispanic,Independent,"$50,000-$75,000",Moderate,2,Retired,3.182365145038806,2.4,0.39956140979362165,4,11,None,3,48600.0,0.6596,B
+P00749,South,Male,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Moderate,1,Part-time employment,4.2469695555049825,3.4,0.5730419204808131,4,13,Dem,3,47500.0,0.6364,A
+P00750,South,Female,50-64,Associate's degree,White,Democrat,"Less than $30,000",Very liberal,1,Self-employed,4.56314032214582,4.7,-0.20767324629418474,4,5,Dem,3,48300.0,0.7244,A
+P00751,West,Female,50-64,College graduate/some postgrad,Hispanic,Independent,"$50,000-$75,000",Conservative,2,Full-time employment,2.7708571701969062,3.1,0.19873240182923668,4,5,Rep,1,38300.0,0.2254,A
+P00752,Northeast,Female,65+,Associate's degree,White,Independent,"$30,000-$50,000",Liberal,1,Self-employed,2.916345849513105,4.1,0.35931887099594684,7,12,Dem,3,49600.0,0.7335,B
+P00753,West,Female,30-49,College graduate/some postgrad,Asian,Independent,"$30,000-$50,000",Liberal,2,Self-employed,3.585415826717317,3.3,0.045242376176191014,5,19,Dem,3,48800.0,0.6959,A
+P00754,South,Female,50-64,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,1,Part-time employment,3.802938191774275,4.4,0.09317749911264303,6,13,Dem,2,43200.0,0.4405,A
+P00755,Midwest,Female,18-29,Postgraduate,White,Republican,"$50,000-$75,000",Conservative,2,Full-time employment,3.546077201295726,4.0,0.2640132183359774,2,11,Rep,2,45400.0,0.5168,B
+P00756,Midwest,Male,30-49,"Some college, no degree",Black,Democrat,"Less than $30,000",Very liberal,1,Full-time employment,3.5922613409487525,4.3,0.0642959319856217,6,19,Dem,3,50800.0,0.8421,A
+P00757,South,Female,50-64,College graduate/some postgrad,White,Republican,"Less than $30,000",Very conservative,2,Self-employed,3.43525899231636,3.4,0.23897725944688208,2,24,Rep,3,48800.0,0.751,A
+P00758,South,Male,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Very liberal,1,Retired,4.009920838793165,4.3,0.5209021491874557,6,10,Dem,2,46600.0,0.586,A
+P00759,South,Female,65+,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,1,Part-time employment,4.137708045004423,4.6,-0.011035172238021251,7,11,Dem,4,52000.0,0.8855,A
+P00760,Midwest,Female,65+,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,1,Part-time employment,3.3234611898489996,4.5,,4,14,Dem,3,49700.0,0.7948,B
+P00761,South,Male,50-64,"Some college, no degree",White,Republican,"$30,000-$50,000",Moderate,1,Home-maker,3.01596985792972,3.8,-0.07033225959914467,7,8,Rep,2,44600.0,0.4755,B
+P00762,South,Male,65+,Postgraduate,White,Democrat,"$30,000-$50,000",Very liberal,1,Retired,3.481524732906011,4.9,-0.34624735677086127,5,14,Dem,3,48800.0,0.6978,B
+P00763,West,Male,50-64,Less than high school,White,Independent,"$75,000-$100,000",Liberal,2,Retired,4.190000859708071,2.0,0.5822963981034318,6,12,Dem,4,51800.0,0.7504,A
+P00764,Midwest,Female,50-64,College graduate/some postgrad,Black,Democrat,"Less than $30,000",Liberal,2,Self-employed,2.1412026654764587,2.5,0.2711010776321977,5,15,Dem,3,48700.0,0.7477,B
+P00765,West,Female,65+,High school graduate,White,Republican,"Less than $30,000",Liberal,1,Self-employed,3.431081789727531,4.5,0.20268357336595486,5,7,Rep,2,46500.0,0.6071,A
+P00766,West,Male,50-64,"Some college, no degree",White,Independent,"$50,000-$75,000",Liberal,2,Unemployed,2.599966441822756,4.0,,6,14,Dem,1,37200.0,0.1909,B
+P00767,South,Male,30-49,College graduate/some postgrad,White,Something else,"$100,000 or more",Moderate,3,Full-time employment,3.4048169229644563,3.8,-0.13323490791167575,7,10,None,3,49900.0,0.6539,A
+P00768,Northeast,Male,18-29,Postgraduate,Hispanic,Independent,"$100,000 or more",Moderate,3,Student,3.3195751764965853,2.8,-0.0023393358487717526,4,10,None,5,58100.0,0.8457,A
+P00769,West,Female,18-29,"Some college, no degree",Black,Democrat,"Less than $30,000",Very liberal,1,Full-time employment,4.449292378803679,4.7,-0.007955977158060918,5,7,Dem,4,53100.0,0.9123,A
+P00770,Midwest,Female,30-49,High school graduate,White,Independent,"Less than $30,000",Moderate,2,Unemployed,4.867117448924096,5.0,0.16175556281743647,4,11,None,4,52200.0,0.891,A
+P00771,Northeast,Female,30-49,College graduate/some postgrad,White,Something else,"Less than $30,000",Moderate,2,Home-maker,3.803979416622391,3.4,0.7109121798837743,3,22,None,4,52900.0,0.9087,A
+P00772,Midwest,Male,50-64,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Liberal,1,Full-time employment,2.445361769709724,3.9,0.05414898440848655,5,10,Dem,1,36000.0,0.1895,B
+P00773,South,Female,18-29,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Moderate,More than 4,Retired,4.1285022241959854,4.5,0.03325475580281802,6,9,None,4,54100.0,0.8809,A
+P00774,West,Male,30-49,Associate's degree,White,Republican,"$50,000-$75,000",Conservative,More than 4,Self-employed,2.0414020211717485,3.3,-0.017280962124519385,6,7,Rep,1,35900.0,0.157,A
+P00775,South,Male,18-29,College graduate/some postgrad,Hispanic,Independent,"$75,000-$100,000",Liberal,1,Unemployed,1.957855492289118,3.8,-0.1095552521145482,6,12,Dem,4,50900.0,0.7221,A
+P00776,West,Female,18-29,"Some college, no degree",Asian,Republican,"Less than $30,000",Liberal,2,Part-time employment,1.4450877126231845,3.1,0.3102637912947273,5,17,Rep,2,46300.0,0.5904,A
+P00777,West,Female,30-49,College graduate/some postgrad,Hispanic,Independent,"$30,000-$50,000",Conservative,2,Retired,2.3952690085468453,4.0,0.06299034113230072,6,9,Rep,2,44100.0,0.4505,B
+P00778,West,Female,30-49,Postgraduate,White,Democrat,"$100,000 or more",Liberal,2,Full-time employment,3.9487309114582305,4.5,0.09448029869031731,7,16,Dem,3,47100.0,0.5674,A
+P00779,South,Male,50-64,College graduate/some postgrad,White,Something else,"$100,000 or more",Conservative,4,Part-time employment,3.1129898323803444,2.8,0.3614187770689301,4,9,Rep,2,35500.0,0.2256,B
+P00780,Northeast,Male,30-49,College graduate/some postgrad,Other,Republican,"$75,000-$100,000",Conservative,2,Retired,2.6329791114806382,2.5,-0.05621995810190983,6,19,Rep,1,37700.0,0.2355,B
+P00781,West,Female,65+,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,4,Unemployed,4.1538904690048915,4.9,0.04656428898432675,7,8,Dem,3,48600.0,0.6587,A
+P00782,Northeast,Female,50-64,College graduate/some postgrad,White,Republican,"$100,000 or more",Conservative,3,Full-time employment,4.96502439411251,5.0,0.03499780677826491,7,9,Rep,2,40200.0,0.3486,B
+P00783,South,Female,65+,High school graduate,White,Democrat,"Less than $30,000",Moderate,1,Full-time employment,4.849095739764131,4.5,0.35995799006985457,5,7,Dem,2,47700.0,0.6873,A
+P00784,Midwest,Male,65+,Postgraduate,White,Independent,"$50,000-$75,000",Moderate,1,Retired,4.31650796468802,3.6,0.4042256152284492,7,17,None,3,49200.0,0.6839,A
+P00785,South,Female,30-49,Postgraduate,White,Democrat,"$75,000-$100,000",Liberal,2,Part-time employment,5.0,4.5,0.1354327046255269,6,10,Dem,3,50200.0,0.6966,A
+P00786,Midwest,Male,30-49,College graduate/some postgrad,Black,Independent,"$100,000 or more",Conservative,1,Part-time employment,3.9179354065321643,3.8,0.07572458996473712,4,15,Rep,2,40000.0,0.3431,B
+P00787,South,Female,30-49,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,1,Self-employed,4.342721251245265,3.6,-0.10483126341766508,5,13,Dem,5,56100.0,0.9613,A
+P00788,South,Female,30-49,Associate's degree,Asian,Democrat,"$100,000 or more",Moderate,3,Unemployed,4.728858159624992,2.9,-0.18094628943786759,6,16,Dem,5,58600.0,0.8527,A
+P00789,Midwest,Male,18-29,Associate's degree,Hispanic,Democrat,"$30,000-$50,000",Liberal,2,Retired,1.7053941937415555,4.1,0.5281106974494731,3,20,Dem,4,52900.0,0.8497,A
+P00790,South,Male,65+,Associate's degree,White,Republican,"$100,000 or more",Moderate,2,Full-time employment,3.9194392926086215,4.1,0.10199941133311184,4,15,Rep,1,28200.0,0.1022,A
+P00791,Midwest,Female,30-49,Associate's degree,White,Something else,"$75,000-$100,000",Conservative,3,Full-time employment,1.9005117146938062,3.4,-0.08069773947820956,3,16,Rep,2,39400.0,0.2901,B
+P00792,South,Male,30-49,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Conservative,1,Retired,3.9304157688910326,3.7,0.336355373135503,5,6,Rep,2,43400.0,0.4149,B
+P00793,West,Male,50-64,College graduate/some postgrad,White,Democrat,"Less than $30,000",Moderate,4,Retired,3.7079881585231798,4.6,0.3877777825321104,4,8,Dem,2,45000.0,0.5031,A
+P00794,West,Female,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,2,Self-employed,4.170323570789825,3.5,0.11819165025547008,5,9,None,3,49500.0,0.642,A
+P00795,South,Male,30-49,College graduate/some postgrad,Hispanic,Independent,"$75,000-$100,000",Moderate,4,Unemployed,4.288204672146966,4.1,0.027670155752940656,5,20,None,3,46000.0,0.5388,B
+P00796,Midwest,Male,18-29,Associate's degree,White,Democrat,"$50,000-$75,000",Liberal,1,Student,3.094355514474935,4.3,0.059606732045694236,7,10,Dem,4,53500.0,0.8275,B
+P00797,West,Male,30-49,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,4,Student,4.196951453255941,2.9,0.1641654881440605,4,17,Dem,3,48400.0,0.6075,B
+P00798,Pacific,Female,18-29,College graduate/some postgrad,Asian,Republican,"$30,000-$50,000",Conservative,More than 4,Full-time employment,3.8071602701648555,4.9,0.032160195541542064,6,9,Rep,3,50500.0,0.7686,A
+P00799,South,Male,18-29,Associate's degree,Asian,Independent,"$50,000-$75,000",Liberal,3,Full-time employment,3.316313006067781,3.7,0.10482138457061432,6,9,Dem,5,56100.0,0.8855,A
+P00800,West,Male,18-29,Postgraduate,White,Democrat,"$50,000-$75,000",Liberal,More than 4,Self-employed,4.035227769712102,4.7,0.499249659812927,5,5,Dem,4,51100.0,0.7555,A
+P00801,West,Female,18-29,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,More than 4,Self-employed,5.0,4.2,,6,18,Dem,4,54600.0,0.7755,A
+P00802,South,Female,30-49,College graduate/some postgrad,Black,Democrat,"$50,000-$75,000",Moderate,More than 4,Self-employed,3.5940145558229113,4.0,-0.19874493535583326,4,17,Dem,2,40300.0,0.2957,B
+P00803,West,Male,50-64,"Some college, no degree",White,Independent,"$100,000 or more",Moderate,More than 4,Self-employed,5.0,4.3,0.4998778288339108,5,16,None,3,46100.0,0.5359,A
+P00804,West,Female,50-64,Less than high school,Black,Republican,"Less than $30,000",Conservative,2,Full-time employment,3.1985997882388637,4.0,0.4834215308656042,7,18,Rep,1,43900.0,0.4186,B
+P00805,Northeast,Female,30-49,Associate's degree,Hispanic,Republican,"$50,000-$75,000",Very liberal,1,Unemployed,2.8890879109349514,3.6,0.03641050292782446,5,16,Rep,1,39600.0,0.2707,B
+P00806,South,Male,50-64,"Some college, no degree",Hispanic,Independent,"$75,000-$100,000",Moderate,2,Self-employed,2.956137052376375,4.3,-0.3519990371964492,5,9,None,3,46700.0,0.5685,A
+P00807,South,Male,18-29,College graduate/some postgrad,White,Republican,"$100,000 or more",Conservative,3,Part-time employment,4.097676061250008,3.3,-0.3817373297968636,6,9,Rep,3,46800.0,0.5569,A
+P00808,Northeast,Female,50-64,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,2,Part-time employment,5.0,4.9,0.24251882356513066,4,10,Dem,4,52100.0,0.887,A
+P00809,West,Female,30-49,"Some college, no degree",White,Democrat,"$100,000 or more",Very liberal,4,Full-time employment,4.905540593934091,3.7,0.27762053570009826,3,11,Dem,4,53000.0,0.7388,A
+P00810,West,Male,65+,College graduate/some postgrad,Black,Independent,"Less than $30,000",Liberal,1,Full-time employment,4.62766257032442,4.5,-0.018901167438917083,7,9,Dem,2,45500.0,0.5331,B
+P00811,South,Male,30-49,Associate's degree,White,Independent,"$100,000 or more",Moderate,3,Full-time employment,4.211958626867378,4.7,-0.42671865180232654,7,24,None,4,51000.0,0.6842,B
+P00812,South,Female,65+,High school graduate,White,Something else,"Less than $30,000",Conservative,1,Full-time employment,2.783204612109499,3.1,0.11487406570811869,6,9,Rep,2,44300.0,0.4498,A
+P00813,South,Male,30-49,"Some college, no degree",White,Democrat,"$30,000-$50,000",Liberal,More than 4,Self-employed,2.6936019750722036,2.7,0.11321161200345951,4,12,Dem,4,54200.0,0.8831,A
+P00814,West,Male,30-49,"Some college, no degree",Other,Independent,"$30,000-$50,000",Moderate,More than 4,Part-time employment,4.883309109788025,3.4,0.6498445077090461,5,11,None,4,53200.0,0.8582,B
+P00815,Midwest,Female,30-49,High school graduate,White,Republican,"Less than $30,000",Liberal,1,Student,2.695247723214033,2.3,-0.11299517041617561,6,18,Rep,1,42200.0,0.3099,B
+P00816,West,Female,50-64,Less than high school,Other,Democrat,"Less than $30,000",Very liberal,1,Unemployed,4.457456662690739,4.8,0.17704116743088624,3,13,Dem,3,50200.0,0.8207,A
+P00817,South,Male,18-29,Postgraduate,White,Democrat,"$75,000-$100,000",Liberal,4,Full-time employment,3.543381634162236,4.1,-0.16020191742854062,5,14,Dem,4,55300.0,0.8404,B
+P00818,Northeast,Female,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,2,Self-employed,1.2100776937532816,2.2,-0.0962274188396955,2,24,Dem,2,36000.0,0.2373,B
+P00819,Midwest,Female,30-49,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,More than 4,Unemployed,2.2418919770707473,4.0,,6,12,Dem,3,46600.0,0.5711,B
+P00820,West,Male,30-49,Associate's degree,White,Republican,"$30,000-$50,000",Conservative,4,Full-time employment,3.8316187574434593,4.7,-0.06265916579506292,3,6,Rep,2,44000.0,0.4463,B
+P00821,South,Male,30-49,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Very liberal,1,Part-time employment,2.8713464232007393,2.8,0.21702266986062144,5,10,Dem,3,46300.0,0.5617,A
+P00822,Northeast,Female,18-29,High school graduate,Asian,Democrat,"$75,000-$100,000",Very liberal,More than 4,Student,1.1678167786844191,3.7,0.08846894198706635,3,16,Dem,2,42200.0,0.3874,B
+P00823,Pacific,Female,30-49,"Some college, no degree",Hispanic,Democrat,"Less than $30,000",Liberal,1,Full-time employment,3.439133495490702,1.7,0.22948969212320275,6,9,Dem,4,52400.0,0.8941,A
+P00824,South,Female,65+,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Very conservative,1,Retired,3.1431678236044567,3.4,0.08745765577926766,3,8,Rep,1,41700.0,0.324,B
+P00825,West,Female,50-64,College graduate/some postgrad,White,Democrat,"Less than $30,000",Very liberal,3,Full-time employment,4.795442106745805,4.7,0.15571308959310035,5,12,Dem,5,55100.0,0.9498,A
+P00826,Northeast,Female,30-49,Postgraduate,White,Democrat,"$100,000 or more",Liberal,2,Part-time employment,3.349015344159407,2.2,0.07033521031181666,5,9,Dem,3,49300.0,0.6366,B
+P00827,Midwest,Male,30-49,"Some college, no degree",White,Republican,"Less than $30,000",Liberal,1,Self-employed,1.3885049276897534,4.2,0.07798298381562933,5,13,Rep,1,43700.0,0.4047,B
+P00828,Pacific,Female,50-64,College graduate/some postgrad,Asian,Democrat,"$50,000-$75,000",Liberal,1,Full-time employment,3.0850784587835975,3.2,-0.36648449076717887,6,4,Dem,1,39700.0,0.2729,A
+P00829,South,Female,65+,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,3,Full-time employment,3.217603087160696,4.7,0.2911848428988507,6,18,Dem,3,45900.0,0.5411,A
+P00830,South,Female,30-49,Associate's degree,Other,Democrat,"$30,000-$50,000",Liberal,3,Self-employed,3.725181799038417,3.0,0.3818549696708405,5,18,Dem,5,57100.0,0.9343,A
+P00831,West,Male,18-29,High school graduate,White,Republican,"Less than $30,000",Conservative,3,Retired,4.181756673635665,3.7,,5,8,Rep,2,47700.0,0.6857,B
+P00832,West,Male,30-49,Postgraduate,White,Republican,"$30,000-$50,000",Liberal,1,Full-time employment,3.7639882647371348,3.9,-0.0012271324525198082,6,13,Rep,3,48000.0,0.6609,A
+P00833,West,Female,65+,"Some college, no degree",White,Democrat,"Less than $30,000",Moderate,1,Part-time employment,4.508490701702486,2.8,0.1630852500026714,6,7,Dem,3,48000.0,0.7037,A
+P00834,South,Female,65+,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Liberal,1,Full-time employment,3.8858818117567306,3.2,,7,12,Dem,3,48300.0,0.6299,B
+P00835,South,Male,30-49,Associate's degree,Black,Republican,"$100,000 or more",Conservative,4,Full-time employment,1.0,3.7,0.11924058393083656,3,9,Rep,2,36400.0,0.2472,B
+P00836,Midwest,Female,65+,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Conservative,2,Retired,3.9264564367639463,4.5,0.04594840230558246,2,8,Rep,1,36200.0,0.1256,B
+P00837,West,Male,65+,Postgraduate,White,Something else,"$75,000-$100,000",Very conservative,4,Part-time employment,4.049383208400817,3.4,0.07437366271538186,4,16,Rep,1,33600.0,0.1378,B
+P00838,West,Female,18-29,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Very liberal,3,Unemployed,5.0,3.0,-0.06228557628178276,3,12,Dem,4,54300.0,0.8863,A
+P00839,West,Male,18-29,"Some college, no degree",White,Republican,"Less than $30,000",Very conservative,1,Part-time employment,2.3578520839216215,3.8,-0.06471888358665288,6,11,Rep,2,46200.0,0.5844,A
+P00840,West,Male,18-29,Postgraduate,Asian,Democrat,"$100,000 or more",Liberal,2,Full-time employment,4.605039018002617,3.7,0.11319758539434506,7,9,Dem,5,67400.0,0.9481,A
+P00841,Midwest,Male,30-49,Postgraduate,White,Something else,"$100,000 or more",Liberal,1,Full-time employment,4.8930874228976995,4.8,0.1815843537545991,4,14,Dem,5,57100.0,0.8277,A
+P00842,Midwest,Male,50-64,Associate's degree,Black,Democrat,"$100,000 or more",Moderate,4,Unemployed,3.228498967164897,4.1,-0.4736530612081024,6,15,Dem,3,46700.0,0.5557,A
+P00843,South,Male,18-29,High school graduate,White,Democrat,"$30,000-$50,000",Liberal,More than 4,Full-time employment,3.844455592224736,4.5,0.04074932926862253,5,8,Dem,5,55200.0,0.9032,A
+P00844,South,Female,18-29,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Very liberal,More than 4,Full-time employment,4.852205175707415,3.9,0.041441417431074455,5,8,Dem,4,54900.0,0.8603,A
+P00845,South,Male,18-29,Postgraduate,White,Independent,"$100,000 or more",Conservative,4,Full-time employment,2.303847142894379,3.6,0.07796678772517267,6,16,Rep,3,47100.0,0.5691,A
+P00846,Midwest,Female,50-64,"Some college, no degree",Other,Republican,"Less than $30,000",Conservative,1,Retired,2.017265432458025,3.1,,5,10,Rep,1,43900.0,0.4233,B
+P00847,South,Female,18-29,"Some college, no degree",Hispanic,Republican,"$75,000-$100,000",Moderate,4,Retired,4.026532257860606,3.5,-0.12374734281341439,1,11,Rep,4,51800.0,0.75,A
+P00848,West,Female,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Liberal,2,Full-time employment,5.0,5.0,0.5201325985565208,5,11,Dem,4,50800.0,0.7803,A
+P00849,Northeast,Male,18-29,"Some college, no degree",White,Democrat,"$50,000-$75,000",Liberal,2,Self-employed,4.938551533431164,3.8,0.06303182164722179,4,9,Dem,4,52000.0,0.7832,A
+P00850,South,Female,18-29,Associate's degree,White,Independent,"$75,000-$100,000",Liberal,4,Unemployed,3.0180712542476695,3.4,,4,8,Dem,5,55600.0,0.847,A
+P00851,Pacific,Female,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,4,Part-time employment,2.723835569074312,4.2,0.2733218934478321,5,16,Dem,2,36000.0,0.2371,B
+P00852,Northeast,Male,30-49,"Some college, no degree",White,Republican,"$30,000-$50,000",Very conservative,3,Full-time employment,3.252211710069066,3.9,0.6267657662070807,3,14,Rep,2,41800.0,0.3294,A
+P00853,Northeast,Female,50-64,"Some college, no degree",White,Republican,"$50,000-$75,000",Conservative,2,Full-time employment,3.7124727590327886,4.1,0.028096342842912084,4,12,Rep,4,53500.0,0.8274,A
+P00854,Midwest,Female,30-49,High school graduate,White,Democrat,"$30,000-$50,000",Liberal,2,Retired,2.6618382087803663,2.8,0.040855173976241534,7,13,Dem,4,53100.0,0.8552,A
+P00855,Northeast,Female,18-29,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Liberal,2,Full-time employment,4.668585224946158,3.4,0.06765774278554472,3,14,Dem,5,54800.0,0.8964,A
+P00856,South,Female,50-64,Less than high school,White,Democrat,"Less than $30,000",Moderate,3,Full-time employment,4.442127912862687,3.7,0.6741235212449326,4,8,Dem,4,53500.0,0.9207,A
+P00857,Midwest,Male,50-64,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Liberal,3,Full-time employment,1.4398027329369363,4.5,0.016097799476733954,5,14,Dem,3,47600.0,0.6191,B
+P00858,Midwest,Male,18-29,High school graduate,White,Democrat,"$100,000 or more",Very conservative,3,Part-time employment,3.89896490222511,2.0,,5,17,Dem,5,58100.0,0.8447,A
+P00859,South,Female,50-64,Postgraduate,White,Democrat,"$75,000-$100,000",Moderate,1,Part-time employment,3.7663681570784653,3.0,-0.10687764742896728,4,12,Dem,3,46700.0,0.5681,A
+P00860,Northeast,Male,50-64,College graduate/some postgrad,White,Democrat,"Less than $30,000",Very liberal,1,Unemployed,4.23185920545823,4.8,0.07624169890406769,4,9,Dem,4,53500.0,0.9223,A
+P00861,Midwest,Male,18-29,College graduate/some postgrad,White,Independent,"Less than $30,000",Liberal,2,Unemployed,2.808553975449635,3.7,-0.4001110647550169,5,14,Dem,5,54100.0,0.9341,A
+P00862,South,Male,30-49,Postgraduate,Black,Independent,"$100,000 or more",Moderate,4,Full-time employment,3.840491012859229,4.3,0.14737512971984298,7,13,None,4,53500.0,0.7507,A
+P00863,Midwest,Male,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,More than 4,Full-time employment,1.2189637134273823,2.9,-0.4246801058558627,5,16,Dem,2,44700.0,0.4788,A
+P00864,Midwest,Male,50-64,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Moderate,4,Full-time employment,2.2586563986053085,2.9,0.042072011269127935,6,20,None,2,44400.0,0.4712,B
+P00865,Northeast,Female,18-29,High school graduate,White,Republican,"$30,000-$50,000",Conservative,3,Self-employed,2.9471962795123186,3.1,,3,11,Rep,4,54000.0,0.8796,A
+P00866,South,Female,65+,College graduate/some postgrad,White,Democrat,"$50,000-$75,000",Moderate,2,Full-time employment,1.6174019515000453,3.3,0.059397347075356634,5,17,Dem,1,35700.0,0.1521,B
+P00867,West,Male,50-64,Associate's degree,Black,Democrat,"Less than $30,000",Liberal,3,Retired,3.8912013444386235,3.9,0.2866804436108264,6,19,Dem,3,49100.0,0.7665,A
+P00868,South,Male,30-49,Associate's degree,White,Independent,"$30,000-$50,000",Liberal,1,Retired,4.285121582184164,3.8,0.41884501310800476,3,19,Dem,3,50500.0,0.7694,A
+P00869,West,Male,30-49,High school graduate,Other,Independent,"$50,000-$75,000",Very conservative,4,Full-time employment,1.4951995670505254,1.2,0.3192266889784708,6,8,Rep,1,36900.0,0.1835,A
+P00870,South,Male,30-49,"Some college, no degree",Hispanic,Independent,"$30,000-$50,000",Liberal,1,Full-time employment,3.2332936300479087,3.9,-0.04735019791223707,5,13,Dem,3,50500.0,0.7684,A
+P00871,South,Female,18-29,High school graduate,White,Democrat,"$75,000-$100,000",Moderate,3,Full-time employment,4.560058622506782,4.4,-0.04590514026089561,5,8,Dem,5,67800.0,0.9752,A
+P00872,Midwest,Male,30-49,College graduate/some postgrad,White,Republican,"Less than $30,000",Very conservative,2,Full-time employment,2.3880875580859002,4.0,0.30325649700016183,7,7,Rep,2,44400.0,0.4544,A
+P00873,West,Female,50-64,Associate's degree,Black,Democrat,"$50,000-$75,000",Liberal,1,Part-time employment,2.4786216421447738,4.4,,3,17,Dem,4,52600.0,0.8024,A
+P00874,West,Female,50-64,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Liberal,4,Full-time employment,4.058794776272349,4.0,-0.04564544524397092,6,19,Dem,3,44800.0,0.4931,A
+P00875,Northeast,Female,30-49,College graduate/some postgrad,Asian,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,5.0,4.4,0.5700947065505855,4,11,Dem,5,58400.0,0.9217,A
+P00876,Northeast,Male,65+,Associate's degree,Black,Democrat,"Less than $30,000",Very liberal,2,Full-time employment,4.095268482559126,4.3,0.1457851538812454,2,9,Dem,3,48600.0,0.7393,A
+P00877,Northeast,Male,65+,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,1,Full-time employment,4.387985759015753,4.7,,6,19,Dem,3,43600.0,0.4558,A
+P00878,South,Male,30-49,College graduate/some postgrad,Asian,Independent,"$100,000 or more",Moderate,1,Full-time employment,3.109583272349426,3.6,0.20915325681791755,6,8,None,3,48200.0,0.6026,A
+P00879,Pacific,Female,50-64,College graduate/some postgrad,White,Republican,"$75,000-$100,000",Moderate,1,Part-time employment,3.9249295095656516,4.6,-0.08485937598438814,3,13,Rep,3,47800.0,0.6095,B
+P00880,West,Male,30-49,Postgraduate,White,Democrat,"$100,000 or more",Liberal,3,Retired,4.484574923849819,3.7,0.3263236483964804,7,11,Dem,5,57800.0,0.8406,A
+P00881,South,Female,50-64,"Some college, no degree",White,Republican,"Less than $30,000",Moderate,1,Full-time employment,3.728225040580898,4.9,0.27258724763888564,5,20,Rep,2,47300.0,0.6604,A
+P00882,Midwest,Male,18-29,"Some college, no degree",Black,Democrat,"Less than $30,000",Very liberal,2,Self-employed,4.484486473568681,3.4,0.06992160054714092,3,17,Dem,5,55100.0,0.9499,A
+P00883,Midwest,Male,18-29,"Some college, no degree",Hispanic,Republican,"$30,000-$50,000",Moderate,2,Student,1.160159831446111,2.3,-0.05992777794691334,5,19,Rep,2,44300.0,0.4625,A
+P00884,Pacific,Male,65+,"Some college, no degree",White,Democrat,"$30,000-$50,000",Very liberal,1,Self-employed,5.0,4.0,0.25708976156316987,1,7,Dem,4,51400.0,0.8028,A
+P00885,Northeast,Male,65+,Associate's degree,Black,Republican,"$30,000-$50,000",Conservative,3,Retired,3.8203695373727307,4.0,0.38595683993870283,7,22,Rep,2,44300.0,0.4626,A
+P00886,South,Female,18-29,"Some college, no degree",White,Democrat,"$30,000-$50,000",Very liberal,More than 4,Self-employed,3.4790387347455622,3.9,-0.019646009855454196,6,18,Dem,4,53300.0,0.8605,A
+P00887,South,Male,50-64,Postgraduate,White,Independent,"Less than $30,000",Liberal,1,Full-time employment,4.063390157326803,4.9,0.5537336587029532,7,13,Dem,3,48900.0,0.7572,A
+P00888,South,Male,30-49,College graduate/some postgrad,Asian,Something else,"$75,000-$100,000",Moderate,4,Full-time employment,1.159584657228393,2.8,0.2323904261037591,6,11,None,2,39200.0,0.2834,B
+P00889,Northeast,Male,50-64,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,2,Retired,4.1852028476855425,2.3,0.21456726955898295,7,16,Dem,3,46700.0,0.5541,B
+P00890,West,Female,65+,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Conservative,4,Self-employed,1.510081908182778,4.6,0.26340987141856126,2,14,Rep,1,33100.0,0.1292,B
+P00891,South,Male,30-49,"Some college, no degree",White,Democrat,"$30,000-$50,000",Very liberal,2,Retired,1.8392253425890672,4.0,-0.13332443525832574,4,17,Dem,2,45000.0,0.5018,B
+P00892,South,Male,50-64,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Liberal,1,Unemployed,3.4887726834518094,4.9,0.18774730366751,6,5,Rep,2,44500.0,0.4763,A
+P00893,South,Male,65+,Associate's degree,White,Democrat,"Less than $30,000",Moderate,2,Full-time employment,4.395071518409395,4.2,0.1030143352419795,6,8,Dem,3,50000.0,0.8101,A
+P00894,Midwest,Male,30-49,High school graduate,White,Republican,"$50,000-$75,000",Very conservative,4,Full-time employment,2.1127951549761077,2.6,0.13001581996498782,4,11,Rep,3,46400.0,0.5651,B
+P00895,Pacific,Male,50-64,High school graduate,Other,Democrat,"Less than $30,000",Very liberal,2,Full-time employment,4.608736770933911,3.9,0.3975859571588289,5,8,Dem,4,52100.0,0.8873,A
+P00896,West,Female,18-29,College graduate/some postgrad,White,Democrat,"Less than $30,000",Very liberal,2,Full-time employment,2.281457721010355,3.3,0.6665783273827567,4,19,Dem,5,54200.0,0.9354,A
+P00897,Northeast,Male,65+,Postgraduate,White,Independent,"$75,000-$100,000",Liberal,3,Part-time employment,2.888748744409847,3.2,,4,16,Dem,3,45000.0,0.5011,A
+P00898,West,Male,18-29,College graduate/some postgrad,White,Independent,"Less than $30,000",Moderate,1,Unemployed,3.0623896885105775,4.2,0.32469782494788096,3,11,None,4,51400.0,0.8664,B
+P00899,Northeast,Male,65+,College graduate/some postgrad,Black,Independent,"$100,000 or more",Conservative,3,Full-time employment,2.6680059462716064,4.3,,7,11,Rep,1,27900.0,0.0984,B
+P00900,West,Male,18-29,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Moderate,More than 4,Full-time employment,4.392989101174254,3.6,0.19839372934940228,5,10,None,5,56800.0,0.8695,A
+P00901,South,Female,65+,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,1,Unemployed,3.8783671394285952,3.1,0.2688232828705467,6,17,None,2,41400.0,0.3863,A
+P00902,South,Female,18-29,"Some college, no degree",White,Independent,"$100,000 or more",Liberal,2,Self-employed,4.291586262302187,2.8,0.08195862718219965,6,5,Dem,4,54500.0,0.7732,B
+P00903,Northeast,Female,50-64,"Some college, no degree",Hispanic,Democrat,"$75,000-$100,000",Liberal,1,Part-time employment,3.359249297989987,4.1,,5,12,Dem,3,45100.0,0.505,B
+P00904,South,Male,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Liberal,1,Unemployed,3.1752635129838245,3.8,0.32281353388104395,4,17,Dem,2,45800.0,0.5555,B
+P00905,South,Female,18-29,"Some college, no degree",White,Democrat,"$75,000-$100,000",Very liberal,3,Self-employed,5.0,4.6,,3,9,Dem,5,65000.0,0.9616,A
+P00906,West,Male,18-29,High school graduate,Black,Something else,"$75,000-$100,000",Liberal,More than 4,Self-employed,4.658207927756054,4.2,0.0536543762217368,3,22,Dem,5,63900.0,0.9542,A
+P00907,West,Female,50-64,College graduate/some postgrad,White,Independent,"$75,000-$100,000",Conservative,2,Full-time employment,4.112212562069525,4.6,-0.04900937377331808,4,15,Rep,2,39400.0,0.2877,B
+P00908,South,Female,50-64,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Moderate,1,Retired,3.176168178679346,3.7,0.5529226331208023,6,14,Rep,1,37700.0,0.166,B
+P00909,West,Female,50-64,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Conservative,More than 4,Unemployed,2.775698374734473,4.4,0.021007255778355143,2,16,Rep,2,43900.0,0.4383,B
+P00910,West,Female,30-49,Postgraduate,White,Independent,"$75,000-$100,000",Liberal,3,Self-employed,3.9746265797281604,3.6,0.40431248217007787,6,12,Dem,5,58800.0,0.9013,A
+P00911,West,Female,65+,Associate's degree,Asian,Republican,"Less than $30,000",Conservative,1,Part-time employment,5.0,3.1,0.18798143008973237,5,11,Rep,2,45700.0,0.5541,A
+P00912,West,Male,18-29,College graduate/some postgrad,White,Independent,"$50,000-$75,000",Moderate,3,Self-employed,3.851700496164719,4.0,0.09792532049227702,6,8,None,3,49700.0,0.7029,A
+P00913,West,Male,18-29,"Some college, no degree",White,Democrat,"$75,000-$100,000",Liberal,3,Full-time employment,3.775076084775376,2.6,-0.01584752272622785,4,7,Dem,5,61800.0,0.937,A
+P00914,West,Male,30-49,College graduate/some postgrad,White,Democrat,"Less than $30,000",Very liberal,4,Full-time employment,4.284282013910268,3.7,,6,6,Dem,5,55500.0,0.9544,B
+P00915,South,Female,50-64,Less than high school,White,Independent,"$50,000-$75,000",Moderate,1,Full-time employment,4.399791512188326,3.6,0.09198836953061044,6,8,None,4,52800.0,0.8074,A
+P00916,South,Female,18-29,College graduate/some postgrad,Black,Independent,"$100,000 or more",Moderate,4,Student,3.140459097862815,3.4,-0.05337337731576824,7,15,None,5,62000.0,0.9008,A
+P00917,South,Female,65+,High school graduate,White,Democrat,"Less than $30,000",Very liberal,2,Home-maker,3.9712223118245644,2.8,,3,12,Dem,3,48500.0,0.7336,A
+P00918,Northeast,Female,30-49,"Some college, no degree",White,Democrat,"Less than $30,000",Liberal,4,Full-time employment,1.6266895647922675,3.0,,5,9,Dem,3,49000.0,0.7591,A
+P00919,South,Male,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Conservative,More than 4,Unemployed,2.8720004912289503,3.1,-0.0052244119714026606,4,18,Dem,5,57800.0,0.9762,A
+P00920,South,Female,30-49,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Moderate,2,Retired,5.0,3.9,0.0011642328543994757,6,16,Rep,4,52200.0,0.8296,A
+P00921,Northeast,Male,30-49,Associate's degree,White,Independent,"$30,000-$50,000",Conservative,2,Unemployed,3.14239474702487,3.6,0.04130700032670212,5,10,Rep,4,54000.0,0.8785,A
+P00922,West,Male,65+,Associate's degree,White,Republican,"$75,000-$100,000",Very conservative,4,Retired,3.4692900623852694,4.2,,6,9,Rep,1,23400.0,0.0301,B
+P00923,Midwest,Female,65+,Postgraduate,White,Democrat,"$100,000 or more",Very liberal,2,Part-time employment,5.0,4.8,-0.09095002275721366,4,11,Dem,2,39200.0,0.3195,B
+P00924,South,Female,30-49,Associate's degree,Black,Independent,"$30,000-$50,000",Moderate,1,Full-time employment,4.22556109152019,3.5,0.2994496558896551,1,14,None,4,53300.0,0.8605,A
+P00925,Pacific,Male,18-29,College graduate/some postgrad,Other,Republican,"$50,000-$75,000",Conservative,2,Full-time employment,3.5291174482059793,4.6,-0.02172725385163812,7,10,Rep,3,49100.0,0.6816,A
+P00926,West,Female,50-64,College graduate/some postgrad,White,Something else,"$75,000-$100,000",Very conservative,1,Full-time employment,4.277948758756856,3.7,-0.4169134506343703,2,22,Rep,1,36400.0,0.2004,B
+P00927,Midwest,Male,30-49,Postgraduate,White,Democrat,"$75,000-$100,000",Moderate,2,Self-employed,4.450176219254337,3.7,0.07220786110235845,7,5,Dem,3,49800.0,0.6837,B
+P00928,Midwest,Male,30-49,"Some college, no degree",White,Democrat,"$30,000-$50,000",Very liberal,2,Unemployed,4.299234286659041,3.9,,5,9,Dem,3,50100.0,0.7559,B
+P00929,Northeast,Male,30-49,College graduate/some postgrad,Hispanic,Independent,"$100,000 or more",Moderate,4,Full-time employment,4.057769643170703,3.9,-0.6156502235810283,6,10,None,4,53800.0,0.7588,A
+P00930,South,Female,50-64,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Moderate,3,Retired,3.513678850513294,3.7,-0.22825296432887696,6,14,Dem,2,43600.0,0.4234,B
+P00931,West,Male,30-49,College graduate/some postgrad,White,Independent,"$100,000 or more",Moderate,3,Student,4.053510997781935,3.3,-0.05948504981512161,6,17,None,3,48900.0,0.6225,B
+P00932,West,Female,50-64,"Some college, no degree",Black,Independent,"$100,000 or more",Conservative,3,Full-time employment,3.876353094702315,4.9,-0.0875716612497741,5,10,Rep,1,33200.0,0.1787,A
+P00933,Midwest,Female,65+,Less than high school,White,Something else,"Less than $30,000",Moderate,1,Full-time employment,4.068960942468023,3.2,0.17739919133799584,2,11,None,1,38600.0,0.1344,B
+P00934,South,Female,18-29,High school graduate,White,Democrat,"$50,000-$75,000",Very liberal,1,Self-employed,4.122738623998058,4.5,0.034702600611949005,6,20,Dem,5,56700.0,0.8964,A
+P00935,West,Male,65+,"Some college, no degree",White,Independent,"$50,000-$75,000",Liberal,2,Full-time employment,2.9353722568768554,4.8,-0.09967208469508172,6,11,Dem,4,51700.0,0.7757,A
+P00936,South,Female,65+,Postgraduate,White,Democrat,"$50,000-$75,000",Liberal,1,Full-time employment,4.9324651510213515,5.0,0.04074041132930667,7,10,Dem,3,48100.0,0.64,A
+P00937,Northeast,Male,18-29,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Very liberal,2,Home-maker,4.304800239750533,4.8,-0.0618054639844625,6,12,Dem,5,58000.0,0.9463,A
+P00938,West,Female,65+,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,2,Part-time employment,4.790740745168657,4.4,0.04428259056375327,5,16,Rep,2,37500.0,0.2753,B
+P00939,Pacific,Male,18-29,"Some college, no degree",White,Independent,"$30,000-$50,000",Conservative,1,Self-employed,3.850103463292837,4.7,,2,18,Rep,3,47600.0,0.638,B
+P00940,South,Male,18-29,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,More than 4,Full-time employment,2.468793733308042,3.3,0.24772188977626775,6,14,Rep,1,30300.0,0.13,B
+P00941,South,Female,65+,Associate's degree,White,Democrat,"$50,000-$75,000",Liberal,2,Full-time employment,4.596315074857127,4.6,0.6141132526473567,5,7,Dem,3,47300.0,0.6037,B
+P00942,South,Female,30-49,"Some college, no degree",White,Independent,"Less than $30,000",Liberal,3,Full-time employment,3.2420489169322466,3.2,,3,22,Dem,2,45400.0,0.527,B
+P00943,Northeast,Male,30-49,College graduate/some postgrad,Hispanic,Democrat,"$75,000-$100,000",Moderate,3,Part-time employment,4.376939451238437,4.3,-0.03986852980717422,6,13,Dem,4,50800.0,0.7166,A
+P00944,South,Male,50-64,College graduate/some postgrad,Other,Democrat,"$100,000 or more",Moderate,4,Full-time employment,2.7077298289277896,2.8,0.484848267085761,4,21,Dem,3,44300.0,0.4771,B
+P00945,Midwest,Female,18-29,Associate's degree,White,Democrat,"$30,000-$50,000",Liberal,More than 4,Part-time employment,2.908907831534553,3.6,0.09997214163239106,5,22,Dem,4,52700.0,0.8446,A
+P00946,Midwest,Female,30-49,High school graduate,White,Republican,"$100,000 or more",Very conservative,More than 4,Self-employed,3.1759902674451097,2.4,-0.05001278971869856,5,14,Rep,2,34700.0,0.2085,A
+P00947,South,Female,50-64,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Conservative,3,Retired,3.0264837944201326,2.5,0.5968692188196408,5,20,Rep,1,41000.0,0.2926,B
+P00948,Northeast,Female,50-64,College graduate/some postgrad,White,Democrat,"$100,000 or more",Very liberal,3,Unemployed,5.0,4.6,,4,15,Dem,3,45700.0,0.5232,A
+P00949,South,Female,50-64,College graduate/some postgrad,White,Independent,"$100,000 or more",Liberal,2,Part-time employment,2.062319008114155,3.9,-0.34349471952086025,5,7,Dem,3,45700.0,0.5236,A
+P00950,West,Male,50-64,Postgraduate,White,Democrat,"Less than $30,000",Liberal,1,Full-time employment,4.085978662173169,5.0,0.31637123167651293,6,15,Dem,2,47200.0,0.6515,A
+P00951,South,Male,50-64,College graduate/some postgrad,White,Democrat,"$100,000 or more",Liberal,2,Full-time employment,3.5711933140640473,3.3,0.41986560962773756,4,16,Dem,5,63900.0,0.9207,A
+P00952,West,Female,30-49,"Some college, no degree",Black,Independent,"$30,000-$50,000",Moderate,1,Full-time employment,4.2031084248834585,2.9,0.14869912112903444,4,19,None,4,53900.0,0.8761,A
+P00953,Northeast,Female,30-49,High school graduate,White,Democrat,"Less than $30,000",Very liberal,3,Part-time employment,4.797374901317875,3.2,,3,10,Dem,4,53500.0,0.9216,A
+P00954,Northeast,Male,30-49,"Some college, no degree",Hispanic,Independent,"$50,000-$75,000",Liberal,More than 4,Student,3.6648462797552086,4.2,0.03906224474904373,4,18,Dem,5,59800.0,0.9378,A
+P00955,South,Female,65+,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Conservative,2,Full-time employment,2.88364871333282,4.2,0.2885523217468532,6,9,Dem,1,41600.0,0.322,B
+P00956,West,Female,18-29,College graduate/some postgrad,Black,Democrat,"$30,000-$50,000",Liberal,3,Retired,2.352152965364836,3.4,0.12267147387453049,5,10,Dem,5,55600.0,0.9111,B
+P00957,West,Male,50-64,Less than high school,White,Independent,"$30,000-$50,000",Moderate,3,Unemployed,2.9304361434186412,3.7,,6,5,None,2,43100.0,0.3959,B
+P00958,South,Male,65+,College graduate/some postgrad,White,Democrat,"$100,000 or more",Moderate,1,Full-time employment,4.84669421098645,3.3,0.09425564512261099,7,18,Dem,3,48200.0,0.6024,B
+P00959,South,Male,65+,High school graduate,White,Republican,"Less than $30,000",Conservative,1,Unemployed,3.6812765865348793,3.7,,3,7,Rep,1,42000.0,0.2925,B
+P00960,West,Female,18-29,Less than high school,White,Democrat,"Less than $30,000",Very liberal,4,Self-employed,3.696896823497576,3.6,0.23614800344738132,3,12,Dem,4,51400.0,0.8644,A
+P00961,Midwest,Male,18-29,Less than high school,White,Democrat,"Less than $30,000",Liberal,2,Full-time employment,2.609971502849755,3.0,0.010848075666301688,6,12,Dem,3,50000.0,0.8121,B
+P00962,Midwest,Female,65+,College graduate/some postgrad,Asian,Independent,"$75,000-$100,000",Moderate,1,Part-time employment,3.6582410573233237,3.4,0.43250768413944374,7,10,None,2,43000.0,0.4192,A
+P00963,Midwest,Female,30-49,"Some college, no degree",Black,Independent,"Less than $30,000",Conservative,2,Full-time employment,1.067982773905573,2.7,0.5127614775737896,3,11,Rep,1,42100.0,0.3,A
+P00964,West,Male,30-49,High school graduate,Hispanic,Independent,"$75,000-$100,000",Moderate,3,Retired,3.893144728933805,3.4,0.15217407589706716,6,11,None,5,59000.0,0.9046,A
+P00965,Northeast,Female,65+,College graduate/some postgrad,White,Independent,"$30,000-$50,000",Moderate,1,Part-time employment,4.217632877094813,4.5,0.19900077574774622,4,13,None,2,46200.0,0.5643,A
+P00966,South,Female,50-64,Postgraduate,White,Democrat,"$100,000 or more",Liberal,More than 4,Full-time employment,5.0,5.0,0.17167918553737585,5,9,Dem,2,36000.0,0.2369,B
+P00967,West,Male,50-64,Associate's degree,White,Democrat,"$30,000-$50,000",Very liberal,2,Full-time employment,5.0,5.0,-0.3037725306853505,4,9,Dem,3,49400.0,0.7251,B
+P00968,Midwest,Female,18-29,High school graduate,White,Republican,"Less than $30,000",Conservative,4,Student,1.1400928506813282,3.5,0.008781895738506375,3,22,Rep,1,43800.0,0.4118,A
+P00969,South,Male,65+,Postgraduate,White,Republican,"$100,000 or more",Moderate,2,Self-employed,3.8886142565398516,3.3,-0.08281346794264662,5,7,Rep,2,35800.0,0.233,B
+P00970,Northeast,Male,50-64,College graduate/some postgrad,White,Something else,"$100,000 or more",Moderate,3,Retired,1.9967544434836457,4.8,0.16179907905083984,6,9,None,2,41000.0,0.3718,A
+P00971,Northeast,Male,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,3,Full-time employment,3.8519378549157275,4.7,0.04761228531952834,3,24,Dem,3,50000.0,0.8106,A
+P00972,South,Female,65+,Postgraduate,White,Republican,"$100,000 or more",Liberal,1,Retired,4.773194971128121,3.9,0.07579206834909455,5,11,Rep,2,38400.0,0.298,B
+P00973,West,Female,30-49,College graduate/some postgrad,Asian,Republican,"$50,000-$75,000",Liberal,1,Full-time employment,4.256439487087145,1.5,-0.03532924164927223,6,12,Rep,2,42400.0,0.3833,A
+P00974,South,Male,50-64,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Liberal,1,Part-time employment,4.475874112865476,4.2,0.05576538359331966,7,19,Rep,2,45100.0,0.5057,B
+P00975,Northeast,Female,65+,College graduate/some postgrad,White,Republican,"$50,000-$75,000",Conservative,More than 4,Full-time employment,3.7151912172844286,4.7,0.09298690756647197,7,14,Rep,1,37300.0,0.1942,B
+P00976,South,Male,65+,Postgraduate,Other,Republican,"$50,000-$75,000",Conservative,1,Full-time employment,4.878038691591048,3.6,-0.0022782088078589697,6,15,Rep,3,47100.0,0.5933,A
+P00977,South,Female,18-29,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Conservative,2,Self-employed,3.095006086756689,4.4,0.2228114963757876,5,13,Rep,3,50200.0,0.7576,A
+P00978,South,Male,18-29,Associate's degree,White,Democrat,"$100,000 or more",Very liberal,2,Self-employed,3.708076351082921,4.9,0.08926884143734998,3,8,Dem,5,64800.0,0.9288,A
+P00979,South,Male,50-64,College graduate/some postgrad,White,Democrat,"$30,000-$50,000",Very liberal,1,Full-time employment,4.000256935838774,3.1,-0.23325987542636858,7,11,Dem,3,46800.0,0.597,A
+P00980,West,Male,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,More than 4,Full-time employment,3.765474398835454,3.9,-0.026214256299271134,6,15,Rep,2,38600.0,0.3047,B
+P00981,Midwest,Female,50-64,College graduate/some postgrad,White,Republican,"Less than $30,000",Moderate,1,Full-time employment,4.108351676289363,4.7,,6,12,Rep,2,45900.0,0.5638,A
+P00982,West,Female,30-49,Associate's degree,White,Republican,"$75,000-$100,000",Very conservative,3,Full-time employment,1.1853192574740838,2.8,0.39120162094860883,4,14,Rep,1,33000.0,0.1264,A
+P00983,Midwest,Male,30-49,College graduate/some postgrad,Asian,Independent,"Less than $30,000",Very liberal,2,Full-time employment,5.0,4.0,0.06759811523346868,6,11,Dem,4,52100.0,0.8872,A
+P00984,South,Female,50-64,High school graduate,White,Independent,"Less than $30,000",Moderate,1,Part-time employment,4.083995256994687,4.3,-0.4910515773599327,6,22,None,3,50000.0,0.8111,B
+P00985,West,Male,30-49,"Some college, no degree",White,Democrat,"$75,000-$100,000",Very liberal,3,Full-time employment,4.261707877259185,3.5,0.13470149863839043,5,13,Dem,5,64400.0,0.9575,A
+P00986,South,Female,18-29,"Some college, no degree",White,Democrat,"Less than $30,000",Very liberal,2,Full-time employment,3.905468105695243,4.2,,1,8,Dem,5,54500.0,0.9403,A
+P00987,South,Female,50-64,College graduate/some postgrad,White,Republican,"$30,000-$50,000",Conservative,1,Self-employed,3.845417161798409,3.8,0.02374077498258787,5,13,Rep,3,49000.0,0.7081,A
+P00988,South,Male,65+,Postgraduate,White,Something else,"$100,000 or more",Liberal,3,Part-time employment,4.261036658089086,4.0,0.31169463214128673,5,16,Dem,2,36200.0,0.2429,B
+P00989,Midwest,Male,50-64,Associate's degree,White,Republican,"$75,000-$100,000",Liberal,3,Full-time employment,3.3320110572797086,2.3,-0.15423748272851573,6,12,Rep,3,48700.0,0.6453,B
+P00990,South,Male,30-49,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,More than 4,Retired,5.0,3.9,0.19746437740906303,7,8,Rep,5,60100.0,0.8767,B
+P00991,Northeast,Female,50-64,"Some college, no degree",Hispanic,Independent,"$30,000-$50,000",Liberal,2,Student,4.509746033287907,4.0,0.17222278240088104,5,16,Dem,4,51400.0,0.8042,A
+P00992,West,Female,18-29,College graduate/some postgrad,Asian,Democrat,"$30,000-$50,000",Liberal,2,Full-time employment,4.94488310075864,4.4,0.030358953012420822,1,13,Dem,5,54700.0,0.8949,A
+P00993,South,Female,30-49,Postgraduate,White,Democrat,"$100,000 or more",Conservative,3,Full-time employment,3.626481349183348,3.6,0.25376365916768245,6,9,Dem,4,55200.0,0.7903,A
+P00994,Pacific,Male,50-64,Postgraduate,White,Democrat,"$50,000-$75,000",Liberal,1,Retired,3.0624411677536223,4.4,0.08144085000764165,3,8,Dem,1,39500.0,0.265,A
+P00995,South,Male,50-64,College graduate/some postgrad,Hispanic,Democrat,"$50,000-$75,000",Very liberal,4,Student,4.914135275447652,4.2,0.5028984667180119,5,16,Dem,4,53000.0,0.8133,A
+P00996,West,Female,65+,College graduate/some postgrad,White,Republican,"$100,000 or more",Moderate,3,Full-time employment,3.8553825329711215,4.3,0.36407874415965286,7,19,Rep,1,22600.0,0.052,B
+P00997,South,Male,18-29,College graduate/some postgrad,White,Republican,"$75,000-$100,000",Very conservative,4,Full-time employment,2.8867405100176287,3.4,-0.19791513197286148,6,7,Rep,4,51900.0,0.7509,A
+P00998,West,Female,50-64,Associate's degree,White,Democrat,"$100,000 or more",Liberal,1,Part-time employment,3.692960835225414,3.2,-0.19188284900555228,5,11,Dem,3,46800.0,0.5593,B
+P00999,Northeast,Female,50-64,"Some college, no degree",White,Democrat,"$50,000-$75,000",Moderate,3,Retired,3.9167209918284227,3.8,0.1814786574516066,6,20,Dem,3,45800.0,0.5352,B
+P01000,West,Male,50-64,College graduate/some postgrad,White,Democrat,"$75,000-$100,000",Very liberal,2,Unemployed,4.654624527235599,4.4,0.08272201533498617,4,21,Dem,2,40400.0,0.3244,A

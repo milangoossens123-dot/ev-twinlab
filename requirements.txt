@@ -1,0 +1,19 @@
+# Python 3.11+
+numpy
+pandas
+scipy
+tabulate
+matplotlib
+jupyter
+copulas
+rdt
+sdmetrics
+graphviz
+cloudpickle
+tqdm
+platformdirs
+pyyaml
+boto3
+# SDV 2.2: install from the provided source zip without its PyTorch-based extras:
+#   pip install --no-deps ./SDV-main
+# (CTGAN is optional: pip install ctgan, which pulls in PyTorch)
