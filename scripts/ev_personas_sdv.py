@@ -11,9 +11,10 @@ What it does
      correlations.
   3. Checks the synthetic people against real people it never saw (20% hold-out), using
      SDV's quality report and a few EV-relevant cross-tabs, and compares with independent draws.
-  4. Adds the EV layer from published figures (same benchmark as the demo):
-     Pew 2025 shares by party lean and age, Hidrue et al. (2011) dollar values for range and
-     charging time, plus the person's own green-values score.
+  4. Adds the EV layer. The overall level and the party split come from Pew 2025; how price,
+     range, fast charging and age move EV choice comes from a choice model fitted on 5,898 real
+     choices of 983 US car owners (2019 EV purchase survey, scripts/ev_survey_model.py);
+     the person's own green-values score adds individual variation.
   5. Writes, for a chosen EV concept:
        synthetic_personas.csv   one row per synthetic person, with benchmark consideration probability
        prompts.jsonl            the step-2 LLM prompt for each person (persona + concept, JSON answer)
@@ -26,12 +27,14 @@ Usage
   Data are downloaded from Hugging Face on first run into --data-dir (needs access to
   huggingface.co). Pass --data-dir to a folder that already holds the three files to work offline.
 
-Status of inputs (as on the demo page)
-  Published : Pew 2025 overall 33%, Democrats 48%, Republicans 18%; Hidrue et al. $35-75/mile,
-              $425-3,250 per hour of charging saved; Twin-2K-500 microdata.
-  Check     : under-30 about 45% (Pew 2026 "split"); applying slow-charging values to fast charging.
-  Assumption: age 30-49/50-64/65+ levels; price sensitivity; effect of green values (0.5 logit per SD);
-              residual taste spread; reference EV ($50k, 270 mi, 30 min); urban/rural (not in this data).
+Status of inputs
+  Published : Pew 2025 overall 33%, Democrats 48%, Republicans 18%; Twin-2K-500 microdata.
+  Real data : 2019 EV choice survey (CC0): price as a share of budget, range, fast-charging time and
+              age effects (65+ pooled with 50-64: only 42 respondents were 65+). Urban/rural and
+              income had no effect in that survey, so they are not needed here.
+  Check     : the survey's fast-charge times are empty-to-full; we apply them to 10-80% minutes.
+  Assumption: effect of green values (0.5 logit per SD); residual taste spread; reference EV
+              ($50k, 270 mi, 30 min); car budget = $50k scaled by income^0.4.
 """
 import argparse, json, os, sys, urllib.request, warnings
 import numpy as np
@@ -58,12 +61,17 @@ HH = ["1", "2", "3", "4", "More than 4"]
 # Party as a left-right order, so the copula can learn e.g. that Democrats score higher on green values.
 PARTY = ["Republican", "Something else", "Independent", "Democrat"]
 
-# Published-figures benchmark (see the demo's sources table)
+# EV benchmark: level and party from Pew 2025, trade-offs from the 2019 EV choice survey
 REF = dict(price=50000, range=270, charge=30)
-VAL = dict(range=55, charge=31, scale=6000, inc_el=0.4)
+# Logit coefficients from scripts/ev_survey_model.py (data/ev_survey_model.json), 5,898 choices:
+SURVEY = dict(price_share=-2.7627,     # per 100% of budget that the EV costs more
+              range_100mi=0.3658,      # per 100 miles of range
+              fast_min=-0.0031,        # per minute of fast charging
+              age={"18-29": 0.2724, "30-49": 0.0, "50-64": -0.1945, "65+": -0.1945})
+BUDGET_INC_EL = 0.4   # assumption: a household's car budget scales with income^0.4
 TARGET_TOTAL = 0.33
 TARGET = {"lean": {"Dem": 0.48, "Rep": 0.18},
-          "age_band": {"18-29": 0.45, "30-49": 0.38, "50-64": 0.26, "65+": 0.20}}
+          "age_band": {k: float(1 / (1 + np.exp(-(np.log(0.33 / 0.67) + v)))) for k, v in SURVEY["age"].items()}}
 B_GREEN, TASTE_SD = 0.5, 0.8
 ACS_AGE = {"18-29": 0.205, "30-49": 0.335, "50-64": 0.24, "65+": 0.22}   # approx. ACS 2023 (Check)
 
@@ -226,15 +234,18 @@ class EVBenchmark:
         d = d.assign(lean=lean(d), taste=r.normal(0, TASTE_SD, len(d)))
         lat = self.latent(d)
         inc = d.income_band.map(INC_MID).values
-        scale = VAL["scale"] * (inc / 80000) ** VAL["inc_el"]
-        attr = VAL["range"] * (concept["range"] - REF["range"]) + VAL["charge"] * (REF["charge"] - concept["charge"])
-        p = sig(lat + (REF["price"] + attr - concept["price"]) / scale)
+        budget = REF["price"] * (inc / 80000) ** BUDGET_INC_EL
+        scale = budget / -SURVEY["price_share"]                      # dollars per logit unit
+        attr_u = (SURVEY["range_100mi"] * (concept["range"] - REF["range"]) / 100
+                  + SURVEY["fast_min"] * (concept["charge"] - REF["charge"]))
+        price_u = SURVEY["price_share"] * (concept["price"] - REF["price"]) / budget
+        p = sig(lat + attr_u + price_u)
         p_ref = sig(lat)
         att = np.digitize(p_ref, [0.10, 0.25, 0.45, 0.65]) + 1
         d = d.drop(columns="taste")
         d["party_lean"] = d.pop("lean")
         d["ev_attitude_1to5"] = att
-        d["max_price_usd"] = np.round((REF["price"] + attr + lat * scale) / 100) * 100
+        d["max_price_usd"] = np.round((REF["price"] + (lat + attr_u) * scale) / 100) * 100
         d["p_consider_benchmark"] = np.round(p, 4)
         d["benchmark_answer"] = np.where(r.random(len(d)) < p, "A", "B")
         return d
@@ -342,7 +353,7 @@ def main():
     for k, v in q.items():
         lines.append(f"| {k} | {fmt(v['overall'])} | {fmt(v.get('Column Shapes', float('nan')))} | {fmt(v.get('Column Pair Trends', float('nan')))} |")
     lines += ["", "## 2. Cross-tabs that matter for EV demand", "", ct.to_markdown() if hasattr(ct, "to_markdown") else ct.to_string(), "",
-              "## 3. EV benchmark for this concept (published figures)", "",
+              "## 3. EV benchmark for this concept (Pew level + 2019 survey trade-offs)", "",
               f"Would seriously consider: {summary['benchmark_consider_share']:.0%} of synthetic personas.", "",
               f"By age: {summary['benchmark_by_age']}", "", f"By party lean: {summary['benchmark_by_lean']}", "",
               f"Fit check at the reference EV (published targets: Dem-leaning 48%, Rep-leaning 18%; overall implied by this sample's party mix: {bench.implied_total:.0%}): {bench.fit_check}", "",
