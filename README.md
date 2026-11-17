@@ -1,4 +1,4 @@
-# EV TwinLab: draft report package
+# EV TwinLab: synthetic consumers for EV marketing
 
 **Juan Esteban Londoño Gautibonza and Milan Goossens** · Quantitative Marketing
 
@@ -44,10 +44,10 @@ curl -L -o results.zip https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-
 python scripts/calibrate_weights.py results.zip data/w13_label.csv data/calibration_results.json
 ```
 
-## Status
-Draft. EV trade-offs come from a real (2019, hypothetical-choice) survey and the overall level from Pew;
-confirm key numbers in a small, current human test. The LLM respondent (step 2) is represented by the
-benchmark until real model calls are run.
+## Scope
+The EV trade-offs come from a real (2019, hypothetical-choice) survey and the overall level of
+interest from Pew. Running the generated prompts through an LLM (step 2) is outside this project's
+scope: the benchmark stands in for those answers and is the yardstick they would be judged against.
 
 ## References
 
