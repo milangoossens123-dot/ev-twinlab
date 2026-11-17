@@ -25,15 +25,15 @@ SDV quality report against a 20% hold-out of real respondents (0 to 1, higher is
 | Liberal or very liberal, age 18-29 |              0.482 |           0.479 |               0.454 |
 | Liberal or very liberal, age 65+   |              0.451 |           0.396 |               0.419 |
 
-## 3. EV benchmark for this concept (published figures)
+## 3. EV benchmark for this concept (Pew level + 2019 survey trade-offs)
 
-Would seriously consider: 60% of synthetic personas.
+Would seriously consider: 45% of synthetic personas.
 
-By age: {'18-29': 0.748, '30-49': 0.639, '50-64': 0.541, '65+': 0.443}
+By age: {'18-29': 0.554, '30-49': 0.44, '50-64': 0.422, '65+': 0.402}
 
-By party lean: {'Dem': 0.703, 'None': 0.611, 'Rep': 0.404}
+By party lean: {'Dem': 0.559, 'None': 0.475, 'Rep': 0.256}
 
-Fit check at the reference EV (published targets: Dem-leaning 48%, Rep-leaning 18%; overall implied by this sample's party mix: 36%): {'lean=Dem': 0.48, 'lean=Rep': 0.18, 'lean=None': 0.33, 'age_band=18-29': 0.483, 'age_band=30-49': 0.412, 'age_band=50-64': 0.287, 'age_band=65+': 0.222, 'overall': 0.36}
+Fit check at the reference EV (published targets: Dem-leaning 48%, Rep-leaning 18%; overall implied by this sample's party mix: 36%): {'lean=Dem': 0.48, 'lean=Rep': 0.18, 'lean=None': 0.33, 'age_band=18-29': 0.433, 'age_band=30-49': 0.368, 'age_band=50-64': 0.324, 'age_band=65+': 0.324, 'overall': 0.36}
 
 ## Files
 

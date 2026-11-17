@@ -1,0 +1,473 @@
+{
+ "source": "MacKenzie (2020) 2019 EV infrastructure and purchase choice survey, Harvard Dataverse doi:10.7910/DVN/MOT6PN (CC0)",
+ "assumptions": [
+  "Gasoline alternative priced at the respondent's budget",
+  "Fast charging time in the survey is empty-to-full minutes",
+  "Stated choices: the EV share (55%) is higher than real-world intent; use for trade-offs, not levels"
+ ],
+ "exploration": {
+  "respondents": 983,
+  "choices": 5898,
+  "ev_choice_share": 0.55,
+  "age_mix": {
+   "18-29": 0.186,
+   "30-49": 0.578,
+   "50-64": 0.193,
+   "65+": 0.043
+  },
+  "area_mix": {
+   "suburban": 0.369,
+   "rural": 0.339,
+   "urban": 0.292
+  },
+  "used_car_buyers": 0.542,
+  "ev_owners": 0.073,
+  "median_budget_usd": 20000.0,
+  "ev_share_by_price_vs_budget": {
+   "0.7": 0.622,
+   "0.85": 0.59,
+   "1.0": 0.44
+  },
+  "ev_share_by_range": {
+   "100": 0.408,
+   "200": 0.526,
+   "300": 0.616,
+   "400": 0.646
+  },
+  "ev_share_by_fast_charge_min": {
+   "5": 0.567,
+   "15": 0.554,
+   "30": 0.555,
+   "60": 0.524
+  },
+  "ev_share_by_age": {
+   "18-29": 0.609,
+   "30-49": 0.55,
+   "50-64": 0.497,
+   "65+": 0.524
+  },
+  "ev_share_by_area": {
+   "rural": 0.525,
+   "suburban": 0.557,
+   "urban": 0.57
+  }
+ },
+ "coefficients": [
+  {
+   "term": "const",
+   "coef": -0.5906,
+   "ci90_low": -0.843,
+   "ci90_high": -0.3382,
+   "p_value": 0.0001
+  },
+  {
+   "term": "price_gap_share",
+   "coef": -2.7627,
+   "ci90_low": -3.1759,
+   "ci90_high": -2.3495,
+   "p_value": 0.0
+  },
+  {
+   "term": "range_100mi",
+   "coef": 0.3658,
+   "ci90_low": 0.3176,
+   "ci90_high": 0.414,
+   "p_value": 0.0
+  },
+  {
+   "term": "fast_min",
+   "coef": -0.0031,
+   "ci90_low": -0.0053,
+   "ci90_high": -0.0009,
+   "p_value": 0.0194
+  },
+  {
+   "term": "home_walk_min",
+   "coef": -0.024,
+   "ci90_low": -0.0311,
+   "ci90_high": -0.0169,
+   "p_value": 0.0
+  },
+  {
+   "term": "work_walk_min",
+   "coef": -0.019,
+   "ci90_low": -0.0259,
+   "ci90_high": -0.0122,
+   "p_value": 0.0
+  },
+  {
+   "term": "no_town_fast",
+   "coef": -0.669,
+   "ci90_low": -0.7815,
+   "ci90_high": -0.5565,
+   "p_value": 0.0
+  },
+  {
+   "term": "no_highway_fast",
+   "coef": -0.1077,
+   "ci90_low": -0.1988,
+   "ci90_high": -0.0167,
+   "p_value": 0.0517
+  },
+  {
+   "term": "age_18_29",
+   "coef": 0.2724,
+   "ci90_low": 0.065,
+   "ci90_high": 0.4798,
+   "p_value": 0.0307
+  },
+  {
+   "term": "age_50_64",
+   "coef": -0.1945,
+   "ci90_low": -0.4152,
+   "ci90_high": 0.0263,
+   "p_value": 0.1474
+  },
+  {
+   "term": "age_65_plus",
+   "coef": -0.0979,
+   "ci90_low": -0.4963,
+   "ci90_high": 0.3004,
+   "p_value": 0.6859
+  },
+  {
+   "term": "rural",
+   "coef": 0.0018,
+   "ci90_low": -0.194,
+   "ci90_high": 0.1976,
+   "p_value": 0.9881
+  },
+  {
+   "term": "urban_dense",
+   "coef": 0.0257,
+   "ci90_low": -0.174,
+   "ci90_high": 0.2254,
+   "p_value": 0.8326
+  },
+  {
+   "term": "income_100k_plus",
+   "coef": 0.0029,
+   "ci90_low": -0.2116,
+   "ci90_high": 0.2174,
+   "p_value": 0.9822
+  },
+  {
+   "term": "male",
+   "coef": 0.261,
+   "ci90_low": 0.0959,
+   "ci90_high": 0.426,
+   "p_value": 0.0093
+  },
+  {
+   "term": "owns_ev",
+   "coef": 0.6537,
+   "ci90_low": 0.3351,
+   "ci90_high": 0.9724,
+   "p_value": 0.0007
+  },
+  {
+   "term": "used_buyer",
+   "coef": -0.3177,
+   "ci90_low": -0.4851,
+   "ci90_high": -0.1503,
+   "p_value": 0.0018
+  }
+ ],
+ "n_obs": 5898,
+ "price_model_aic": {
+  "share_of_budget": 7506.6,
+  "dollars": 7572.9
+ },
+ "wtp": {
+  "at_budget_20k_survey_median": {
+   "usd_per_mile_range": {
+    "estimate": 26.5,
+    "ci90": [
+     21.5,
+     32.2
+    ]
+   },
+   "usd_per_minute_faster_charging": {
+    "estimate": 22.5,
+    "ci90": [
+     7.5,
+     39.2
+    ]
+   },
+   "usd_per_minute_shorter_walk_home_charger": {
+    "estimate": 173.5,
+    "ci90": [
+     119.4,
+     236.2
+    ]
+   },
+   "usd_per_minute_shorter_walk_work_charger": {
+    "estimate": 137.8,
+    "ci90": [
+     85.6,
+     194.8
+    ]
+   },
+   "usd_fast_charger_in_town": {
+    "estimate": 4843.0,
+    "ci90": [
+     3849.1,
+     5896.6
+    ]
+   },
+   "usd_fast_chargers_on_highway": {
+    "estimate": 779.9,
+    "ci90": [
+     173.5,
+     1533.0
+    ]
+   },
+   "logit_scale_usd": {
+    "estimate": 7239.4,
+    "ci90": [
+     6272.1,
+     8466.8
+    ]
+   }
+  },
+  "at_budget_50k_reference_ev": {
+   "usd_per_mile_range": {
+    "estimate": 66.2,
+    "ci90": [
+     53.6,
+     80.6
+    ]
+   },
+   "usd_per_minute_faster_charging": {
+    "estimate": 56.3,
+    "ci90": [
+     18.6,
+     98.0
+    ]
+   },
+   "usd_per_minute_shorter_walk_home_charger": {
+    "estimate": 433.7,
+    "ci90": [
+     298.5,
+     590.6
+    ]
+   },
+   "usd_per_minute_shorter_walk_work_charger": {
+    "estimate": 344.4,
+    "ci90": [
+     214.0,
+     486.9
+    ]
+   },
+   "usd_fast_charger_in_town": {
+    "estimate": 12107.4,
+    "ci90": [
+     9622.8,
+     14741.4
+    ]
+   },
+   "usd_fast_chargers_on_highway": {
+    "estimate": 1949.8,
+    "ci90": [
+     433.7,
+     3832.5
+    ]
+   },
+   "logit_scale_usd": {
+    "estimate": 18098.5,
+    "ci90": [
+     15680.2,
+     21167.1
+    ]
+   }
+  }
+ },
+ "price_gap_share_coef": -2.7626629236278184,
+ "validation": {
+  "holdout_respondents": 196,
+  "holdout_choices": 1176,
+  "log_loss_model": 0.6512,
+  "log_loss_constant": 0.687,
+  "accuracy_model": 0.619,
+  "accuracy_constant": 0.548,
+  "mean_abs_segment_gap_points": 4.42,
+  "segments": [
+   {
+    "segment": "All",
+    "choices": 1176,
+    "actual": 0.556,
+    "predicted": 0.528,
+    "gap_points": -2.8
+   },
+   {
+    "segment": "Age 18-29",
+    "choices": 198,
+    "actual": 0.646,
+    "predicted": 0.594,
+    "gap_points": -5.2
+   },
+   {
+    "segment": "Age 30-49",
+    "choices": 690,
+    "actual": 0.554,
+    "predicted": 0.528,
+    "gap_points": -2.5
+   },
+   {
+    "segment": "Age 50-64",
+    "choices": 258,
+    "actual": 0.488,
+    "predicted": 0.474,
+    "gap_points": -1.4
+   },
+   {
+    "segment": "Age 65+",
+    "choices": 30,
+    "actual": 0.6,
+    "predicted": 0.54,
+    "gap_points": -6.0
+   },
+   {
+    "segment": "Area rural",
+    "choices": 492,
+    "actual": 0.543,
+    "predicted": 0.506,
+    "gap_points": -3.7
+   },
+   {
+    "segment": "Area suburban",
+    "choices": 378,
+    "actual": 0.545,
+    "predicted": 0.543,
+    "gap_points": -0.2
+   },
+   {
+    "segment": "Area urban",
+    "choices": 306,
+    "actual": 0.592,
+    "predicted": 0.544,
+    "gap_points": -4.7
+   },
+   {
+    "segment": "Income $100k+",
+    "choices": 228,
+    "actual": 0.61,
+    "predicted": 0.535,
+    "gap_points": -7.5
+   },
+   {
+    "segment": "Used-car buyers",
+    "choices": 660,
+    "actual": 0.565,
+    "predicted": 0.482,
+    "gap_points": -8.4
+   },
+   {
+    "segment": "New-car buyers",
+    "choices": 516,
+    "actual": 0.545,
+    "predicted": 0.587,
+    "gap_points": 4.2
+   },
+   {
+    "segment": "Owns an EV",
+    "choices": 66,
+    "actual": 0.788,
+    "predicted": 0.646,
+    "gap_points": -14.2
+   },
+   {
+    "segment": "Range 100 mi",
+    "choices": 316,
+    "actual": 0.411,
+    "predicted": 0.41,
+    "gap_points": -0.2
+   },
+   {
+    "segment": "Range 200 mi",
+    "choices": 286,
+    "actual": 0.531,
+    "predicted": 0.496,
+    "gap_points": -3.5
+   },
+   {
+    "segment": "Range 300 mi",
+    "choices": 303,
+    "actual": 0.614,
+    "predicted": 0.561,
+    "gap_points": -5.3
+   },
+   {
+    "segment": "Range 400 mi",
+    "choices": 271,
+    "actual": 0.686,
+    "predicted": 0.662,
+    "gap_points": -2.4
+   },
+   {
+    "segment": "EV at 70% of budget",
+    "choices": 364,
+    "actual": 0.602,
+    "predicted": 0.621,
+    "gap_points": 1.9
+   },
+   {
+    "segment": "EV at 85% of budget",
+    "choices": 393,
+    "actual": 0.598,
+    "predicted": 0.546,
+    "gap_points": -5.2
+   },
+   {
+    "segment": "EV at 100% of budget",
+    "choices": 419,
+    "actual": 0.477,
+    "predicted": 0.43,
+    "gap_points": -4.7
+   }
+  ],
+  "calibration": [
+   {
+    "predicted_band": "(0.0, 0.3]",
+    "n": 125,
+    "predicted": 0.232,
+    "actual": 0.344
+   },
+   {
+    "predicted_band": "(0.3, 0.45]",
+    "n": 253,
+    "predicted": 0.382,
+    "actual": 0.423
+   },
+   {
+    "predicted_band": "(0.45, 0.6]",
+    "n": 365,
+    "predicted": 0.526,
+    "actual": 0.542
+   },
+   {
+    "predicted_band": "(0.6, 0.75]",
+    "n": 323,
+    "predicted": 0.666,
+    "actual": 0.675
+   },
+   {
+    "predicted_band": "(0.75, 1.0]",
+    "n": 110,
+    "predicted": 0.8,
+    "actual": 0.8
+   }
+  ]
+ },
+ "age_log_odds_vs_30_49": {
+  "18-29": 0.27241921254251955,
+  "30-49": 0.0,
+  "50-64": -0.19445232433891227,
+  "65+": -0.09793900530952905
+ },
+ "area_log_odds_vs_suburban": {
+  "rural": 0.001775488779511264,
+  "suburban": 0.0,
+  "urban": 0.025668095471533085
+ }
+}

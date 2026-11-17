@@ -4,6 +4,7 @@ pandas
 scipy
 tabulate
 matplotlib
+statsmodels
 jupyter
 copulas
 rdt

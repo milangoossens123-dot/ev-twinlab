@@ -85,7 +85,7 @@ ul.plain{margin:0;padding-left:18px;display:grid;gap:6px;font-size:13px}
 <header>
   <span class="eyebrow">EV TwinLab · United States · live demo</span>
   <h1>Synthetic EV buyers, checked against published US survey figures</h1>
-  <p class="lede">Change the EV concept and the AI respondent, then watch the four stages run: personas, respondent, estimates, reliability check. The human side is a small model fitted to published Pew Research figures and published values for range and charging. It is not respondent-level survey data. Every input is listed with its source and status at the bottom.</p>
+  <p class="lede">Change the EV concept and the AI respondent, then watch the four stages run: personas, respondent, estimates, reliability check. The human side is a small model fitted to published Pew Research figures, with price, range, charging and age effects estimated from 5,898 real choices in a 2019 US EV survey. Every input is listed with its source and status at the bottom.</p>
 </header>
 
 <div class="layout">
@@ -106,7 +106,7 @@ ul.plain{margin:0;padding-left:18px;display:grid;gap:6px;font-size:13px}
   <div><label for="wts">Score weights</label>
     <select id="wts"><option value="cal" selected>Calibrated: 100% accuracy</option><option value="prop">Proposed: 50 / 30 / 20</option></select></div>
   <button class="ghost" id="ref" type="button">Set to reference EV ($50k · 270 mi · 30 min)</button>
-  <p class="note">At the reference EV the benchmark reproduces the published Pew shares. Away from it, the benchmark moves with published dollar values for range and charging time.</p>
+  <p class="note">At the reference EV the benchmark reproduces the published Pew shares. Away from it, the benchmark moves with what real buyers traded off in the 2019 EV survey.</p>
 </aside>
 
 <div class="stack">
@@ -205,11 +205,12 @@ const kusd=x=>"$"+Math.round(x/1000)+"k";
 const POP={age:[["18–29",.205,18,29],["30–49",.335,30,49],["50–64",.24,50,64],["65+",.22,65,85]],
   incMedian:80000,incSigma:.8,area:[["urban",.30],["suburban",.50],["rural",.20]],dem:.5};
 const REF={price:50000,range:270,charge:30};
-const VAL={range:55,charge:31,scale:6000,incEl:.4,taste:1.0};
+// From the 2019 EV choice survey (scripts/ev_survey_model.py), buyer with a $50k budget
+const VAL={range:66,charge:56,scale:18100,incEl:.4,taste:1.0};
 const TARGET={total:.33,
   party:{D:.48,R:.18},
   area:{urban:.48,suburban:.40,rural:.24},
-  age:{"18–29":.45,"30–49":.38,"50–64":.26,"65+":.20}};
+  age:{"18–29":.395,"30–49":.33,"50–64":.289,"65+":.289}};
 const LABEL={D:"Democratic-leaning",R:"Republican-leaning",urban:"Urban",suburban:"Suburban",rural:"Rural"};
 
 /* ---------- Step 1: personas ---------- */
@@ -243,8 +244,8 @@ const ADJ={};
 
 /* ---------- Step 2: LLM respondent stand-ins ---------- */
 const COND={base:logit(.24),party:{D:.75,R:-.75},age:{"18–29":.45,"30–49":.2,"50–64":-.2,"65+":-.5},area:{urban:.35,suburban:.05,rural:-.55},
-  att:.45,bias:1000,vr:70,vc:45,scale:6000,incEl:.6,noise:.5};
-const MODELS={cond:COND,naive:{base:logit(.42),party:null,att:0,bias:2500,vr:60,vc:40,scale:7000,incEl:0,noise:.25},opt:{...COND,bias:9000}};
+  att:.45,bias:1000,vr:80,vc:68,scale:15000,incEl:.6,noise:.5};
+const MODELS={cond:COND,naive:{base:logit(.42),party:null,att:0,bias:2500,vr:60,vc:40,scale:18000,incEl:0,noise:.25},opt:{...COND,bias:9000}};
 const sLin=(M,p,z)=>M.base+(M.party?M.party[p.party]+M.age[p.ab]+M.area[p.area]:0)+M.att*(p.att-3)+M.noise*z;
 const sScale=(M,p)=>M.scale*Math.pow(p.inc/80000,M.incEl);
 const sWtp=(M,p,c,z)=>REF.price+M.bias+M.vr*(c.range-REF.range)+M.vc*(REF.charge-c.charge)+sLin(M,p,z)*sScale(M,p);
@@ -316,8 +317,8 @@ function render(){
   const rows=[["Overall","33%",pc(TARGET.total),pc(mean(at)),"pub"],
     ["Democratic-leaning","48%",pc(ADJ.party.D),pc(grp("party","D")),"pub"],["Republican-leaning","18%",pc(ADJ.party.R),pc(grp("party","R")),"pub"],
     ["Urban","48% (2023)",pc(ADJ.area.urban),pc(grp("area","urban")),"chk"],["Suburban","40% (2023)",pc(ADJ.area.suburban),pc(grp("area","suburban")),"chk"],["Rural","24% (2023)",pc(ADJ.area.rural),pc(grp("area","rural")),"chk"],
-    ["Age 18–29","about 45% (“split”)",pc(ADJ.age["18–29"]),pc(grp("age","18–29")),"chk"],["Age 30–49","38%",pc(ADJ.age["30–49"]),pc(grp("age","30–49")),"asm"],
-    ["Age 50–64","26%",pc(ADJ.age["50–64"]),pc(grp("age","50–64")),"asm"],["Age 65+","20%",pc(ADJ.age["65+"]),pc(grp("age","65+")),"asm"]];
+    ["Age 18–29","+0.27 logit (survey)",pc(ADJ.age["18–29"]),pc(grp("age","18–29")),"pub"],["Age 30–49","reference (survey)",pc(ADJ.age["30–49"]),pc(grp("age","30–49")),"pub"],
+    ["Age 50–64","−0.19 logit (survey)",pc(ADJ.age["50–64"]),pc(grp("age","50–64")),"pub"],["Age 65+","−0.19 logit (pooled with 50–64)",pc(ADJ.age["65+"]),pc(grp("age","65+")),"chk"]];
   const CH={pub:"Published",chk:"Check",asm:"Assumption"};
   $("fit").innerHTML="<tr><th>Segment</th><th class='num'>Source figure</th><th class='num'>Target at 2025 level</th><th class='num'>Benchmark</th><th>Status</th></tr>"+
     rows.map(r=>`<tr><td>${r[0]}</td><td class="num">${r[1]}</td><td class="num">${r[2]}</td><td class="num">${r[3]}</td><td><span class="chip ${r[4]}">${CH[r[4]]}</span></td></tr>`).join("");
@@ -327,9 +328,9 @@ function render(){
    ["Consideration by party","Democrats 48%, Republicans 18%","Benchmark segments",L("Pew Research Center, Jun 2025","https://www.pewresearch.org/science/2025/06/05/americans-interest-in-purchasing-electric-and-hybrid-vehicles/"),"pub"],
    ["Consideration by area","Urban 48%, suburban 40%, rural 24% (2023, total 38%)","Benchmark segments",L("Secondary report","https://zain-ventures.com/americas-growing-love-affair-with-evs/")+" citing "+L("Pew 2023","https://www.pewresearch.org/short-reads/2023/07/13/how-americans-view-electric-vehicles/"),"chk"],
    ["Consideration, under 30","Split, read as about 45%","Benchmark segments",L("Pew 2026","https://www.pewresearch.org/science/2026/04/03/how-appealing-are-electric-vehicles-and-hybrids-to-americans/"),"chk"],
-   ["Consideration, 30–49 / 50–64 / 65+","38% / 26% / 20%","Benchmark segments","Direction from "+L("Pew 2025","https://www.pewresearch.org/science/2025/06/05/americans-interest-in-purchasing-electric-and-hybrid-vehicles/")+" (under 50 more likely); levels chosen","asm"],
-   ["Value of driving range","$35–75 per mile; midpoint $55 used","How range moves demand",L("Hidrue et al. 2011, Resource and Energy Economics","https://www1.udel.edu/V2G/resources/HidrueEtAl-Pay-EV-Attributes-correctedProof.pdf")+" (2009 US survey, 2009 dollars)","pub"],
-   ["Value of charging time","$425–3,250 per hour saved; midpoint about $31 per minute","How fast charge moves demand",L("Hidrue et al. 2011","https://www1.udel.edu/V2G/resources/HidrueEtAl-Pay-EV-Attributes-correctedProof.pdf")+". Measured for regular charging; applying it to fast charging is our extrapolation","chk"],
+   ["Consideration by age","Under-30s +0.27 logit vs 30–49; 50+ −0.19 (65+ pooled with 50–64)","Benchmark segments",L("2019 EV choice survey (MacKenzie 2020, CC0)","https://doi.org/10.7910/DVN/MOT6PN")+", 983 car owners; levels shifted to Pew's 33%","pub"],
+   ["Value of driving range","$66 per mile (90% CI $54–81), buyer with a $50k budget","How range moves demand",L("2019 EV choice survey (MacKenzie 2020, CC0)","https://doi.org/10.7910/DVN/MOT6PN")+"; matches "+L("Hidrue et al. 2011","https://www1.udel.edu/V2G/resources/HidrueEtAl-Pay-EV-Attributes-correctedProof.pdf")+" ($35–75)","pub"],
+   ["Value of fast-charging time","$56 per minute (90% CI $19–98)","How fast charge moves demand",L("2019 EV choice survey (MacKenzie 2020, CC0)","https://doi.org/10.7910/DVN/MOT6PN")+". Survey times are empty-to-full; applied here to 10–80% minutes","chk"],
    ["Concept attributes","Purchase price, range, fast charging time","Slider design",L("Zou, Khaloei & MacKenzie 2020, Transportation Research Record 2674(12)","https://www.researchgate.net/publication/346075069_Effects_of_Charging_Infrastructure_Characteristics_on_Electric_Vehicle_Preferences_of_New_and_Used_Car_Buyers_in_the_United_States"),"pub"],
    ["Median household income","$80,002 (2023 ACS, 2024 dollars)","Persona income",L("US Census Bureau, ACSBR-025","https://www.census.gov/library/publications/2025/acs/acsbr-025.html"),"pub"],
    ["Income spread","Log-normal, σ = 0.8","Persona income","Chosen to give a realistic right tail","asm"],
@@ -337,7 +338,7 @@ function render(){
    ["Rural share","20% of population","Persona area",L("2020 Census urban and rural","https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html"),"chk"],
    ["Urban vs suburban split","30% / 50%","Persona area","Census has no suburban class; NHTS will replace this","asm"],
    ["Party lean","50% / 50%","Persona party","Even split of partisans","asm"],
-   ["Price sensitivity","Logit scale $6,000, rising with income (elasticity 0.4)","How price moves demand","No published US figure found for this framing","asm"],
+   ["Price sensitivity","Logit scale $18,100 at a $50k budget (price judged as a share of budget), rising with income (elasticity 0.4)","How price moves demand",L("2019 EV choice survey (MacKenzie 2020, CC0)","https://doi.org/10.7910/DVN/MOT6PN")+"; income scaling is an assumption","pub"],
    ["Reference EV","$50,000 · 270 mi · 30 min","Anchor for Pew shares","Pew asks about EVs in general, without a price; the anchor stands for a typical new EV","asm"],
    ["Personal taste spread","Standard deviation 1.0 on the logit scale","Benchmark variation within segments","Chosen; real choice data would estimate it","asm"],
    ["LLM respondent behaviour","Compressed segment gaps, range overvalued, +$1,000 (conditioned) to +$9,000 (optimistic) WTP bias","Step 2 stand-ins","Simulated. Replaced by real model calls","asm"]];
